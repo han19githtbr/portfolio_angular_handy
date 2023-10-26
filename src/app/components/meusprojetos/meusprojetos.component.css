@@ -1,0 +1,159 @@
+.titulo_container_projetos > h1 {
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container_principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+  background-color: #fbfbfb;
+}
+
+.projetos_container_1{
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #ebebeb;
+}
+
+.projetos_container_2 {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color:#ebebeb;
+}
+
+.projetos_container_3 {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #ebebeb;
+}
+
+.projetos_container_4 {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #ebebeb;
+}
+
+.projetos_container_5 {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #ebebeb;
+}
+
+.projetos_container_6 {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #ebebeb;
+}
+
+.titulo-projeto1 {
+  text-align: center;
+}
+
+.titulo-projeto2 {
+  text-align: center;
+}
+
+.titulo-projeto3 {
+  text-align: center;
+}
+
+.titulo-projeto4 {
+  text-align: center;
+}
+
+.titulo-projeto5 {
+  text-align: center;
+}
+
+.titulo-projeto6 {
+  text-align: center;
+}
+
+.tamanho_foto_1 {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.tamanho_foto_2 {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.tamanho_foto_3 {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.tamanho_foto_4 {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.tamanho_foto_5 {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.tamanho_foto_6 {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.button_container {
+  display: flex;
+}
+
+.button-repo {
+  margin:20px;
+  border: 2px solid #000000;
+  transition: transform 0.2s;
+  border-radius: 5px;
+  background-color: black;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+}
+
+.button-repo > a {
+  font-family: "Times New Roman";
+  font-size: 18px;
+  color: white;
+}
+
+.button-repo:hover {
+  transform: scale(1.1);
+}
+
+.button-demo {
+  border: 2px solid #000000;
+  transition: transform 0.2s;
+  border-radius: 5px;
+  background-color: black;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+}
+
+.button-demo > a {
+  font-family: "Times New Roman";
+  font-size: 18px;
+  color: white;
+}
+
+.button-demo:hover {
+  transform: scale(1.1);
+}
+
+.separador {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}

@@ -1,0 +1,82 @@
+.quemsou_container {
+  display:flex;
+  gap: 20px;
+  background-color: #fafafa;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+}
+
+.card_foto {
+  width: 700px;
+  height: 300px;
+  opacity: 0.6;
+  justify-content: center;
+}
+
+.descricao_quemsou > h3 {
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.descricao_quemsou > p {
+  text-align: justify;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.auem_sou {
+  background-color: #dddddd
+}
+
+.quem_sou > h1 {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+
+.descricao_quemsou > h4 {
+  margin-top: 150px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.meus_interesses {
+  display: flex;
+  flex-direction:row;
+  margin-top: 150px;
+}
+
+.title_interesses > h4 {
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card_icone_interesses {
+  margin-left: 40px;
+  gap: 30px;
+  display: flex;
+}
+
+.card_item_interesses > img {
+  transition: transform 0.2s
+}
+
+.card_item_interesses > img:hover{
+  cursor: pointer;
+  transform: scale(1.6);
+}
+
+.card_foto {
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+}
+
+.separador {
+  margin-top: 40px;
+  //box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+}

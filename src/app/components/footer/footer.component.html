@@ -1,0 +1,40 @@
+<div class="footer_container">
+  <div class="redes_icons_container">
+    <div class="redes_icons">
+      <a href="https://github.com/han19githtbr" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    </div>
+    <div class="redes_icons">
+      <a href="https://www.linkedin.com/in/handy-claude-marie-milliance-95785099/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+    <div class="redes_icons">
+      <a href="https://www.facebook.com/handyclaudemarie.milliance/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    </div>
+    <div class="redes_icons">
+      <a href="https://www.instagram.com/handyclaudemarie/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <div class="container_form">
+    <h1>Formulário de contato</h1>
+    <form (ngSubmit)="contactForm(form.value)" #form="ngForm">
+      <div class="form-group">
+        <label>Nome</label>
+        <input type="text" class="form-control" name="nombre" ngModel>
+      </div>
+      <div class="form-group">
+        <label>Assunto</label>
+        <input type="text" class="form-control" name="asunto" ngModel>
+      </div>
+      <div class="form-group">
+        <label>E-mail</label>
+        <input type="email" class="form-control" name="email" ngModel>
+      </div>
+      <div class="form-group">
+        <label>Mensagem</label>
+        <textarea class="form-control" cols="30" rows="6" name="mensaje" ngModel></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+
+</div>
