@@ -5,15 +5,15 @@ module.exports = (formulario) => {
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'hanmillibusiness@gmail.com', // Cambialo por tu email
-    pass: 'Handy@1990' // Cambialo por tu password
+    user: 'milliance23@gmail.com', // Cambialo por tu email
+    pass: 'azxw oyhm mlnk vjwo' // Cambialo por tu password
   },
   tls : { rejectUnauthorized: false }
 });
 
 const mailOptions = {
   from: `"${formulario.nome}" <${formulario.email}>`,
-  to: 'destinatario', // Cambia esta parte por el destinatario
+  to: 'milliance23@gmail.com', // Cambia esta parte por el destinatario
   subject: formulario.assunto,
   html: `
       <strong>Nome:</strong> ${formulario.nome} <br/>
@@ -21,6 +21,13 @@ const mailOptions = {
       <strong>Mensagem:</strong> ${formulario.mensagem}
   `
 };
+
+/*let mailOptions = {
+  from: mailObj.From,
+  to:  'myemail@mydomain.com',
+  subject: mailObj.Subject,
+  text: bodyFileContents,
+};*/
 
 transporter.sendMail(mailOptions, function (err, info) {
   if (err)
