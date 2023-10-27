@@ -12,3 +12,93 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.menu_container .menu_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1200px){
+  .menu_container .menu_item {
+    display:none;
+  }
+
+  .menu_container .menu_item > ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu_container {
+    height: 200px;
+  }
+
+  /*.menu_container .menu_mobile {
+    display: block;
+    text-align: right;
+  }
+
+  .menu_container .menu_mobile i {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+  }
+
+  .menu_container .menu_mobile ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    top: 75px;
+    background-color: white;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu_container .menu_mobile li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+
+  .menu_container .menu_mobile li a {
+    text-decoration: none;
+    color: black;
+  }*/
+
+  .quemsou_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow:hidden;
+  }
+
+  .quemsou_container .foto_quemsou > img {
+    width:100%;
+  }
+
+  .minha_formacao_container {
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+  }
+
+  .minha_formacao_container .foto_formacao > img {
+    width: 100%;
+  }
+
+  .bootcamp_img > img {
+    width: 100%;
+    overflow:hidden;
+  }
+
+  .minhas_experiencias_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container_form {
+    width: 80%;
+  }
+}

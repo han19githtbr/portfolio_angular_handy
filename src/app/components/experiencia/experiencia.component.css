@@ -56,3 +56,22 @@
 .titulo_experiencia_cea > h3 {
   font-weight: bold;
 }
+
+@media screen and (max-width: 1515px){
+  .minhas_experiencias_container {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .experiencia_pet {
+    display: block;
+  }
+
+  .experiencia_pgm {
+    display: block;
+  }
+
+  .connaissance_en_action {
+    display: block;
+  }
+}

@@ -16,6 +16,12 @@ export class BootcampComponent implements OnInit {
   @Input()
   TituloBootCamp:string = ""
 
+  @Input()
+  iconedate:string = ""
+
+  @Input()
+  databootcamp:string = ""
+
   constructor() { }
 
   ngOnInit() {
