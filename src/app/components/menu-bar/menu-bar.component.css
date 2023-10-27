@@ -96,6 +96,11 @@
 
 @media screen and (max-width: 1200px){
   .menu_container {
-    height: 200px;
+    height: 290px;
   }
+
+  .menu_container .menu_item > ul {
+    margin-left: 150px;
+  }
+
 }
