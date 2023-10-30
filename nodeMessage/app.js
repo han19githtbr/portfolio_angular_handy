@@ -12,6 +12,6 @@ app.post('/formulario', (req, res) => {
   res.status(200).json({ message: 'Mensagem enviada corretamente' });
 });
 
-app.listen("https://portfolio-handy.netlify.app", () => {
+app.listen(3000, () => {
   console.log('Servidor rodando...')
 });

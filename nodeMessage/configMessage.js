@@ -10,6 +10,7 @@ var transporter = nodemailer.createTransport({
   tls : { rejectUnauthorized: false }
 });
 
+
 const mailOptions = {
   from: `"${formulario.nome}" <${formulario.email}>`,
   to: 'milliance23@gmail.com', // Cambia esta parte por el destinatario

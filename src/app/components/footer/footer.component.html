@@ -16,7 +16,7 @@
 
   <div class="container_form">
     <h1>Formulário de contato</h1>
-    <form (ngSubmit)="contactForm(form.value)" #form="ngForm">
+    <form (ngSubmit)="contactForm(form.value)" #form="ngForm" data-netlify="true">
       <div class="form-group">
         <label>Nome</label>
         <input type="text" class="form-control" name="nome" ngModel>
