@@ -1,5 +1,4 @@
 const nodemailer = require('nodemailer');
-//NODE_TLS_REJECT_UNAUTHORIZED='0'
 
 module.exports = (formulario) => {
 var transporter = nodemailer.createTransport({
@@ -22,12 +21,6 @@ const mailOptions = {
   `
 };
 
-/*let mailOptions = {
-  from: mailObj.From,
-  to:  'myemail@mydomain.com',
-  subject: mailObj.Subject,
-  text: bodyFileContents,
-};*/
 
 transporter.sendMail(mailOptions, function (err, info) {
   if (err)
