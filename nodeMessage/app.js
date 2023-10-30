@@ -9,9 +9,9 @@ app.use(cors())
 
 app.post('/formulario', (req, res) => {
   configMessage(req.body);
-  res.status(200).send();
-})
+  res.status(200).json({ message: 'Mensagem enviada corretamente' });
+});
 
-app.listen(3000, () => {
+app.listen("https://portfolio-handy.netlify.app", () => {
   console.log('Servidor rodando...')
 });

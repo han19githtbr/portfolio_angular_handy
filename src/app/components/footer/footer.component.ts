@@ -18,6 +18,8 @@ export class FooterComponent {
   contactForm(form: any) {
     this._MessageService.sendMessage(form).subscribe(() => {
       Swal.fire("Formulário de contato", "Mensagem enviada corretamente", 'success');
+    }, error => {
+      console.error('Erro ao enviar mensagem:', error);
     });
   }
 }
