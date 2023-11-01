@@ -40,6 +40,7 @@ export class FooterComponent {
     this._MessageService.saveMessage(this.portfolio).subscribe((response: any) => {
       if (response.body.success) {
         Swal.fire("Formulário de contato", "Mensagem enviada corretamente", 'success');
+        this.form.reset();
       }
 
     });
