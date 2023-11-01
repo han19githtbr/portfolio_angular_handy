@@ -89,7 +89,7 @@ a {
     width: 80%;
   }
 
-  .tamanho_foto_1 {
+  /*.tamanho_foto_1 {
     max-width: 300px;
     width: 100%;
   }
@@ -117,6 +117,6 @@ a {
   .tamanho_foto_6 {
     max-width: 300px;
     width: 100%;
-  }
+  }*/
 
 }
