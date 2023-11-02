@@ -28,6 +28,11 @@ export class MeusprojetosComponent implements OnInit {
   @Input()
   TituloProjeto6:string = ""
 
+  @Input()
+  TituloProjeto7:string = ""
+
+  @Input()
+  TituloProjeto8:string = ""
 
   @Input()
   ButtonRepo1:string = ""
@@ -66,6 +71,18 @@ export class MeusprojetosComponent implements OnInit {
   ButtonDemo6:string = ""
 
   @Input()
+  ButtonRepo7:string = ""
+
+  @Input()
+  ButtonDemo7:string = ""
+
+  @Input()
+  ButtonRepo8:string = ""
+
+  @Input()
+  ButtonDemo8:string = ""
+
+  @Input()
   fotoProjeto1:string = ""
 
   @Input()
@@ -82,6 +99,13 @@ export class MeusprojetosComponent implements OnInit {
 
   @Input()
   fotoProjeto6:string = ""
+
+  @Input()
+  fotoProjeto7:string = ""
+
+  @Input()
+  fotoProjeto8:string = ""
+
 
   constructor() { }
 

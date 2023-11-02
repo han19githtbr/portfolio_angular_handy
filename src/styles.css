@@ -18,18 +18,6 @@ a {
 }
 
 @media screen and (max-width: 1200px){
-  .menu_container .menu_item {
-    display:none;
-  }
-
-  .menu_container .menu_item > ul {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .menu_container {
-    height: 200px;
-  }
 
   .quemsou_container {
     display: flex;
