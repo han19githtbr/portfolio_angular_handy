@@ -1,7 +1,6 @@
 header{
   width: 100%;
   background-color: #393939;
-  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
   height: 60px;
 }
 
@@ -49,7 +48,6 @@ header{
 
 .menu_item > ul > li:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.9);
   border-radius: 3px;
 }
 
@@ -73,7 +71,6 @@ header{
   display:flex;
   gap: 20px;
   background-color: #fafafa;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
 }
 
 .card_foto {
@@ -124,15 +121,6 @@ header{
   display: flex;
 }
 
-.card_item_interesses > img {
-  transition: transform 0.2s
-}
-
-.card_item_interesses > img:hover{
-  cursor: pointer;
-  transform: scale(1.6);
-}
-
 .me_formei {
   text-align:center;
   margin-top: 150px;
@@ -149,7 +137,6 @@ header{
   display: flex;
   gap: 70px;
   justify-content: left;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
   background-color: #fbfbfb;
 }
 
@@ -157,7 +144,6 @@ header{
   width: 750px;
   height: 100%;
   border-radius: 5px;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
 }
 
 .me_formei_info {
@@ -209,7 +195,6 @@ header{
   justify-content: center;
   background-color: #fbfbfb;
   text-align: center;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
   margin-bottom: 80px;
 }
 
@@ -251,7 +236,6 @@ header{
   display: flex;
   justify-content: center;
   gap: 50px;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
 }
 
 .container_titulo_experiencia_pet {
