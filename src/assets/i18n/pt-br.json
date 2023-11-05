@@ -10,7 +10,6 @@
     {
       "tituloApresentacao": "QUEM SOU EU ?",
       "fotoQuemSou": "assets/img/Haiti_Dessalines.jpeg",
-      "tituloQuemSou": "FALANDO UM POUCO DE MIM",
       "descricao": "Olá, meu nome é Handy Claude Marie Milliance, sou do Haiti Nascido na Capital do País(Porto Príncipe), eu sou um amante da natureza, e de passeios e lá proporciona esses prazeres. Eu sempre fui apaixonado por tecnologia e jogos, pois desde criança, eu jogava videogame. A essa paixão, se juntou o meu gosto para a resolução de problemas complexos e foi essa mentalidade que me trouxe no mundo de desenvolvimento Web.",
       "interesses": "Meus interesses",
       "iconeInteresses": [
@@ -119,7 +118,7 @@
     {
       "fotoExperiencia": "assets/img/bg1.jpg",
       "icone": "assets/img/computer.png",
-      "tituloExperiencia": "Connaissance en action"
+      "tituloExperiencia": "Connaissance en action (01/2021 - 09/2023)"
     }
   ],
   "form": {

@@ -36,7 +36,6 @@
 
 <div class="quem_sou" id="apresentacao" >
   <h1>{{ 'HOME.apresentacao' | translate }}</h1>
-
 </div>
 <div class="quemsou_container">
   <div class="foto_quemsou">
@@ -116,68 +115,29 @@
 
 <!--------------------------------------- MINHA EXPERIENCIA -------------------------------------->
 
-<!--<div class="titulo_experiencias" id="experiencia">
+<div class="titulo_experiencias" id="experiencia">
   <h1>{{ 'HOME.experiencia' | translate }}</h1>
 </div>
-<a href="#" class="minhas_experiencias_container" *ngFor="let item of experienciaData">
-  <div class="experiencia_pet">
+<a href="#" class="minhas_experiencias_container">
+  <div class="experiencia" *ngFor="let item of experienciaData">
     <img
       class= "card_experiencia"
       src= "{{item.fotoExperiencia}}"
       alt= "minha foto"
-      srcset= ""
     >
-    <div class="container_titulo_experiencia_pet">
-      <div class="icone_experiencia_pet">
+    <div class="container_titulo_experiencia">
+      <div class="icone_experiencia">
         <img
           src= "{{item.icone}}"
           alt= "minha foto"
         >
       </div>
-      <div class="titulo_experiencia_pet">
+      <div class="titulo_experiencia">
         <h3>{{ item.tituloExperiencia }}</h3>
       </div>
     </div>
   </div>
-  <div class="experiencia_pgm">
-    <img
-      class= "card_experiencia"
-      src= "{{item.fotoExperiencia}}"
-      alt= "minha foto"
-      srcset= ""
-    >
-    <div class="container_titulo_experiencia_pgm">
-      <div class="icone_experiencia_pgm">
-        <img
-          src= "{{item.icone}}"
-          alt="minha foto"
-        >
-      </div>
-      <div class="titulo_experiencia_pet">
-        <h3>{{ item.tituloExperiencia }}</h3>
-      </div>
-    </div>
-  </div>
-  <div class="connaissance_en_action">
-    <img
-      class="card_experiencia"
-      src= "{{item.fotoExperiencia}}"
-      alt="minha foto"
-      srcset=""
-    >
-    <div class="container_titulo_experiencia_cea">
-      <div class="icone_experiencia_cea">
-        <img
-          src="{{item.icone}}"
-          alt="minha foto"
-        >
-      </div>
-      <div class="titulo_experiencia_cea">
-        <h3>{{ item.tituloExperiencia }}</h3>
-      </div>
-    </div>
-  </div>
-</a>-->
+</a>
 
 <!--------------------------------------- MEUS BOOTCAMPS -------------------------------------->
 

@@ -29,10 +29,10 @@ export class DashboardComponent implements OnInit {
 
   apresentacaoData: any = {};
   formacaoData: any = {};
-  bootcampsData: any;
-  experienciaData: any;
-  projetoData: any;
-  contatoData: any;
+  bootcampsData: any = {};
+  experienciaData: any = {};
+  projetoData: any = {};
+  contatoData: any ={};
 
   isActive: boolean = false;
 
@@ -135,7 +135,6 @@ export class DashboardComponent implements OnInit {
       this.contatoData = data;
     });
   }
-
 
   onLanguage(){
     let idioma = this.formSelect.controls['idioma'].value;

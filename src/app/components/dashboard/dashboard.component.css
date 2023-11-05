@@ -238,21 +238,7 @@ header{
   gap: 50px;
 }
 
-.container_titulo_experiencia_pet {
-  display: flex;
-  margin-top: 20px;
-  justify-content: center;
-  gap: 20px;
-}
-
-.container_titulo_experiencia_pgm {
-  display: flex;
-  margin-top: 20px;
-  justify-content: center;
-  gap: 20px;
-}
-
-.container_titulo_experiencia_cea {
+.container_titulo_experiencia {
   display: flex;
   margin-top: 20px;
   justify-content: center;
@@ -267,31 +253,8 @@ header{
   transform: scale(1.1);
 }
 
-.titulo_experiencia_pet > h3 {
+.titulo_experiencia > h3 {
   font-weight: bold;
-}
-
-.titulo_experiencia_cea > h3 {
-  font-weight: bold;
-}
-
-@media screen and (max-width: 1515px){
-  .minhas_experiencias_container {
-    display:flex;
-    flex-direction: column;
-  }
-
-  .experiencia_pet {
-    display: block;
-  }
-
-  .experiencia_pgm {
-    display: block;
-  }
-
-  .connaissance_en_action {
-    display: block;
-  }
 }
 
 .titulo_container_projetos > h1 {
