@@ -9,95 +9,95 @@
   "presentation":
     {
       "tituloApresentacao": "QUEM SOU EU ?",
-      "fotoQuemSou": "assets/img/Haiti_Dessalines.jpeg",
+      "fotoQuemSou": "https://i.imgur.com/z3rjBzm.jpg",
       "descricao": "Olá, meu nome é Handy Claude Marie Milliance, sou do Haiti Nascido na Capital do País(Porto Príncipe), eu sou um amante da natureza, e de passeios e lá proporciona esses prazeres. Eu sempre fui apaixonado por tecnologia e jogos, pois desde criança, eu jogava videogame. A essa paixão, se juntou o meu gosto para a resolução de problemas complexos e foi essa mentalidade que me trouxe no mundo de desenvolvimento Web.",
       "interesses": "Meus interesses",
       "iconeInteresses": [
         {
-          "img": "assets/img/book.png"
+          "img": "https://i.imgur.com/UXYY84T.png"
         },
         {
-          "img": "assets/img/fly.png"
+          "img": "https://i.imgur.com/llDhU1H.png"
         },
         {
-          "img": "assets/img/game.png"
+          "img": "https://i.imgur.com/35bnHxZ.png"
         },
         {
-          "img": "assets/img/music.png"
+          "img": "https://i.imgur.com/rjLrcUf.png"
         },
         {
-          "img": "assets/img/terminal.png"
+          "img": "https://i.imgur.com/j16UpQa.png"
         }
       ]
     },
   "formation":
     {
       "tituloFormacao": "MINHA FORMAÇÃO",
-      "fotoFormacao": "assets/img/rural.jpg",
+      "fotoFormacao": "https://i.imgur.com/EAUh1Aw.jpg",
       "formei": "ME FORMEI, AGORA SIM!",
       "curso": "Curso: Ciência da Computação",
       "universidade": "Universidade: Universidade Federal Rural do Rio de Janeiro",
       "conclusao": "Ano de conclusão: 2022",
-      "iconeCurso": "assets/img/computer.png",
-      "iconeUniversidade": "assets/img/school.png",
-      "iconeConclusao": "assets/img/calendar.png"
+      "iconeCurso": "https://i.imgur.com/Zbb7R90.png",
+      "iconeUniversidade": "https://i.imgur.com/3J4fHKp.png",
+      "iconeConclusao": "https://i.imgur.com/Clk9MHf.png"
 
     },
 
   "treinamentos": [
     {
       "CabecalhoBootcamp": "BOOTCAMPS REALIZADOS",
-      "fotoBootcamp": "/assets/img/bootcamp_java_dio.png",
+      "fotoBootcamp": "https://i.imgur.com/PBZVXe8.png",
       "TituloBootCamp": "Santander Bootcamp 2023 - Fullstack Java + Angular",
-      "iconedate": "/assets/img/calendar.png",
+      "iconedate": "https://i.imgur.com/Clk9MHf.png",
       "databootcamp": "16/08/2023 - 22/10/2023"
     }
   ],
   "projets": [
     {
-      "fotoProjeto": "assets/img/python-opencv.png",
+      "fotoProjeto": "https://i.imgur.com/9QysnoH.png",
       "TituloProjeto": "Projeto utilizando a biblioteca OpenCV",
       "ButtonRepo": "Repositório",
       "ButtonDemo": "Ver Demo"
     },
     {
-      "fotoProjeto": "assets/img/javascript.jpg",
+      "fotoProjeto": "https://i.imgur.com/9wKfD2S.jpg",
       "TituloProjeto": "Repositórios do Git Hub em tempo real",
       "ButtonRepo": "Repositório",
       "ButtonDemo": "Ver Demo"
     },
     {
-      "fotoProjeto": "assets/img/angular_icon.png",
+      "fotoProjeto": "https://i.imgur.com/qpz1uJa.png",
       "TituloProjeto": "API para consumir uma lista de Pokemons",
       "ButtonRepo": "Repositório",
       "ButtonDemo": "Ver Demo"
     },
     {
-      "fotoProjeto": "assets/img/angular_icon.png",
+      "fotoProjeto": "https://i.imgur.com/qpz1uJa.png",
       "TituloProjeto": "Recriando a Interface da Play Station Store",
       "ButtonRepo": "Repositório",
       "ButtonDemo": "Ver Demo"
     },
     {
-      "fotoProjeto": "assets/img/react.png",
+      "fotoProjeto": "https://i.imgur.com/jqlw256.png",
       "TituloProjeto": "Aplicativo de controle de hábitos",
       "ButtonRepo": "Repositório",
       "ButtonDemo": "Ver Demo"
     },
     {
-      "fotoProjeto": "assets/img/spring_framework.jpg",
+      "fotoProjeto": "https://i.imgur.com/Pul5sgL.jpg",
       "TituloProjeto": "Projeto utilizando Spring framework",
       "ButtonRepo": "Repositório",
       "ButtonDemo": "Ver Demo"
     },
     {
-      "fotoProjeto": "assets/img/angular_icon.png",
+      "fotoProjeto": "https://i.imgur.com/qpz1uJa.png",
       "TituloProjeto": "Busca de Pokemons em tempo real",
       "ButtonRepo": "Repositório",
       "ButtonDemo": "Ver Demo"
     },
     {
-      "fotoProjeto": "assets/img/react.png",
+      "fotoProjeto": "https://i.imgur.com/jqlw256.png",
       "TituloProjeto": "Agenda de contatos, utilizando React.js",
       "ButtonRepo": "Repositório",
       "ButtonDemo": "Ver Demo"
@@ -106,18 +106,18 @@
   "experience": [
     {
       "MinhasExperiencias": "MINHAS EXPERIÊNCIAS",
-      "fotoExperiencia": "assets/img/sudeste_pet.jpg",
-      "icone": "assets/img/school.png",
+      "fotoExperiencia": "https://i.imgur.com/5Fr7oE1.jpg",
+      "icone": "https://i.imgur.com/3J4fHKp.png",
       "tituloExperiencia": "PET Conexões Baixada (12/2015 - 03/2020)"
     },
     {
-      "fotoExperiencia": "assets/img/pgmni.jpg",
-      "icone": "assets/img/work.png",
+      "fotoExperiencia": "https://i.imgur.com/Wgz1sEj.jpg",
+      "icone": "https://i.imgur.com/ddmMGKP.png",
       "tituloExperiencia": "Estágio na PGMNI (04/2021 - 07/2022)"
     },
     {
-      "fotoExperiencia": "assets/img/bg1.jpg",
-      "icone": "assets/img/computer.png",
+      "fotoExperiencia": "https://i.imgur.com/wFvZkX2.jpg",
+      "icone": "https://i.imgur.com/Zbb7R90.png",
       "tituloExperiencia": "Connaissance en action (01/2021 - 09/2023)"
     }
   ],
