@@ -1,0 +1,278 @@
+<header>
+  <div class="menu_container">
+    <div class="menu_logo">
+      <img
+        class="card_logo"
+        src="assets/img/img_mar.jpg"
+        alt="minha foto"
+        srcset=""
+      >
+    </div>
+
+    <nav class="menu_item">
+      <i class="fa fa-bars"></i>
+      <ul>
+        <li><a href="#apresentacao" >{{ 'HOME.apresentacao' | translate }} </a></li>
+        <li><a href="#formacao" >{{ 'HOME.formacao' | translate }}</a></li>
+        <li><a href="#bootcamp" >{{ 'HOME.bootcamps' | translate }}</a></li>
+        <li><a href="#meusprojetos" >{{ 'HOME.projetos' | translate }}</a></li>
+        <li><a href="#experiencia" >{{ 'HOME.experiencia' | translate }}</a></li>
+        <li><a href="#contato" >{{ 'HOME.contato' | translate }}</a></li>
+        <li>
+          <form [formGroup]="formSelect" id="contactForm" class="formSelect">
+            <select (change)="onLanguage()" formControlName="idioma" class="idiomas">
+              <option class="idiomaOption" value="en">{{ 'HOME.idioma.en' | translate }}</option>
+              <option class="idiomaOption" value="fr">{{ 'HOME.idioma.fr' | translate }}</option>
+              <option class="idiomaOption" value="pt-br">{{ 'HOME.idioma.pt-br' | translate }}</option>
+            </select>
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!--------------------------------------- MINHA APRESENTACAO -------------------------------------->
+
+<div class="quem_sou" id="apresentacao" >
+  <h1>{{ 'HOME.apresentacao' | translate }}</h1>
+  <!--<h1>{{ item.tituloApresentacao }}</h1>-->
+</div>
+<div class="quemsou_container">
+  <div class="foto_quemsou">
+    <img
+      class="card_foto"
+      src= "{{ 'HOME.presentation.fotoQuemSou' | translate }}"
+      alt="minha foto"
+    >
+  </div>
+
+  <div class="descricao_quemsou">
+    <h3>{{ 'HOME.presentation.tituloQuemSou' | translate }}</h3>
+    <p>{{ 'HOME.presentation.descricao' | translate }}</p>
+    <div class="meus_interesses">
+      <div class="title_interesses">
+        <h4>{{ 'HOME.presentation.interesses' | translate }}</h4>
+      </div>
+      <div class="card_icone_interesses">
+        <div class="card_item_interesses" *ngFor="let item of apresentacaoData.iconeInteresses">
+          <img [src]="item.img | translate">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------------------- MINHA FORMACAO -------------------------------------->
+
+<div class="me_formei" id="formacao">
+  <h1>{{ 'HOME.formacao' | translate }}</h1>
+</div>
+<div class="minha_formacao_container" >
+  <div class="foto_formacao">
+    <img
+      class="card_formacao"
+      src= "{{ 'HOME.formation.fotoFormacao' | translate  }}"
+      alt="minha foto"
+      srcset=""
+    >
+  </div>
+
+  <div class="descricao_minhaformacao">
+    <h3>{{ 'HOME.formation.formei' | translate }}</h3>
+
+    <div class="me_formei_info">
+      <div class="nome_curso">
+        <div class="nome_curso_icone">
+          <img
+            src= "{{ 'HOME.formation.iconeCurso' | translate }}"
+          >
+        </div>
+        <div class="nome_curso_titulo">
+          <h3>{{ 'HOME.formation.curso' | translate }}</h3>
+        </div>
+      </div>
+      <div class="nome_universidade">
+        <div class="nome_universidade_icone">
+          <img
+            src= "{{ 'HOME.formation.iconeUniversidade' | translate }}"
+          >
+        </div>
+        <div class="nome_universidade_titulo">
+          <h3>{{ 'HOME.formation.universidade' | translate }}</h3>
+        </div>
+      </div>
+      <div class="ano_conclusao">
+        <div class="ano_conclusao_icone">
+          <img
+            src= "{{ 'HOME.formation.iconeConclusao' | translate }}"
+          >
+        </div>
+        <div class="ano_conclusao_titulo">
+          <h3>{{ 'HOME.formation.conclusao' | translate }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------------------- MINHA EXPERIENCIA -------------------------------------->
+
+<!--<div class="titulo_experiencias" id="experiencia">
+  <h1>{{ 'HOME.experiencia' | translate }}</h1>
+</div>
+<a href="#" class="minhas_experiencias_container" *ngFor="let item of experienciaData">
+  <div class="experiencia_pet">
+    <img
+      class= "card_experiencia"
+      src= "{{item.fotoExperiencia}}"
+      alt= "minha foto"
+      srcset= ""
+    >
+    <div class="container_titulo_experiencia_pet">
+      <div class="icone_experiencia_pet">
+        <img
+          src= "{{item.icone}}"
+          alt= "minha foto"
+        >
+      </div>
+      <div class="titulo_experiencia_pet">
+        <h3>{{ item.tituloExperiencia }}</h3>
+      </div>
+    </div>
+  </div>
+  <div class="experiencia_pgm">
+    <img
+      class= "card_experiencia"
+      src= "{{item.fotoExperiencia}}"
+      alt= "minha foto"
+      srcset= ""
+    >
+    <div class="container_titulo_experiencia_pgm">
+      <div class="icone_experiencia_pgm">
+        <img
+          src= "{{item.icone}}"
+          alt="minha foto"
+        >
+      </div>
+      <div class="titulo_experiencia_pet">
+        <h3>{{ item.tituloExperiencia }}</h3>
+      </div>
+    </div>
+  </div>
+  <div class="connaissance_en_action">
+    <img
+      class="card_experiencia"
+      src= "{{item.fotoExperiencia}}"
+      alt="minha foto"
+      srcset=""
+    >
+    <div class="container_titulo_experiencia_cea">
+      <div class="icone_experiencia_cea">
+        <img
+          src="{{item.icone}}"
+          alt="minha foto"
+        >
+      </div>
+      <div class="titulo_experiencia_cea">
+        <h3>{{ item.tituloExperiencia }}</h3>
+      </div>
+    </div>
+  </div>
+</a>-->
+
+<!--------------------------------------- MEUS BOOTCAMPS -------------------------------------->
+
+<div class="bootcamp_cabecalho" id="bootcamp">
+  <h1>{{ 'HOME.bootcamps' | translate }}</h1>
+</div>
+<div class="bootcamp_container" *ngFor="let item of bootcampsData">
+  <div class="bootcamp_img">
+    <img
+      src= "{{ item.fotoBootcamp }}"
+    >
+  </div>
+  <div class="content-bootcamp">
+    <div class="titulo_bootcamp">
+      <h3>{{ item.TituloBootCamp }}</h3>
+    </div>
+    <div class="content_date_bootcamp">
+      <div class="nome_icone">
+        <img
+          src= "{{item.iconedate}}"
+        >
+      </div>
+      <div class="data_bootcamp">
+        <h3>{{ item.databootcamp }}</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--------------------------------------- MEUS PROJETOS -------------------------------------->
+
+
+<div class="titulo_container_projetos" id="meusprojetos">
+  <h1>{{'HOME.projetos' | translate }}</h1>
+</div>
+
+<div class="container_principal">
+  <div class="projetos_container" *ngFor="let item of projetoData">
+    <div class="projeto">
+      <img
+        class="tamanho_foto"
+        src="{{item.fotoProjeto}}"
+      >
+    </div>
+    <div class="titulo-projeto">
+      <h4>{{ item.TituloProjeto }}</h4>
+      <div class="button-container">
+          <button class="button-repo"><a href="https://github.com/han19githtbr/processamento-de-imagens" target="_blank">{{ item.ButtonRepo }}</a></button>
+          <button class="button-repo"><a href="#" target="_blank">{{ item.ButtonDemo }}</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------------------- FOOTER -------------------------------------->
+
+<div class="footer_container" id="contato">
+  <div class="redes_icons_container">
+    <div class="redes_icons">
+      <a href="https://github.com/han19githtbr" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    </div>
+    <div class="redes_icons">
+      <a href="https://www.linkedin.com/in/handy-claude-marie-milliance-95785099/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+    <div class="redes_icons">
+      <a href="https://www.facebook.com/handyclaudemarie.milliance/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    </div>
+    <div class="redes_icons">
+      <a href="https://www.instagram.com/handyclaudemarie/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <div class="container_form">
+    <h1>{{ 'HOME.contato' | translate }}</h1>
+    <form (ngSubmit)="submit(form)" [formGroup]="form">
+      <div class="form-group">
+        <label>{{ 'HOME.form.nome' | translate }}</label>
+        <input matInput formControlName="nome" [(ngModel)]="portfolio.nome" type="text" id="nome" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label>{{ 'HOME.form.assunto' | translate }}</label>
+        <input matInput formControlName="subject" [(ngModel)]="portfolio.assunto" type="text" id="assunto" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label>{{ 'HOME.form.email' | translate }}</label>
+        <input matInput formControlName="email" [(ngModel)]="portfolio.email" type="text" id="email" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label>{{ 'HOME.form.mensagem' | translate }}</label>
+        <textarea name="mensagem" formControlName="message" [(ngModel)]="portfolio.mensagem" type="text" id="mensagem" cols="30" rows="10"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">{{ 'HOME.form.enviar' | translate }}</button>
+    </form>
+  </div>
+</div>

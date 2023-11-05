@@ -1,0 +1,148 @@
+{
+  "HOME": {
+  "apresentacao": "Présentation",
+  "formacao": "Formation",
+  "bootcamps": "Formations techniques",
+  "projetos": "Projets",
+  "experiencia": "Expérience",
+  "contato": "Contact",
+  "presentation": [
+    {
+      "tituloApresentacao": "QUI SUIS-JE ?",
+      "fotoQuemSou": "assets/img/Haiti_Dessalines.jpeg",
+      "tituloQuemSou": "PARLANT UN PEU DE MOI",
+      "descricao": "Bonjour, je m'appelle Handy Claude Marie Milliance, je viens d'Haïti. Né dans la capitale du pays (Port-au-Prince), je suis un admirateur de la nature et j'apprécie les randonnées, qui offrent ce plaisir. J'ai toujours été passionné par la technologie et les jeux, car je joue aux jeux vidéo depuis mon enfance. À cette passion s'est ajoutée ma passion pour résoudre des problèmes complexes, et c'est cet état d'esprit qui m'a conduit au monde du développement web.",
+      "interesses": "Mes centres d'intérêts",
+      "iconeInteresses": [
+        {
+          "img": "assets/img/book.png"
+        },
+        {
+          "img": "assets/img/fly.png"
+        },
+        {
+          "img": "assets/img/game.png"
+        },
+        {
+          "img": "assets/img/music.png"
+        },
+        {
+          "img": "assets/img/terminal.png"
+        }
+      ]
+
+    }
+  ],
+  "formation":
+    {
+      "tituloFormacao": "MA FORMATION",
+      "fotoFormacao": "assets/img/rural.jpg",
+      "formei": "Finalement gradué",
+      "curso": "Cours: Sciences Informatiques",
+      "universidade": "Université Fédérale Rurale de Rio de Janeiro",
+      "conclusao": "Année de conclusion: 2022",
+      "iconeCurso": "assets/img/computer.png",
+      "iconeUniversidade": "assets/img/school.png",
+      "iconeConclusao": "assets/img/calendar.png"
+    },
+
+  "treinamentos": [
+    {
+      "CabecalhoBootcamp": "FORMATIONS TECHNIQUES CONCLUES",
+      "fotoBootcamp": "/assets/img/bootcamp_java_dio.png",
+      "TituloBootCamp": "Santander Bootcamp 2023 - Fullstack Java + Angular",
+      "iconedate": "/assets/img/calendar.png",
+      "databootcamp": "16/08/2023 - 22/10/2023"
+    }
+  ],
+  "projets": [
+    {
+      "Projetos": "MES PROJETS",
+      "fotoProjeto": "assets/img/python-opencv.png",
+      "TituloProjeto": "Projet utilisant la bibliothèque OpenCV",
+      "ButtonRepo": "Dépôt",
+      "ButtonDemo": "Voir Démonstration"
+    },
+    {
+      "fotoProjeto": "assets/img/javascript.jpg",
+      "TituloProjeto": "Dépôts de Git Hub en temps réel",
+      "ButtonRepo": "Dépôt",
+      "ButtonDemo": "Voir Démonstration"
+    },
+    {
+      "fotoProjeto": "assets/img/angular_icon.png",
+      "TituloProjeto": "API pour Consommer une liste de Pokémons",
+      "ButtonRepo": "Dépôt",
+      "ButtonDemo": "Voir Démonstration"
+    },
+    {
+      "fotoProjeto": "assets/img/angular_icon.png",
+      "TituloProjeto": "Recréer l'Interface de Play Station Store",
+      "ButtonRepo": "Dépôt",
+      "ButtonDemo": "Voir Démonstration"
+    },
+    {
+      "fotoProjeto": "assets/img/react.png",
+      "TituloProjeto": "Application de controle d'habitudes",
+      "ButtonRepo": "Dépôt",
+      "ButtonDemo": "Voir Démonstration"
+    },
+    {
+      "fotoProjeto": "assets/img/spring_framework.jpg",
+      "TituloProjeto": "Projet utilisant Spring framework",
+      "ButtonRepo": "Dépôt",
+      "ButtonDemo": "Voir Démonstration"
+    },
+    {
+      "fotoProjeto": "assets/img/angular_icon.png",
+      "TituloProjeto": "Recherche de Pokémons en temps réel",
+      "ButtonRepo": "Dépôt",
+      "ButtonDemo": "Voir Démonstration"
+    },
+    {
+      "fotoProjeto": "assets/img/react.png",
+      "TituloProjeto": "Agenda de contacts, utilisant React.js",
+      "ButtonRepo": "Dépôt",
+      "ButtonDemo": "Voir Démonstration"
+    }
+  ],
+  "experience": [
+    {
+      "MinhasExperiencias": "MES EXPÉRIENCES",
+      "fotoExperiencia": "assets/img/sudeste_pet.jpg",
+      "icone": "assets/img/school.png",
+      "tituloExperiencia": "PET Conexões Baixada (12/2015 - 03/2020)"
+    },
+    {
+      "fotoExperiencia": "assets/img/pgmni.jpg",
+      "icone": "assets/img/work.png",
+      "tituloExperiencia": "Stage à PGMNI (04/2021 - 07/2022)"
+    },
+    {
+      "fotoExperiencia": "assets/img/bg1.jpg",
+      "icone": "assets/img/computer.png",
+      "tituloExperiencia": "Connaissance en action"
+    }
+  ],
+  "form": {
+    "CamposObrigatorios": "Les casiers doivent être remplis.",
+    "ErroAoEnviarEmail": "Erreur pendant l'envoi du mail.",
+    "FormularioEnviadoComSucesso": "Message envoyé avec succès.",
+    "nome": "Nom:",
+    "email": "Adresse électronique:",
+    "assunto": "Sujet:",
+    "mensagem": "Message:",
+    "CampoNome": "Le casier du nom doit être rempli.",
+    "CampoEmail": "Le casier de l'adresse électronique doit être rempli.",
+    "CampoAssunto": "Le casier du sujet doit être rempli.",
+    "CampoMensagem": "Le casier du message doit être rempli.",
+    "enviar": "Envoyer"
+  },
+  "idioma": {
+      "pt-br": "Portuguais",
+      "en": "Anglais",
+      "fr": "Français"
+  }
+
+  }
+}

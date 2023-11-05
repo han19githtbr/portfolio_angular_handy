@@ -1,0 +1,148 @@
+{
+  "HOME": {
+  "apresentacao": "About me",
+  "formacao": "Education",
+  "bootcamps": "Bootcamps",
+  "projetos": "Projects",
+  "experiencia": "Experience",
+  "contato": "Contact",
+  "presentation": [
+    {
+      "tituloApresentacao": "WHO I AM ?",
+      "fotoQuemSou": "assets/img/Haiti_Dessalines.jpeg",
+      "tituloQuemSou": "TALKING A LITTLE ABOUT ME",
+      "descricao": "Hello, my name is Handy Claude Marie Milliance, I'm from Haiti. Born in the capital of the country (Port-au-Prince), I am a nature enthusiast and enjoy taking walks, and there provides these pleasures. I have always been passionate about technology and games because I played video games since I was a child. To this passion, my liking for solving complex problems has been added, and it was this mindset that brought me into the world of web development.",
+      "interesses": "My interests",
+      "iconeInteresses": [
+        {
+          "img": "assets/img/book.png"
+        },
+        {
+          "img": "assets/img/fly.png"
+        },
+        {
+          "img": "assets/img/game.png"
+        },
+        {
+          "img": "assets/img/music.png"
+        },
+        {
+          "img": "assets/img/terminal.png"
+        }
+      ]
+
+    }
+  ],
+  "formation":
+    {
+      "tituloFormacao": "MY EDUCATION",
+      "fotoFormacao": "assets/img/rural.jpg",
+      "formei": "Finally, I graduated",
+      "curso": "Course: Computer Science",
+      "universidade": "Federal Rural University of Rio de Janeiro",
+      "conclusao": "Conclusion year: 2022",
+      "iconeCurso": "assets/img/computer.png",
+      "iconeUniversidade": "assets/img/school.png",
+      "iconeConclusao": "assets/img/calendar.png"
+    },
+
+  "treinamentos": [
+    {
+      "CabecalhoBootcamp": "BOOTCAMPS DONE",
+      "fotoBootcamp": "/assets/img/bootcamp_java_dio.png",
+      "TituloBootCamp": "Santander Bootcamp 2023 - Fullstack Java + Angular",
+      "iconedate": "/assets/img/calendar.png",
+      "databootcamp": "16/08/2023 - 22/10/2023"
+    }
+  ],
+  "projets": [
+    {
+      "Projetos": "MY PROJECTS",
+      "fotoProjeto": "assets/img/python-opencv.png",
+      "TituloProjeto": "Project using the OpenCV library",
+      "ButtonRepo": "Repository",
+      "ButtonDemo": "View Demo"
+    },
+    {
+      "fotoProjeto": "assets/img/javascript.jpg",
+      "TituloProjeto": "Real-time Git Hub repositories",
+      "ButtonRepo": "Repository",
+      "ButtonDemo": "View Demo"
+    },
+    {
+      "fotoProjeto": "assets/img/angular_icon.png",
+      "TituloProjeto": "API consumption for listing Pokemons",
+      "ButtonRepo": "Repository",
+      "ButtonDemo": "View Demo"
+    },
+    {
+      "fotoProjeto": "assets/img/angular_icon.png",
+      "TituloProjeto": "Play Station Store Interface Recreation",
+      "ButtonRepo": "Repository",
+      "ButtonDemo": "View Demo"
+    },
+    {
+      "fotoProjeto": "assets/img/react.png",
+      "TituloProjeto": "Habit Control App",
+      "ButtonRepo": "Repository",
+      "ButtonDemo": "View Demo"
+    },
+    {
+      "fotoProjeto": "assets/img/spring_framework.jpg",
+      "TituloProjeto": "Back-end project using Spring framework",
+      "ButtonRepo": "Repository",
+      "ButtonDemo": "View Demo"
+    },
+    {
+      "fotoProjeto": "assets/img/angular_icon.png",
+      "TituloProjeto": "Pokemon search in real time",
+      "ButtonRepo": "Repository",
+      "ButtonDemo": "View Demo"
+    },
+    {
+      "fotoProjeto": "assets/img/react.png",
+      "TituloProjeto": "Contact book in React.js",
+      "ButtonRepo": "Repository",
+      "ButtonDemo": "View Demo"
+    }
+  ],
+  "experience": [
+    {
+      "MinhasExperiencias": "MY EXPERIENCES",
+      "fotoExperiencia": "assets/img/sudeste_pet.jpg",
+      "icone": "assets/img/school.png",
+      "tituloExperiencia": "PET Conexões Baixada (12/2015 - 03/2020)"
+    },
+    {
+      "fotoExperiencia": "assets/img/pgmni.jpg",
+      "icone": "assets/img/work.png",
+      "tituloExperiencia": "Internship at PGMNI (04/2021 - 07/2022)"
+    },
+    {
+      "fotoExperiencia": "assets/img/bg1.jpg",
+      "icone": "assets/img/computer.png",
+      "tituloExperiencia": "Connaissance en action"
+    }
+  ],
+  "form": {
+    "CamposObrigatorios": "The fields must be filled out.",
+    "ErroAoEnviarEmail": "Error sending the email.",
+    "FormularioEnviadoComSucesso": "Form submitted successfully.",
+    "nome": "Name:",
+    "email": "Email:",
+    "assunto": "Subject:",
+    "mensagem": "Message:",
+    "CampoNome": "The name field is required.",
+    "CampoEmail": "The email field is required.",
+    "CampoAssunto": "The subject field is required.",
+    "CampoMensagem": "The message field is required.",
+    "enviar": "Send"
+  },
+  "idioma": {
+      "pt-br": "Portuguese",
+      "en": "English",
+      "fr": "French"
+  }
+
+  }
+}
