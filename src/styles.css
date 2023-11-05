@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-
 html, body {
   height: 100%;
 }
@@ -19,6 +18,43 @@ a {
 }
 
 @media screen and (max-width: 1200px){
+
+  .menu_container {
+    justify-content: space-between;
+  }
+
+  .menu_container .menu_item{
+    width: 100%;
+    position: absolute;
+    z-index: 9999999;
+  }
+
+  .menu_item i{
+    display: block;
+    text-align: right;
+    padding: 15px 10px 0 0;
+    font-size: 25px;
+    color: white;
+  }
+
+  .menu_item > ul {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    padding-left: 0;
+  }
+
+  .menu_item > ul > li{
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+  }
+
+  .menu_item > ul > li > a{
+    color: black;
+  }
 
   .quemsou_container {
     display: flex;
@@ -77,35 +113,4 @@ a {
   .container_form {
     width: 80%;
   }
-
-  /*.tamanho_foto_1 {
-    max-width: 300px;
-    width: 100%;
-  }
-
-  .tamanho_foto_2 {
-    max-width: 300px;
-    width: 100%;
-  }
-
-  .tamanho_foto_3 {
-    max-width: 300px;
-    width: 100%;
-  }
-
-  .tamanho_foto_4 {
-    max-width: 300px;
-    width: 100%;
-  }
-
-  .tamanho_foto_5 {
-    max-width: 300px;
-    width: 100%;
-  }
-
-  .tamanho_foto_6 {
-    max-width: 300px;
-    width: 100%;
-  }*/
-
 }

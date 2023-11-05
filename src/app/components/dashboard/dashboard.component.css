@@ -249,9 +249,9 @@ header{
   transition: transform 0.4s;
 }
 
-.card_experiencia:hover {
+/*.card_experiencia:hover {
   transform: scale(1.1);
-}
+}*/
 
 .titulo_experiencia > h3 {
   font-weight: bold;
@@ -397,9 +397,9 @@ input, textarea{
   transition: transform 0.1s;
 }
 
-.redes_icons:hover {
+/*.redes_icons:hover {
   transform: scale(1.6);
-}
+}*/
 
 .btn {
   background-color: transparent;
