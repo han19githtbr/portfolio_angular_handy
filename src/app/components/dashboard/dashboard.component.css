@@ -69,46 +69,6 @@ header{
   cursor:pointer;
 }
 
-.menu_container .menu-mobile{
-  display: block;
-  text-align: right;
-}
-
-.menu_container .menu-mobile i{
-  font-size: 25px;
-  color: white;
-  position: relative;
-  top: 20px;
-  cursor: pointer;
-}
-
-.menu_container .menu-mobile ul{
-  display: none;
-  position: absolute;
-  left: 0;
-  z-index: 999;
-  top: 75px;
-  background-color: white;
-  list-style: none;
-  width: 100%;
-  text-align: center;
-  overflow:hidden;
-}
-
-.menu_container .menu-mobile li{
-  border-bottom: 1px solid #ccc;
-  padding: 10px 0;
-}
-
-.menu_container .menu-mobile li a{
-  text-decoration: none;
-  color: black;
-}
-
-
-
-
-
 .quemsou_container {
   display:flex;
   gap: 20px;
@@ -118,25 +78,17 @@ header{
 
 .card_foto {
   width: 700px;
-  height: 300px;
-  opacity: 0.6;
+  height: 100%;
   justify-content: center;
-}
-
-.descricao_quemsou > h3 {
-  font-family: "Times New Roman";
-  font-weight: bold;
-  font-size: 20px;
+  border-radius: 5px;
 }
 
 .descricao_quemsou > p {
   text-align: justify;
   margin-right: 20px;
+  font-size: 18px;
   font-weight: bold;
-}
-
-.auem_sou {
-  background-color: #dddddd
+  margin-top: 15px;
 }
 
 .quem_sou > h1 {
@@ -146,7 +98,6 @@ header{
   margin-top: 60px;
   margin-bottom: 50px;
 }
-
 
 .descricao_quemsou > h4 {
   margin-top: 150px;
@@ -158,7 +109,7 @@ header{
 .meus_interesses {
   display: flex;
   flex-direction:row;
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 .title_interesses > h4 {
@@ -182,19 +133,6 @@ header{
   transform: scale(1.6);
 }
 
-.card_foto {
-  border-radius: 15px;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
-}
-
-.separador {
-  margin-top: 40px;
-}
-
-
-
-
-
 .me_formei {
   text-align:center;
   margin-top: 150px;
@@ -217,39 +155,13 @@ header{
 
 .card_formacao {
   width: 750px;
-  height: 300px;
-  opacity: 0.6;
-  border-radius: 10px;
+  height: 100%;
+  border-radius: 5px;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
 }
 
-.descricao_minhaformacao > h3{
-  font-family: "Times New Roman";
-  font-weight: bold;
-  font-size: 20px;
-}
-
 .me_formei_info {
-  margin-top: 150px;
-
-}
-
-.nome_curso > h3 {
-  text-align: justify;
-  margin-right: 20px;
-  font-weight: bold;
-}
-
-.nome_universidade > h3 {
-  text-align: justify;
-  margin-right: 20px;
-  font-weight: bold;
-}
-
-.ano_conclusao > h3 {
-  text-align: justify;
-  margin-right: 20px;
-  font-weight: bold;
+  margin-top: 40px;
 }
 
 .nome_curso {
@@ -267,9 +179,20 @@ header{
   gap: 10px;
 }
 
+.nome_curso_titulo > h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
 
+.nome_universidade_titulo > h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
 
-
+.ano_conclusao_titulo > h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
 
 .bootcamp_cabecalho > h1 {
   text-align: center;
@@ -308,10 +231,6 @@ header{
 .bootcamp_img > img {
   border-radius: 10px;
 }
-
-
-
-
 
 .titulo_experiencias > h1 {
   margin-top: 100px;
@@ -391,11 +310,6 @@ header{
   }
 }
 
-
-
-
-
-
 .titulo_container_projetos > h1 {
   font-family: "Times New Roman";
   font-weight: bold;
@@ -447,7 +361,6 @@ header{
   border-radius: 5px;
 }
 
-
 .button_container {
   display: flex;
   justify-content: center;
@@ -455,17 +368,14 @@ header{
 
 .button-repo {
   margin:20px;
-  border: 2px solid #000000;
   transition: transform 0.2s;
-  border-radius: 5px;
-  background-color: black;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+  border-radius: 3px;
 }
 
 .button-repo > a {
   font-family: "Times New Roman";
   font-size: 18px;
-  color: white;
+  color: black;
 }
 
 .button-repo:hover {
@@ -473,11 +383,9 @@ header{
 }
 
 .button-demo {
-  border: 2px solid #000000;
   transition: transform 0.2s;
   border-radius: 5px;
   background-color: black;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
 }
 
 .button-demo > a {
@@ -489,11 +397,6 @@ header{
 .button-demo:hover {
   transform: scale(1.1);
 }
-
-
-
-
-
 
 .footer_container {
   margin-top: 60px;
@@ -535,7 +438,6 @@ input, textarea{
   justify-content: end;
   padding: 20px 0;
   margin-top: 20px;
-
 }
 
 .redes_icons a{
@@ -583,12 +485,6 @@ input, textarea{
 .fa-github {
   color: #fbbdee
 }
-
-
-
-
-
-
 
 @media screen and (max-width: 1200px){
   .menu_container {
