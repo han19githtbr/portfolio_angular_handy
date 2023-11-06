@@ -288,6 +288,9 @@ input, textarea {
   .menu_item > ul > li > a{
     color: white;
   }
+  .menu_item .fa-bars {
+    margin-top: 20px;
+  }
   .meus_interesses {
     margin:0 auto;
   }
