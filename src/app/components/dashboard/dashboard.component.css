@@ -234,6 +234,9 @@ input, textarea {
   cursor:pointer;
 }
 @media screen and (max-width: 1200px) {
+  .quem_sou {
+    margin-top: 550px;
+  }
   .menu_container .menu_item{
     width: 100%;
     position: absolute;
