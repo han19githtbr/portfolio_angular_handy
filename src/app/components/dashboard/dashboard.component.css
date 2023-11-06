@@ -278,7 +278,7 @@ input, textarea {
   }
   .menu_item > ul {
     display: none;
-    justify-content: center;
+    text-align: center;
     flex-direction: column;
     width: 100%;
     position: absolute;
