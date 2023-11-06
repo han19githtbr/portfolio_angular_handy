@@ -255,6 +255,9 @@ input, textarea {
     background-color: black;
     padding-left: 0;
   }
+  .menu_item > ul > li {
+    font-size: 23px;
+  }
   .menu_item > ul > li > a{
     color: white;
   }
