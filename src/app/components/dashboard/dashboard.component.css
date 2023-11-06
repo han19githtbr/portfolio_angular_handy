@@ -14,12 +14,10 @@ header {
   display: flex;
   list-style-type: none;
   justify-content: center;
-  flex-direction: row;
   gap: 20px;
 }
 .menu_item > ul > li {
   margin-top: 25px;
-  font-weight: bold;
   font-size: 17px;
 }
 .menu_item > ul > li:hover {
@@ -39,7 +37,6 @@ header {
   background-color: #fafafa;
 }
 .quem_sou > h1 {
-  font-weight: bold;
   font-size: 50px;
   text-align: center;
   margin-top: 60px;
@@ -49,7 +46,6 @@ header {
   text-align: justify;
   margin-right: 20px;
   font-size: 18px;
-  font-weight: bold;
   margin-top: 15px;
 }
 .card_foto {
@@ -63,7 +59,6 @@ header {
   margin-top: 70px;
 }
 .title_interesses > h4 {
-  font-weight: bold;
   font-size: 30px;
 }
 .card_icone_interesses {
@@ -82,7 +77,6 @@ header {
   margin-top: 150px;
 }
 .me_formei > h1 {
-  font-weight: bold;
   font-size: 40px;
   margin-bottom: 60px;
 }
@@ -102,7 +96,6 @@ header {
 .nome_curso_titulo > h3,
 .nome_universidade_titulo > h3,
 .ano_conclusao_titulo > h3 {
-  font-weight: bold;
   font-size: 20px;
 }
 .bootcamp_container {
@@ -115,7 +108,6 @@ header {
 }
 .bootcamp_cabecalho > h1 {
   text-align: center;
-  font-weight: bold;
   font-size: 40px;
   margin-bottom: 80px;
   margin-top: 90px;
@@ -142,7 +134,6 @@ header {
 .titulo_experiencias > h1 {
   margin-top: 100px;
   text-align: center;
-  font-weight: bold;
   font-size: 40px;
   margin-bottom: 80px;
 }
@@ -153,9 +144,6 @@ header {
 .card_experiencia {
   transition: transform 0.4s;
 }
-.titulo_experiencia > h3 {
-  font-weight: bold;
-}
 .container_principal {
   display: flex;
   flex-wrap: wrap;
@@ -165,7 +153,6 @@ header {
   padding: 30px 0;
 }
 .titulo_container_projetos > h1 {
-  font-weight: bold;
   font-size: 40px;
   margin-bottom: 60px;
   text-align: center;
@@ -174,7 +161,6 @@ header {
 .projetos_container {
   background-color: #ebf2fe;
   width: 300px;
-  //height: auto;
 }
 .projeto {
   max-width: 300px;
@@ -246,6 +232,17 @@ input, textarea {
 }
 .btn:hover {
   cursor:pointer;
+}
+/*@media screen and (max-width: 1500px) {
+  .menu_item .fa-bars > ul {
+    display: flex;
+    flex-direction: column;
+  }
+}*/
+@media screen and (max-width: 1400px) {
+  .menu_item > ul {
+    display: block;
+  }
 }
 @media screen and (max-width: 1200px) {
   .menu_container .menu_item{
