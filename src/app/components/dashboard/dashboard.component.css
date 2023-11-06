@@ -7,20 +7,6 @@ header {
   display: flex;
   justify-content: center;
 }
-/*.menu_logo {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-}*/
-/*.menu_logo img {
-  width: 100%;
-}*/
-/*.menu_container .menu_item {
-  width: 80%;
-}*/
-/*.menu_item {
-  text-align:center;
-}*/
 .menu_item i {
   display: none;
 }
