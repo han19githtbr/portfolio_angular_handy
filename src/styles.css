@@ -18,9 +18,9 @@ a {
 }
 
 @media screen and (max-width: 1200px){
-
   .menu_container {
     justify-content: space-between;
+
   }
 
   .menu_container .menu_item{
