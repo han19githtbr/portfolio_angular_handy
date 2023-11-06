@@ -306,4 +306,15 @@ input, textarea {
   .container_titulo_experiencia .titulo_experiencia > h3 {
     font-size: 22px;
   }
+  .button-repo {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .projetos_container {
+    width: 350px;
+  }
+  .projeto .tamanho_foto {
+    width: 350px;
+    margin-left: -25px;
+  }
 }
