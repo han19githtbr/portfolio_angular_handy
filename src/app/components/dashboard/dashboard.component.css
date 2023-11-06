@@ -96,13 +96,6 @@ header{
   margin-bottom: 50px;
 }
 
-.descricao_quemsou > h4 {
-  margin-top: 150px;
-  font-family: "Times New Roman";
-  font-weight: bold;
-  font-size: 30px;
-}
-
 .meus_interesses {
   display: flex;
   flex-direction:row;
@@ -150,31 +143,15 @@ header{
   margin-top: 40px;
 }
 
-.nome_curso {
-  display:flex;
-  gap: 10px;
-}
-
-.nome_universidade {
-  display:flex;
-  gap: 10px;
-}
-
+.nome_curso,
+.nome_universidade,
 .ano_conclusao {
   display:flex;
   gap: 10px;
 }
 
-.nome_curso_titulo > h3 {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.nome_universidade_titulo > h3 {
-  font-weight: bold;
-  font-size: 20px;
-}
-
+.nome_curso_titulo > h3,
+.nome_universidade_titulo > h3,
 .ano_conclusao_titulo > h3 {
   font-weight: bold;
   font-size: 20px;
@@ -196,11 +173,6 @@ header{
   background-color: #fbfbfb;
   text-align: center;
   margin-bottom: 80px;
-}
-
-.tecnologias_aprendidas {
-  display: flex;
-  justify-content: center;
 }
 
 .content_date_bootcamp {
@@ -249,9 +221,6 @@ header{
   transition: transform 0.4s;
 }
 
-/*.card_experiencia:hover {
-  transform: scale(1.1);
-}*/
 
 .titulo_experiencia > h3 {
   font-weight: bold;
@@ -314,35 +283,9 @@ header{
 }
 
 .button-repo {
-  margin:20px;
+  margin:35px;
   transition: transform 0.2s;
   border-radius: 3px;
-}
-
-.button-repo > a {
-  font-family: "Times New Roman";
-  font-size: 18px;
-  color: black;
-}
-
-.button-repo:hover {
-  transform: scale(1.1);
-}
-
-.button-demo {
-  transition: transform 0.2s;
-  border-radius: 5px;
-  background-color: black;
-}
-
-.button-demo > a {
-  font-family: "Times New Roman";
-  font-size: 18px;
-  color: white;
-}
-
-.button-demo:hover {
-  transform: scale(1.1);
 }
 
 .footer_container {
@@ -397,19 +340,11 @@ input, textarea{
   transition: transform 0.1s;
 }
 
-/*.redes_icons:hover {
-  transform: scale(1.6);
-}*/
-
 .btn {
   background-color: transparent;
   color: white;
   border: 0.1px solid #ffffff;
   border-radius: 3px;
-  width: 80px;
-  font-family: "Times New Roman";
-  margin-top: 10px;
-  transition: transform 0.1s;
 }
 
 .btn:hover {
@@ -434,9 +369,6 @@ input, textarea{
 }
 
 @media screen and (max-width: 1200px){
-  .menu_container {
-    justify-content: space-between;
-  }
 
   .menu_container .menu_item{
     width: 100%;
@@ -458,16 +390,11 @@ input, textarea{
     flex-direction: column;
     width: 100%;
     position: absolute;
-    background-color: white;
+    background-color: black;
     padding-left: 0;
   }
 
-  .menu_item > ul > li{
-    border-bottom: 1px solid #ccc;
-    margin: 10px 0;
-  }
-
   .menu_item > ul > li > a{
-    color: black;
+    color: white;
   }
 }
