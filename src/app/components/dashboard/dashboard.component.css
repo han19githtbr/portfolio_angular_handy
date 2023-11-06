@@ -300,6 +300,6 @@ input, textarea {
     font-family: "Times New Roman";
   }
   .menu_item .formSelect .idiomas {
-    justify-content: center;
+    text-align: center;
   }
 }
