@@ -18,14 +18,12 @@ header {
   gap: 20px;
 }
 .menu_item > ul > li {
-  margin-top: 20px;
+  margin-top: 25px;
   font-weight: bold;
-  font-size: 20px;
-  font-family: "Times New Roman";
+  font-size: 17px;
 }
 .menu_item > ul > li:hover {
   transform: scale(1.1);
-  border-radius: 3px;
 }
 .menu_item > ul > li > a {
   text-decoration: none;
@@ -176,7 +174,7 @@ header {
 .projetos_container {
   background-color: #ebf2fe;
   width: 300px;
-  height: auto;
+  //height: auto;
 }
 .projeto {
   max-width: 300px;
@@ -255,14 +253,14 @@ input, textarea {
     position: absolute;
     z-index: 9999999;
   }
-  .menu_item i {
+  .menu_item i{
     display: block;
     text-align: right;
     padding: 15px 10px 0 0;
     font-size: 25px;
     color: white;
   }
-  .menu_item > ul {
+  .menu_item > ul{
     display: none;
     text-align: center;
     flex-direction: column;
@@ -271,21 +269,20 @@ input, textarea {
     background-color: black;
     padding-left: 0;
   }
-  .menu_item > ul > li > a {
+  .menu_item > ul > li > a{
     color: white;
   }
-  .menu_item .fa-bars {
+  .menu_item .fa-bars{
     margin-top: 30px;
   }
-  .meus_interesses {
+  .meus_interesses{
     justify-content: center;
     font-size: 23px;
   }
-  .formSelect .idiomas {
+  .formSelect .idiomas{
     font-size: 22px;
-    font-family: "Times New Roman";
   }
-  .descricao_quemsou > p ,
+  .descricao_quemsou > p,
   .descricao_quemsou > h4 {
     font-size: 23px;
   }
