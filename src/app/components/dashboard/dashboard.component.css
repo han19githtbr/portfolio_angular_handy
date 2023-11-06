@@ -41,7 +41,6 @@ header{
 
 .menu_item > ul > li {
   margin: 10px;
-  font-family: "Times New Roman";
   font-weight: bold;
   font-size: 15px;
 }
@@ -103,7 +102,6 @@ header{
 }
 
 .title_interesses > h4 {
-  font-family: "Times New Roman";
   font-weight: bold;
   font-size: 30px;
 }
@@ -120,7 +118,6 @@ header{
 }
 
 .me_formei > h1 {
-  font-family: "Times New Roman";
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 60px;
@@ -159,7 +156,6 @@ header{
 
 .bootcamp_cabecalho > h1 {
   text-align: center;
-  font-family: "Times New Roman";
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 80px;
@@ -192,7 +188,6 @@ header{
 .titulo_experiencias > h1 {
   margin-top: 100px;
   text-align: center;
-  font-family: "Times New Roman";
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 80px;
@@ -227,7 +222,6 @@ header{
 }
 
 .titulo_container_projetos > h1 {
-  font-family: "Times New Roman";
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 60px;
@@ -305,7 +299,6 @@ header{
 
 .container_form > h1 {
   color: white;
-  font-family: "Times New Roman";
 }
 
 form{
@@ -315,7 +308,6 @@ form{
 
 label{
   color: white;
-  font-family: "Times New Roman";
 }
 
 input, textarea{
