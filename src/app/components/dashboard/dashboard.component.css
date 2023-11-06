@@ -233,17 +233,6 @@ input, textarea {
 .btn:hover {
   cursor:pointer;
 }
-/*@media screen and (max-width: 1500px) {
-  .menu_item .fa-bars > ul {
-    display: flex;
-    flex-direction: column;
-  }
-}*/
-@media screen and (max-width: 1400px) {
-  .menu_item > ul {
-    display: block;
-  }
-}
 @media screen and (max-width: 1200px) {
   .menu_container .menu_item{
     width: 100%;
@@ -278,6 +267,7 @@ input, textarea {
   }
   .formSelect .idiomas{
     font-size: 22px;
+    text-align: center;
   }
   .descricao_quemsou > p,
   .descricao_quemsou > h4 {
