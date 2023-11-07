@@ -36,6 +36,9 @@ header {
   gap: 20px;
   background-color: #fafafa;
 }
+.quem_sou {
+  margin-top: 20px;
+}
 .quem_sou > h1 {
   font-size: 50px;
   text-align: center;
