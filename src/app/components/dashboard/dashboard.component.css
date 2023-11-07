@@ -297,6 +297,9 @@ input, textarea {
     width: 350px;
     margin-left: -25px;
   }
+  .titulo-projeto > h4 {
+    font-size: 17px;
+  }
   .form-group > label {
     font-size: 19px;
   }
