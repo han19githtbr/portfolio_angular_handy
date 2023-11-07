@@ -256,6 +256,8 @@ input, textarea {
     display: none;
     text-align: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 100%;
     position: absolute;
@@ -277,7 +279,7 @@ input, textarea {
   }
   .formSelect .idiomas{
     font-size: 22px;
-    justify-content: center;
+    margin: auto;
   }
   .descricao_quemsou > p,
   .descricao_quemsou > h4 {
@@ -305,5 +307,8 @@ input, textarea {
   }
   .btn-primary {
     font-size: 19px;
+  }
+  .redes_icons {
+    width: 20px;
   }
 }
