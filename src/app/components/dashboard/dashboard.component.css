@@ -300,4 +300,7 @@ input, textarea {
   .form-group > label {
     font-size: 19px;
   }
+  .btn-primary {
+    font-size: 19px;
+  }
 }
