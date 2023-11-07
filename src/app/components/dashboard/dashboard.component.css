@@ -294,4 +294,7 @@ input, textarea {
     width: 350px;
     margin-left: -25px;
   }
+  .form-group > label {
+    font-size: 17px;
+  }
 }

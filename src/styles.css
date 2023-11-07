@@ -23,12 +23,9 @@ a {
 }
 
 @media screen and (max-width: 1200px){
-  /*.menu_container {
-    justify-content: space-between;
-  }*/
-  /*.menu_container .fa-bars {
-    color: white;
-  }*/
+  .menu_container {
+    justify-content: center;
+  }
   .menu_container .menu_item{
     width: 100%;
     position: absolute;
