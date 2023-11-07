@@ -238,7 +238,7 @@ input, textarea {
 }
 @media screen and (max-width: 1200px) {
   .quem_sou {
-    margin-top: 300px;
+    margin-top: 30px;
   }
   .menu_container .menu_item{
     width: 100%;
@@ -308,5 +308,5 @@ input, textarea {
   .btn-primary {
     font-size: 19px;
   }
-  
+
 }

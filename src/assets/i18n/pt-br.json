@@ -5,6 +5,7 @@
   "bootcamps": "Bootcamps",
   "projetos": "Projetos",
   "experiencia": "Experiências",
+  "competencia": "Habilidades",
   "contato": "Contato",
   "presentation":
     {
@@ -57,50 +58,50 @@
     {
       "fotoProjeto": "/assets/img/python-opencv_portfolio.png",
       "TituloProjeto": "Projeto utilizando a biblioteca OpenCV",
-      "ButtonRepo": "Repositório",
-      "ButtonDemo": "Ver Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/javascript_portfolio.jpg",
       "TituloProjeto": "Repositórios do Git Hub em tempo real",
-      "ButtonRepo": "Repositório",
-      "ButtonDemo": "Ver Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "API para consumir uma lista de Pokemons",
-      "ButtonRepo": "Repositório",
-      "ButtonDemo": "Ver Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Recriando a Interface da Play Station Store",
-      "ButtonRepo": "Repositório",
-      "ButtonDemo": "Ver Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/react_portfolio.png",
       "TituloProjeto": "Aplicativo de controle de hábitos",
-      "ButtonRepo": "Repositório",
-      "ButtonDemo": "Ver Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
       "TituloProjeto": "Projeto utilizando Spring framework",
-      "ButtonRepo": "Repositório",
-      "ButtonDemo": "Ver Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Busca de Pokemons em tempo real",
-      "ButtonRepo": "Repositório",
-      "ButtonDemo": "Ver Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/react_portfolio.png",
       "TituloProjeto": "Agenda de contatos, utilizando React.js",
-      "ButtonRepo": "Repositório",
-      "ButtonDemo": "Ver Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     }
   ],
   "experience": [
@@ -119,6 +120,27 @@
       "fotoExperiencia": "/assets/img/bg1_portfolio.jpg",
       "icone": "/assets/img/computer_portfolio.png",
       "tituloExperiencia": "Connaissance en action (01/2021 - 09/2023)"
+    }
+  ],
+  "competence": [
+    {
+      "tituloCompetencia": "HABILIDADES",
+      "habilidade": "REACT"
+    },
+    {
+      "habilidade": "JAVASCRIPT"
+    },
+    {
+      "habilidade": "PYTHON"
+    },
+    {
+      "habilidade": "JAVA"
+    },
+    {
+      "habilidade": "ANGULAR"
+    },
+    {
+      "habilidade": "BANCO DE DADOS"
     }
   ],
   "form": {

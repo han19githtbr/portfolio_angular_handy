@@ -5,6 +5,7 @@
   "bootcamps": "Bootcamps",
   "projetos": "Projects",
   "experiencia": "Experience",
+  "competencia": "Skills",
   "contato": "Contact",
   "presentation":
     {
@@ -58,50 +59,50 @@
       "Projetos": "MY PROJECTS",
       "fotoProjeto": "/assets/img/python-opencv_portfolio.png",
       "TituloProjeto": "Project using the OpenCV library",
-      "ButtonRepo": "Repository",
-      "ButtonDemo": "View Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/javascript_portfolio.jpg",
       "TituloProjeto": "Real-time Git Hub repositories",
-      "ButtonRepo": "Repository",
-      "ButtonDemo": "View Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "API consumption for listing Pokemons",
-      "ButtonRepo": "Repository",
-      "ButtonDemo": "View Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Play Station Store Interface Recreation",
-      "ButtonRepo": "Repository",
-      "ButtonDemo": "View Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/react_portfolio.png",
       "TituloProjeto": "Habit Control App",
-      "ButtonRepo": "Repository",
-      "ButtonDemo": "View Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
       "TituloProjeto": "Back-end project using Spring framework",
-      "ButtonRepo": "Repository",
-      "ButtonDemo": "View Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Pokemon search in real time",
-      "ButtonRepo": "Repository",
-      "ButtonDemo": "View Demo"
+      "ButtonRepo": "GitHub",
+      "ButtonDemo": "Demo"
     },
     {
       "fotoProjeto": "/assets/img/react_portfolio.png",
       "TituloProjeto": "Contact book in React.js",
       "ButtonRepo": "Repository",
-      "ButtonDemo": "View Demo"
+      "ButtonDemo": "Demo"
     }
   ],
   "experience": [
@@ -120,6 +121,27 @@
       "fotoExperiencia": "/assets/img/bg1_portfolio.jpg",
       "icone": "/assets/img/computer_portfolio.png",
       "tituloExperiencia": "Connaissance en action (01/2021 - 09/2023)"
+    }
+  ],
+  "competence": [
+    {
+      "tituloCompetencia": "SKILLS",
+      "habilidade": "REACT"
+    },
+    {
+      "habilidade": "JAVASCRIPT"
+    },
+    {
+      "habilidade": "PYTHON"
+    },
+    {
+      "habilidade": "JAVA"
+    },
+    {
+      "habilidade": "ANGULAR"
+    },
+    {
+      "habilidade": "DATA BASE"
     }
   ],
   "form": {

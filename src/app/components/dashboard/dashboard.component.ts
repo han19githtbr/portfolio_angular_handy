@@ -32,7 +32,8 @@ export class DashboardComponent implements OnInit {
   bootcampsData: any = {};
   experienciaData: any = {};
   projetoData: any = {};
-  contatoData: any ={};
+  contatoData: any = {};
+  competenciaData: any = {};
 
   isActive: boolean = false;
 
@@ -73,7 +74,9 @@ export class DashboardComponent implements OnInit {
     this.translate.get('HOME.projets').subscribe(data => {
       this.projetoData = data;
     });
-
+    this.translate.get('HOME.competence').subscribe(data => {
+      this.competenciaData = data;
+    });
     this.translate.get('HOME.contato').subscribe(data => {
       this.contatoData = data;
     });
@@ -129,6 +132,10 @@ export class DashboardComponent implements OnInit {
 
     this.translate.get('HOME.experience').subscribe(data => {
       this.experienciaData = data;
+    });
+
+    this.translate.get('HOME.competence').subscribe(data => {
+      this.competenciaData = data;
     });
 
     this.translate.get('HOME.contato').subscribe(data => {
