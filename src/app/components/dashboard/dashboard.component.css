@@ -261,14 +261,14 @@ input, textarea {
     flex-direction: column;
     width: 100%;
     position: absolute;
-    background-color: black;
+    background-color: white;
     padding-left: 0;
   }
   .menu_item > ul > li {
     font-size: 23px;
   }
   .menu_item > ul > li > a{
-    color: white;
+    color: black;
   }
   .menu_item .fa-bars{
     margin-top: 30px;
@@ -280,6 +280,8 @@ input, textarea {
   .formSelect .idiomas{
     font-size: 22px;
     margin: auto;
+    background-color: white;
+    color: black;
   }
   .descricao_quemsou > p,
   .descricao_quemsou > h4 {
@@ -308,5 +310,4 @@ input, textarea {
   .btn-primary {
     font-size: 19px;
   }
-
 }
