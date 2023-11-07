@@ -1,10 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  font-family: "Roboto";
+  line-height: normal;
+}
 html, body {
   height: 100%;
 }
 body {
   margin: 0;
-  font-family:Roboto, "Helvetica Neue", sans-serif;
   background-color: #e7f4fe
 }
 
@@ -13,16 +16,19 @@ a {
   color: black;
 }
 
-.menu_container .menu_mobile {
-  display: none;
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1200px){
-  .menu_container {
+  /*.menu_container {
     justify-content: space-between;
-
-  }
-
+  }*/
+  /*.menu_container .fa-bars {
+    color: white;
+  }*/
   .menu_container .menu_item{
     width: 100%;
     position: absolute;

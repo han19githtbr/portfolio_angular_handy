@@ -274,7 +274,7 @@ input, textarea {
   }
   .formSelect .idiomas{
     font-size: 22px;
-    text-align: center;
+    justify-content: center;
   }
   .descricao_quemsou > p,
   .descricao_quemsou > h4 {
