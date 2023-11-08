@@ -14,6 +14,249 @@ a {
   text-decoration: none;
   color: black;
 }
+
+
+.menu_container {
+  display: flex;
+  justify-content: center;
+}
+.menu_item i {
+  display: none;
+}
+.menu_item > ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 20px;
+}
+.menu_item > ul > li {
+  margin-top: 25px;
+  font-size: 17px;
+}
+.menu_item > ul > li:hover {
+  transform: scale(1.1);
+}
+.menu_item > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+.formSelect .idiomas {
+  background-color: black;
+  color: white;
+}
+.quemsou_container {
+  display:flex;
+  gap: 20px;
+  background-color: #fafafa;
+}
+.quem_sou {
+  margin-top: 20px;
+}
+.quem_sou > h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.descricao_quemsou > p {
+  text-align: justify;
+  margin-right: 20px;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.card_foto {
+  width: 700px;
+  height: 100%;
+  justify-content: center;
+}
+.meus_interesses {
+  display: flex;
+  flex-direction:row;
+  margin-top: 70px;
+}
+.title_interesses > h4 {
+  font-size: 30px;
+}
+.card_icone_interesses {
+  margin-left: 40px;
+  gap: 30px;
+  display: flex;
+}
+.minha_formacao_container {
+  display: flex;
+  gap: 70px;
+  justify-content: left;
+  background-color: #fbfbfb;
+}
+.me_formei {
+  text-align:center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.me_formei > h1 {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+.card_formacao {
+  width: 750px;
+  height: 100%;
+}
+.me_formei_info {
+  margin-top: 40px;
+}
+.nome_curso,
+.nome_universidade,
+.ano_conclusao {
+  display:flex;
+  gap: 10px;
+}
+.nome_curso_titulo > h3,
+.nome_universidade_titulo > h3,
+.ano_conclusao_titulo > h3 {
+  font-size: 20px;
+}
+.bootcamp_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fbfbfb;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.bootcamp_cabecalho > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 80px;
+  margin-top: 90px;
+}
+.bootcamp_img > img {
+  box-shadow: 2px 2px 4px 4px #020a35;
+  border-radius: 8px;
+}
+.content_date_bootcamp {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.titulo_bootcamp {
+  margin-top: 30px;
+}
+.minhas_experiencias_container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.container_titulo_experiencia {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 20px;
+}
+.titulo_experiencias > h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+.card_experiencia {
+  width: 450px;
+  height: 300px;
+  box-shadow: 6px 6px 4px black;
+  //transition: transform 0.4s;
+  border-radius: 8px;
+}
+.container_principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  background-color: #fbfbfb;
+  padding: 30px 0;
+}
+.titulo_container_projetos > h1 {
+  font-size: 40px;
+  margin-bottom: 70px;
+  text-align: center;
+  margin-top: 70px;
+}
+.projetos_container {
+  background-color: #ebf2fe;
+  width: 300px;
+}
+.projeto {
+  max-width: 300px;
+  width: 100%;
+  position: relative;
+  z-index: 999;
+  margin: 0 auto;
+}
+.projeto img {
+  width: 100%;
+}
+.titulo-projeto {
+  text-align: center;
+}
+.tamanho_foto {
+  width: 400px;
+  height: 250px;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+.button-repo {
+  margin:35px;
+  transition: transform 0.2s;
+}
+.footer_container {
+  margin-top: 60px;
+  background-color: black;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+.container_form {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+.container_form > h1 {
+  color: white;
+}
+form {
+  max-width: 500px;
+  width: 100%;
+}
+label {
+  color: white;
+}
+input, textarea {
+  width: 100%;
+}
+.redes_icons_container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+.redes_icons a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.btn {
+  background-color: transparent;
+  color: white;
+  border: 0.1px solid #ffffff;
+}
+.btn:hover {
+  cursor:pointer;
+}
+
+
+
 .container_titulo_skills {
   text-align: center;
   margin-top: 80px;
@@ -35,6 +278,13 @@ a {
 #react {
   color: white;
   animation: 1.1s infinite alternate fadein;
+}
+.projetos_container {
+  border-radius: 8px;
+  box-shadow: 6px 6px 4px black;
+}
+.projeto img {
+  border-radius: 8px;
 }
 .container_skills {
   justify-content: center;
@@ -119,9 +369,17 @@ a {
   .minha_formacao_container .foto_formacao > img {
     width: 100%;
   }
+  .titulo_bootcamp > h3 {
+    font-size: 21px;
+  }
+  .data_bootcamp > h3 {
+    font-size: 21px;
+  }
   .bootcamp_img > img {
     width: 100%;
     overflow:hidden;
+    box-shadow: 6px 6px 4px black;
+    border-radius: 8px;
   }
   .minhas_experiencias_container {
     display: flex;
@@ -137,6 +395,13 @@ a {
     font-size: 17px;
     font-weight: bold;
   }
+  .projetos_container {
+    border-radius: 8px;
+    box-shadow: 6px 6px 4px black;
+  }
+  .projeto img {
+    border-radius: 8px;
+  }
   .container {
     justify-content: center;
     flex-direction: column;
@@ -149,11 +414,14 @@ a {
   .container_skills {
     margin: 5px;
   }
+  #react {
+    font-size: 21px;
+  }
   .container_form {
     width: 80%;
   }
   .fa {
-    font-size: 20px;
+    font-size: 22px;
   }
   .form-group > input {
     height: 22px;
