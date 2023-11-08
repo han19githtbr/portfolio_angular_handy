@@ -381,8 +381,8 @@ input, textarea {
     overflow:hidden;
   }
   .me_formei_info {
-    justify-content: center;
-    //text-align: center;
+    //justify-content: center;
+    margin: 0 auto;
   }
   .minha_formacao_container .foto_formacao > img {
     width: 100%;
