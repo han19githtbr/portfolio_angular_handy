@@ -77,7 +77,8 @@ header {
 }
 .me_formei {
   text-align:center;
-  margin-top: 150px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .me_formei > h1 {
   font-size: 40px;
@@ -157,9 +158,9 @@ header {
 }
 .titulo_container_projetos > h1 {
   font-size: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .projetos_container {
   background-color: #ebf2fe;
@@ -301,13 +302,7 @@ input, textarea {
     width: 350px;
     margin-left: -25px;
   }
-  .titulo-projeto > h4 {
-    font-size: 17px;
-  }
   .form-group > label {
-    font-size: 19px;
-  }
-  .btn-primary {
     font-size: 19px;
   }
 }
