@@ -60,49 +60,66 @@
       "fotoProjeto": "/assets/img/python-opencv_portfolio.png",
       "TituloProjeto": "Project using the OpenCV library",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/processamento-de-imagens",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "https://apigithubhandy.netlify.app/"
+
     },
     {
       "fotoProjeto": "/assets/img/javascript_portfolio.jpg",
       "TituloProjeto": "Real-time Git Hub repositories",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/API-GITHUB",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "https://apigithubhandy.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "API consumption for listing Pokemons",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/projeto_pokedex_dio",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "https://listagem-de-pokemons.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Play Station Store Interface Recreation",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/psn-store-angular-dio",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "https://playstation-store-interface.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/react_portfolio.png",
       "TituloProjeto": "Habit Control App",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/APP_HABITS_CONTROL",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": ""
     },
     {
       "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
       "TituloProjeto": "Back-end project using Spring framework",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/handy-projeto-final-bootcamp-dio",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": ""
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Pokemon search in real time",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/busca-pokemons-service",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "https://busca-pokemons-em-tempo-real.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/react_portfolio.png",
       "TituloProjeto": "Contact book in React.js",
       "ButtonRepo": "Repository",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/lista_de_contatos",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": ""
     }
   ],
   "experience": [

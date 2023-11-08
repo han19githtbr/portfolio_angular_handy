@@ -56,52 +56,70 @@
   ],
   "projets": [
     {
+      "Projetos": "MY PROJECTS",
       "fotoProjeto": "/assets/img/python-opencv_portfolio.png",
-      "TituloProjeto": "Projeto utilizando a biblioteca OpenCV",
+      "TituloProjeto": "Project using the OpenCV library",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/processamento-de-imagens",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "https://apigithubhandy.netlify.app/"
+
     },
     {
       "fotoProjeto": "/assets/img/javascript_portfolio.jpg",
-      "TituloProjeto": "Repositórios do Git Hub em tempo real",
+      "TituloProjeto": "Repo GitHub em tempo real",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/API-GITHUB",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "https://apigithubhandy.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
-      "TituloProjeto": "API para consumir uma lista de Pokemons",
+      "TituloProjeto": "API consumindo uma lista de Pokemons",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/projeto_pokedex_dio",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "https://listagem-de-pokemons.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
-      "TituloProjeto": "Recriando a Interface da Play Station Store",
+      "TituloProjeto": "Recriando a Interface do PlayStation Store",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/psn-store-angular-dio",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "https://playstation-store-interface.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/react_portfolio.png",
-      "TituloProjeto": "Aplicativo de controle de hábitos",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/APP_HABITS_CONTROL",
+      "TituloProjeto": "Aplicativo de controle de hábitos",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": ""
     },
     {
       "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
-      "TituloProjeto": "Projeto utilizando Spring framework",
+      "TituloProjeto": "Projeto em Spring framework",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/handy-projeto-final-bootcamp-dio",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": ""
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
-      "TituloProjeto": "Busca de Pokemons em tempo real",
+      "TituloProjeto": "Busca de pokemons em tempo real",
       "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/busca-pokemons-service",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "https://busca-pokemons-em-tempo-real.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/react_portfolio.png",
-      "TituloProjeto": "Agenda de contatos, utilizando React.js",
-      "ButtonRepo": "GitHub",
-      "ButtonDemo": "Demo"
+      "TituloProjeto": "Agenda de contatos em React.js",
+      "ButtonRepo": "Repository",
+      "ButtonUrlRepo": "https://github.com/han19githtbr/lista_de_contatos",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": ""
     }
   ],
   "experience": [
