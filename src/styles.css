@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 *{
-  font-family: "Roboto";
+  font-family: "Times New Roman";
   line-height: normal;
 }
 html, body {
@@ -19,9 +19,16 @@ header {
   background-color: #000000;
   height: 110px;
 }
+.profil_container > img {
+  width:90px;
+  border-radius: 50%;
+  margin-top: 10px;
+  animation: 2s infinite alternate fadein;
+}
 .menu_container {
   display: flex;
   justify-content: center;
+  gap: 400px;
 }
 .menu_item i {
   display: none;
@@ -73,14 +80,14 @@ header {
 }
 .card_foto {
   width: 700px;
-  height: 100%;
+  height: 300px;
   justify-content: center;
   box-shadow: 6px 6px 4px black;
 }
 .meus_interesses {
   display: flex;
   flex-direction:row;
-  margin-top: 70px;
+  margin-top: 140px;
 }
 .title_interesses > h4 {
   font-size: 30px;
@@ -107,11 +114,11 @@ header {
 }
 .card_formacao {
   width: 750px;
-  height: 100%;
+  height: 300px;
   box-shadow: 6px 6px 4px black;
 }
 .me_formei_info {
-  margin-top: 40px;
+  margin-top: 100px;
 }
 .nome_curso,
 .nome_universidade,
@@ -139,7 +146,7 @@ header {
   margin-top: 90px;
 }
 .bootcamp_img > img {
-  box-shadow: 2px 2px 4px 4px #020a35;
+  box-shadow: 4px 4px 6px 6px #282828;
   border-radius: 8px;
 }
 .content_date_bootcamp {
@@ -306,7 +313,20 @@ input, textarea {
   justify-content: center;
   align-items: center;
 }
+
+.fa {
+  font-size: 22px;
+}
+.btn-primary {
+  font-size: 19px;
+  padding: 3px 15px;
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 1200px){
+  .profil_container > img {
+    width: 70px;
+  }
   .menu_container {
     justify-content: center;
   }
@@ -431,9 +451,12 @@ input, textarea {
   .form-group > input {
     height: 22px;
   }
+  .form-group > label {
+    font-size: 19px;
+  }
   .btn-primary {
     font-size: 19px;
-    padding: 5px 15px;
+    padding: 3px 15px;
     border-radius: 5px;
   }
 }

@@ -27,6 +27,7 @@ export class DashboardComponent implements OnInit {
   contentMessageErro: string;
   contentMessageSuccess: string;
 
+  fotoPerfilData: string;
   apresentacaoData: any = {};
   formacaoData: any = {};
   bootcampsData: any = {};
@@ -34,6 +35,7 @@ export class DashboardComponent implements OnInit {
   projetoData: any = {};
   contatoData: any = {};
   competenciaData: any = {};
+
 
   isActive: boolean = false;
 
@@ -55,6 +57,10 @@ export class DashboardComponent implements OnInit {
       idioma: ['pt-br'],
     });
 
+    this.translate.get('HOME.fotoPerfil').subscribe(data => {
+      this.fotoPerfilData = data;
+    });
+
     this.translate.get('HOME.presentation').subscribe(data => {
       this.apresentacaoData = data;
     });
@@ -74,9 +80,11 @@ export class DashboardComponent implements OnInit {
     this.translate.get('HOME.projets').subscribe(data => {
       this.projetoData = data;
     });
+
     this.translate.get('HOME.competence').subscribe(data => {
       this.competenciaData = data;
     });
+
     this.translate.get('HOME.contato').subscribe(data => {
       this.contatoData = data;
     });
@@ -114,6 +122,10 @@ export class DashboardComponent implements OnInit {
 
 
   updateTranslatedData() {
+    this.translate.get('HOME.fotoPerfil').subscribe(data => {
+      this.fotoPerfilData = data;
+    });
+
     this.translate.get('HOME.presentation').subscribe(data => {
       this.apresentacaoData = data;
     });
