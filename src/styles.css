@@ -131,6 +131,9 @@ header {
 .ano_conclusao_titulo > h3 {
   font-size: 20px;
 }
+.icone_universidade {
+  width: 20px;
+}
 .bootcamp_container {
   display: flex;
   flex-direction: column;
@@ -179,6 +182,9 @@ header {
   height: 300px;
   box-shadow: 6px 6px 4px black;
   border-radius: 8px;
+}
+.icone_experiencia > img {
+  width: 20px;
 }
 .container_principal {
   display: flex;
@@ -387,9 +393,16 @@ input, textarea {
     flex-direction: column;
     overflow:hidden;
   }
-  .me_formei_info {
-    text-align: center;
-
+  .nome_curso {
+    justify-content: center;
+    margin-top: -50px;
+  }
+  .nome_universidade {
+    justify-content: center;
+  }
+  .ano_conclusao {
+    justify-content: center;
+    margin-bottom: 30px;
   }
   .minha_formacao_container .foto_formacao > img {
     width: 100%;

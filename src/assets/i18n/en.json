@@ -39,10 +39,10 @@
       "fotoFormacao": "/assets/img/rural_portfolio.jpg",
       "formei": "Finally, I graduated",
       "curso": "Course: Computer Science",
-      "universidade": "Federal Rural University of Rio de Janeiro",
+      "universidade": "University: UFRRJ",
       "conclusao": "Conclusion year: 2022",
       "iconeCurso": "/assets/img/computer_portfolio.png",
-      "iconeUniversidade": "/assets/img/school_portfolio.png",
+      "iconeUniversidade": "/assets/img/ufrrj-logo.png",
       "iconeConclusao": "/assets/img/calendar_portfolio.png"
     },
 
@@ -130,7 +130,7 @@
     {
       "MinhasExperiencias": "MY EXPERIENCES",
       "fotoExperiencia": "/assets/img/sudeste_pet_portfolio.jpg",
-      "icone": "/assets/img/school_portfolio.png",
+      "icone": "/assets/img/ufrrj-logo.png",
       "tituloExperiencia": "PET Conexões Baixada (12/2015 - 03/2020)"
     },
     {

@@ -38,10 +38,10 @@
       "fotoFormacao": "/assets/img/rural_portfolio.jpg",
       "formei": "ME FORMEI, AGORA SIM!",
       "curso": "Curso: Ciência da Computação",
-      "universidade": "Universidade: Universidade Federal Rural do Rio de Janeiro",
+      "universidade": "Universidade: UFRRJ",
       "conclusao": "Ano de conclusão: 2022",
       "iconeCurso": "/assets/img/computer_portfolio.png",
-      "iconeUniversidade": "/assets/img/school_portfolio.png",
+      "iconeUniversidade": "/assets/img/ufrrj-logo.png",
       "iconeConclusao": "/assets/img/calendar_portfolio.png"
 
     },
@@ -129,7 +129,7 @@
     {
       "MinhasExperiencias": "MINHAS EXPERIÊNCIAS",
       "fotoExperiencia": "/assets/img/sudeste_pet_portfolio.jpg",
-      "icone": "/assets/img/school_portfolio.png",
+      "icone": "/assets/img/ufrrj-logo.png",
       "tituloExperiencia": "PET Conexões Baixada (12/2015 - 03/2020)"
     },
     {
