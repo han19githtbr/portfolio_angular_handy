@@ -20,6 +20,8 @@ export class DashboardComponent implements OnInit {
 
   portfolio: Portfolio = new Portfolio();
 
+  exibirMensagem: boolean = false;
+
   mostrarMensagemErro: boolean = false;
   disableBox: boolean = false;
   showProgressBar: boolean = false;
@@ -35,9 +37,10 @@ export class DashboardComponent implements OnInit {
   projetoData: any = {};
   contatoData: any = {};
   competenciaData: any = {};
-
+  DemoIndisponivelData: any;
 
   isActive: boolean = false;
+  isDisabled = true;
 
   constructor(private fb: FormBuilder, public translate: TranslateService,
     private messageService: MessageService,){
@@ -90,6 +93,13 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  /*exibirMensagem() {
+  if (this.translate.get('HOME.projets.DemoIndisponivel')) {
+      this.isDisabled = true;
+    } else {
+      this.isDisabled = false;
+    }
+  }*/
 
   submit(form: any) {
     this.disableBox = true;
