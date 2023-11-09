@@ -322,10 +322,6 @@ input, textarea {
 }
 .fa {
   font-size: 22px;
-  transition: transform 0.3s;
-}
-.fa:hover {
-  transform: scale(1.3);
 }
 .btn-primary {
   font-size: 19px;
