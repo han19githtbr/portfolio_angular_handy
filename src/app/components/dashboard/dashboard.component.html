@@ -4,6 +4,7 @@
       <img
         src="{{ 'HOME.fotoPerfil' | translate }}"
       >
+      
     </div>
     <nav class="menu_item">
       <i class="fa fa-bars"></i>
@@ -221,7 +222,7 @@
 
   <div class="container_form">
     <h1>{{ 'HOME.contato' | translate }}</h1>
-    
+
     <form (ngSubmit)="submit(form)" [formGroup]="form">
       <div class="form-group">
         <label>{{ 'HOME.form.nome' | translate }}</label>
