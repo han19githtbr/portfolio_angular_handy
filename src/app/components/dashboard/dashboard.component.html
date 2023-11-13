@@ -1,10 +1,14 @@
 <header>
   <div class="menu_container">
     <div class="profil_container">
-      <img
-        src="{{ 'HOME.fotoPerfil' | translate }}"
-      >
-
+      <a>
+        <img
+          class="foto_status"
+          [src]="value"
+          title=""
+          (click)='trocarFotoPerfil()'
+        />
+      </a>
     </div>
     <nav class="menu_item">
       <i class="fa fa-bars"></i>
@@ -29,6 +33,19 @@
     </nav>
   </div>
 </header>
+
+<!---------------------------------------------- WELCOME ------------------------------------------>
+
+<div class="wrapper">
+  <span style="--i:1;">W</span>
+  <span style="--i:2;">E</span>
+  <span style="--i:3;">L</span>
+  <span style="--i:4;">C</span>
+  <span style="--i:5;">O</span>
+  <span style="--i:6;">M</span>
+  <span style="--i:7;">E</span>
+</div>
+
 
 <!--------------------------------------- MINHA APRESENTACAO -------------------------------------->
 

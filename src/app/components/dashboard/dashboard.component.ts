@@ -19,9 +19,6 @@ export class DashboardComponent implements OnInit {
   formSelect!: FormGroup;
 
   portfolio: Portfolio = new Portfolio();
-
-  exibirMensagem: boolean = false;
-
   mostrarMensagemErro: boolean = false;
   disableBox: boolean = false;
   showProgressBar: boolean = false;
@@ -29,7 +26,9 @@ export class DashboardComponent implements OnInit {
   contentMessageErro: string;
   contentMessageSuccess: string;
 
-  fotoPerfilData: string;
+  value:string = "/assets/img/MAR.jpg";
+  status: boolean = false;
+
   apresentacaoData: any = {};
   formacaoData: any = {};
   bootcampsData: any = {};
@@ -58,10 +57,6 @@ export class DashboardComponent implements OnInit {
 
     this.formSelect = this.fb.group({
       idioma: ['pt-br'],
-    });
-
-    this.translate.get('HOME.fotoPerfil').subscribe(data => {
-      this.fotoPerfilData = data;
     });
 
     this.translate.get('HOME.presentation').subscribe(data => {
@@ -93,13 +88,15 @@ export class DashboardComponent implements OnInit {
     });
   }
 
-  /*exibirMensagem() {
-  if (this.translate.get('HOME.projets.DemoIndisponivel')) {
-      this.isDisabled = true;
+  trocarFotoPerfil() {
+    this.status = !this.status;
+    if (this.status) {
+      this.value = '/assets/img/open_to_work.png';
     } else {
-      this.isDisabled = false;
+      this.value = '/assets/img/MAR.jpg';
     }
-  }*/
+  }
+
 
   submit(form: any) {
     this.disableBox = true;
@@ -132,14 +129,10 @@ export class DashboardComponent implements OnInit {
 
 
   updateTranslatedData() {
-    this.translate.get('HOME.fotoPerfil').subscribe(data => {
-      this.fotoPerfilData = data;
-    });
 
     this.translate.get('HOME.presentation').subscribe(data => {
       this.apresentacaoData = data;
     });
-
     this.translate.get('HOME.formation').subscribe(data => {
       this.formacaoData = data;
     });
