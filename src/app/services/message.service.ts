@@ -7,9 +7,9 @@ import { Observable } from 'rxjs';
 })
 export class MessageService {
 
-  public API = 'http://localhost:8090';
+  //public API = 'http://localhost:8090';
   //public API = 'https://portfolio-angular-handy-b4cd6ff762d8.herokuapp.com';
-  //public API = 'https://portfolio-handy.onrender.com';
+  public API = 'https://portfolio-handy.onrender.com';
   public CONTROLLER = this.API + '/portfolio';
 
   constructor(private _http: HttpClient) { }
