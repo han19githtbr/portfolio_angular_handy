@@ -33,7 +33,7 @@
   height: 40px;
   border: none;
   outline: none;
-  color: #000000;
+  color: #ffffff !important;
   font-weight: bold;
   font-size: 20px;
   background: repeating-conic-gradient(from var(--a),#0202ff 0%, #0202ff 5%, transparent 5%, transparent 40%, #45f3ff 50% );
@@ -44,7 +44,9 @@
   border-radius: 5px;
   transition: transform 0.2s;
   animation: animar 3s linear infinite;
-  border: 1px solid;
+}
+.glow-on-hover span{
+  color: white !important;
 }
 .glow-on-hover:hover {
   transform: scale(1.1);
@@ -78,8 +80,10 @@
 .glow-on-hover::after {
   content: '';
   position: absolute;
-  inset: 1px;
+  inset: 2px;
   border-radius: 4px;
+  background: #000000;
+  z-index: -11;
 }
 
 @media screen and (max-width: 1200px) {
