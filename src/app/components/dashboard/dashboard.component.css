@@ -72,7 +72,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  animation: animar 4s linear infinite;
+  animation: animar 2s linear infinite;
   animation-delay: -1s;
   border-radius: 20px;
 }
