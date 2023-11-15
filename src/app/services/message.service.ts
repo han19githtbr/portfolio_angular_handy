@@ -36,9 +36,9 @@ export class MessageService {
     return this._http.get(this.CONTROLLER + '/downloadCurriculo/' + idioma, { headers, responseType: 'arraybuffer' as 'json' });
   }
 
-  pegarFoto(id: any): Observable<any> {
+  pegarFoto(nome: any): Observable<any> {
     const headers = new HttpHeaders().set('Content-Type', 'application/json; charset=utf-8');
 
-    return this._http.get(this.CONTROLLER + '/pegarFoto/' + id, { headers: headers, observe: 'response' });
+    return this._http.get(this.CONTROLLER + '/pegarFoto/' + nome, { headers: headers, observe: 'response' });
   }
 }

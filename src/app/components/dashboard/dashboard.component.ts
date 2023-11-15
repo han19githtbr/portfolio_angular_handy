@@ -46,7 +46,7 @@ export class DashboardComponent implements OnInit {
   isActive: boolean = false;
   isDisabled = true;
 
-  id: number;
+  nome: string;
 
   private caminhoCV: string;
 
@@ -103,9 +103,8 @@ export class DashboardComponent implements OnInit {
       this.contatoData = data;
     });
 
-    this.id = 2;
-
-    this.messageService.pegarFoto(this.id).subscribe(data => {
+    this.nome = "Handy";
+    this.messageService.pegarFoto(this.nome).subscribe(data => {
       this.value = data.body.path;
     })
   }
@@ -118,10 +117,13 @@ export class DashboardComponent implements OnInit {
       this.portfolio.path = '/assets/img/MAR.jpg';
     }
     //this.portfolio.picture = this.status ? '/assets/img/open_to_work.png' : '/assets/img/MAR.jpg';
+    this.portfolio.nome = "Handy";
+    this.portfolio.email = "milliance23@gmail.com";
     this.messageService.savePicture(this.portfolio).subscribe(data => {
-      console.log(data);
-      this.value = data.body.path;
-      this.portfolio.path = null;
+      this.messageService.pegarFoto(this.nome).subscribe(data => {
+        this.value = data.body.path;
+        this.portfolio.path = null;
+      })
     });
   }
 
