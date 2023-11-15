@@ -7,6 +7,11 @@
   "experiencia": "Expérience",
   "competencia": "Compétences",
   "contato": "Contact",
+  "curriculum": {
+    "nome": "CV_HANDY_ATUAL.fr.pdf",
+    "desc": "Télécharger CV",
+    "caminhoCV": "/assets/cv/CV_HANDY_ATUAL.fr.pdf"
+  },
   "presentation":
     {
       "tituloApresentacao": "QUI SUIS-JE ?",

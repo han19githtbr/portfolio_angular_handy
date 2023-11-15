@@ -10,6 +10,7 @@
         />
       </a>
     </div>
+
     <nav class="menu_item">
       <i class="fa fa-bars"></i>
       <ul>
@@ -46,6 +47,18 @@
   <span style="--i:7;">E</span>
 </div>
 
+<!--------------------------------------------- CURRICULO ------------------------------------------------->
+
+<div class="cv">
+  <button
+    (click)="onDownloadClick()"
+    [disabled]="disableCv"
+    class="glow-on-hover"
+    type="button"
+  >
+    {{ 'HOME.curriculum.desc' | translate }}
+  </button>
+</div>
 
 <!--------------------------------------- MINHA APRESENTACAO -------------------------------------->
 

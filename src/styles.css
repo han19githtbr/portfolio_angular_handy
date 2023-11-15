@@ -8,7 +8,7 @@ html, body {
 }
 body {
   margin: 0;
-  background-color: #dde8f9;
+  background-color: #c6cfff;
 }
 a {
   text-decoration: none;
@@ -344,7 +344,7 @@ input, textarea {
 }
 .btn-primary {
   font-size: 19px;
-  padding: 3px 15px;
+  padding: 1px 17px;
   border-radius: 5px;
   transition: transform 0.2s;
 }
@@ -483,7 +483,7 @@ input, textarea {
   }
   .btn-primary {
     font-size: 19px;
-    padding: 3px 15px;
+    padding: 1px 17px;
     border-radius: 5px;
   }
 }
