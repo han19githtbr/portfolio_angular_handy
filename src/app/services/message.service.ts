@@ -41,5 +41,4 @@ export class MessageService {
 
     return this._http.get(this.CONTROLLER + '/pegarFoto/' + id, { headers: headers, observe: 'response' });
   }
-
 }
