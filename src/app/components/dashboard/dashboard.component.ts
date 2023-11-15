@@ -32,11 +32,6 @@ export class DashboardComponent implements OnInit {
 
   statusDownload: boolean = false;
 
-  //botaoCurriculoData: any;
-  //valueCvIngles:string = "/assets/img/CV_HANDY_ATUAL.en.pdf";
-  //valueCvPortugues:string = "/assets/img/CV_HANDY_ATUAL.fr.pdf";
-  //valueCvFrances:string = "/assets/img/CV_HANDY_ATUAL.pt-br.pdf";
-
   curriculumData: any;
   botaoCVData:any;
   apresentacaoData: any = {};
@@ -54,6 +49,7 @@ export class DashboardComponent implements OnInit {
   id: number;
 
   private caminhoCV: string;
+
   idioma: string;
 
   constructor(private fb: FormBuilder, public translate: TranslateService,
@@ -253,5 +249,4 @@ export class DashboardComponent implements OnInit {
     link.target = '_blank';
     return link;
   }
-
 }
