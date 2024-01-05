@@ -6,6 +6,10 @@
   "projetos": "Projetos",
   "experiencia": "Experiências",
   "competencia": "Habilidades",
+  "jogo":{
+    "tituloSecao": "Vamos brincar um pouco?",
+    "tituloJogo": "Busca de Pokemons em tempo real"
+  },
   "contato": "Contato",
   "curriculum": {
     "nome": "CV_HANDY_ATUAL.pt-br.pdf",
@@ -168,6 +172,7 @@
       "habilidade": "BANCO DE DADOS"
     }
   ],
+
   "form": {
       "CamposObrigatorios": "Os campos devem ser preenchidos.",
       "ErroAoEnviarEmail": "Erro ao enviar o email.",

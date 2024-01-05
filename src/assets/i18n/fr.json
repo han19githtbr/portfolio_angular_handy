@@ -6,6 +6,10 @@
   "projetos": "Projets",
   "experiencia": "Expérience",
   "competencia": "Compétences",
+  "jogo":{
+    "tituloSecao": "Jouons un peu?",
+    "tituloJogo": "Recherche de Pokémons en temps réel"
+  },
   "contato": "Contact",
   "curriculum": {
     "nome": "CV_HANDY_ATUAL.fr.pdf",
@@ -168,6 +172,7 @@
       "habilidade": "BASE DE DONNÉES"
     }
   ],
+
   "form": {
     "CamposObrigatorios": "Les casiers doivent être remplis.",
     "ErroAoEnviarEmail": "Erreur pendant l'envoi du mail.",

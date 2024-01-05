@@ -380,6 +380,10 @@ input, textarea {
   background: #000000;
   z-index: -11;
 }
+
+
+
+
 @media screen and (max-width: 1200px){
 
   .profil_container > img {

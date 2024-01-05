@@ -20,6 +20,7 @@
         <li><a href="#meusprojetos" >{{ 'HOME.projetos' | translate }}</a></li>
         <li><a href="#experiencia" >{{ 'HOME.experiencia' | translate }}</a></li>
         <li><a href="#competencia" >{{ 'HOME.competencia' | translate }}</a></li>
+        <!--<li><a href="#jogo" >{{ 'HOME.jogo' | translate }}</a></li>-->
         <li><a href="#contato" >{{ 'HOME.contato' | translate }}</a></li>
         <li>
           <form [formGroup]="formSelect" id="contactForm" class="formSelect">
@@ -234,6 +235,49 @@
 </div>
 
 
+<!------------------------------------- POKEMON GAME ---------------------------------->
+
+<div class="title-section-game" id="jogo">
+  <h1>{{ 'HOME.jogo.tituloJogo' | translate }}</h1>
+  <!--<h1>Busca de Pokemons em tempo real</h1>-->
+</div>
+
+<div class="input-search">
+  <input
+      type="text"
+      (input)="getPokemon($any($event.target).value)"
+      placehodler="Digite o pokemon que você procura..."
+  >
+</div>
+<div class="card">
+
+  <div class="card_title">
+    <h3>{{ pokemon.name }}</h3>
+  </div>
+
+  <div class="card_body">
+    <img
+      [src]="pokemon.sprites.front_default"
+      height="250"
+      alt="pokemon"
+      srcset=""
+    >
+  </div>
+
+  <div class="card_stats">
+    <span
+      class="card_stats_type"
+      *ngFor="let t of pokemon.types"
+    >
+      {{ t.type.name }}
+    </span>
+
+  </div>
+
+</div>
+
+
+
 <!--------------------------------------- FOOTER -------------------------------------->
 
 <div class="footer_container" id="contato">
@@ -275,4 +319,5 @@
       <button type="submit" class="btn btn-primary">{{ 'HOME.form.enviar' | translate }}</button>
     </form>
   </div>
+  <button id="scrollToTopButton" (click)="scrollToTop()">&#9650;</button>
 </div>

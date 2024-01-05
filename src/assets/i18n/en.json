@@ -6,6 +6,10 @@
   "projetos": "Projects",
   "experiencia": "Experience",
   "competencia": "Skills",
+  "jogo":{
+    "tituloSecao": "Let's play?",
+    "tituloJogo": "Pokemon's search in real time"
+  },
   "contato": "Contact",
   "curriculum": {
     "nome": "CV_HANDY_ATUAL.en.pdf",
@@ -169,6 +173,7 @@
       "habilidade": "DATA BASE"
     }
   ],
+
   "form": {
     "CamposObrigatorios": "The fields must be filled out.",
     "ErroAoEnviarEmail": "Error sending the email.",

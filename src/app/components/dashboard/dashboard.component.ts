@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
 import { Portfolio } from 'src/app/model/portfolio.model';
@@ -6,6 +6,8 @@ import { MessageService } from 'src/app/services/message.service';
 import { HttpClient, HttpResponse } from '@angular/common/http';
 
 import Swal from 'sweetalert2';
+import { PokemonData } from 'src/app/model/pokemonData';
+import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -15,6 +17,7 @@ import Swal from 'sweetalert2';
 
 export class DashboardComponent implements OnInit {
 
+  pokemon: PokemonData;
   form!: FormGroup;
   formSelect!: FormGroup;
 
@@ -40,6 +43,7 @@ export class DashboardComponent implements OnInit {
   experienciaData: any = {};
   projetoData: any = {};
   contatoData: any = {};
+  jogoData:any = {};
   competenciaData: any = {};
   DemoIndisponivelData: any;
 
@@ -53,7 +57,16 @@ export class DashboardComponent implements OnInit {
   idioma: string;
 
   constructor(private fb: FormBuilder, public translate: TranslateService,
-    private messageService: MessageService,){
+    private messageService: MessageService, private service:PokemonService){
+      this.pokemon = {
+        id: 0,
+        name: '',
+        sprites: {
+          front_default: ''
+        },
+        types:[]
+      }
+
       translate.addLangs(['en', 'fr', 'pt-br']);
       translate.setDefaultLang('pt-br');
   }
@@ -65,6 +78,8 @@ export class DashboardComponent implements OnInit {
       subject: ['', [Validators.required, Validators.maxLength(255)]],
       message: ['', [Validators.required]],
     });
+
+    this.getPokemon('pikachu')
 
     this.formSelect = this.fb.group({
       idioma: ['pt-br'],
@@ -99,15 +114,39 @@ export class DashboardComponent implements OnInit {
       this.competenciaData = data;
     });
 
+    this.translate.get('HOME.jogo').subscribe(data => {
+      this.jogoData = data;
+    });
+
     this.translate.get('HOME.contato').subscribe(data => {
       this.contatoData = data;
     });
 
     this.nome = "Handy";
+
     this.messageService.pegarFoto(this.nome).subscribe(data => {
       this.value = data.body.path;
     })
   }
+
+
+  getPokemon(searchName:string) {
+    this.service.getPokemon(searchName).subscribe(
+      {
+        next: (res) => {
+
+          this.pokemon = {
+            id: res.id,
+            name: res.name,
+            sprites: res.sprites,
+            types: res.types
+          }
+        },
+        error: (err) => console.log('not found')
+      }
+    )
+  }
+
 
   trocarFotoPerfil() {
     this.status = !this.status;
@@ -183,6 +222,10 @@ export class DashboardComponent implements OnInit {
       this.competenciaData = data;
     });
 
+    this.translate.get('HOME.jogo').subscribe(data => {
+      this.jogoData = data;
+    });
+
     this.translate.get('HOME.contato').subscribe(data => {
       this.contatoData = data;
     });
@@ -251,4 +294,22 @@ export class DashboardComponent implements OnInit {
     link.target = '_blank';
     return link;
   }
+
+  @HostListener('window:scroll', [])
+    onWindowScroll() {
+      const button = document.getElementById('scrollToTopButton');
+      if (button) {
+        if (window.pageYOffset > 300) { // Ajuste esse valor para determinar quando mostrar o botão
+          button.classList.add('show');
+        } else {
+          button.classList.remove('show');
+        }
+      }
+    }
+
+
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
 }

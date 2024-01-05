@@ -85,6 +85,85 @@
   background: #000000;
   z-index: -11;
 }
+.title-section-game {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.card {
+  border: 1px solid black;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+  border-radius: 11px;
+  margin: auto;
+}
+.card_title {
+  margin-left: auto;
+  margin-right: auto;
+}
+.card_title > h3 {
+  color: white;
+}
+.card_body {
+  background-color: #616161;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+  border-radius: 11px;
+}
+.card_stats {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card_stats_type {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.card_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-search{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.input-search > input {
+  border-radius: 3px;
+  width: 240px;
+}
+
+#scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0000d9;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  display: none; /* Inicialmente, o botão está oculto */
+}
+
+#scrollToTopButton.show {
+  display: block; /* Quando a classe 'show' é adicionada, o botão fica visível */
+}
 
 @media screen and (max-width: 1200px) {
   .quem_sou {
