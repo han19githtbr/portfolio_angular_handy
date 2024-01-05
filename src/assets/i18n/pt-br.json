@@ -122,7 +122,7 @@
     {
       "fotoProjeto": "/assets/img/react_portfolio.png",
       "TituloProjeto": "Agenda de contatos em React.js",
-      "ButtonRepo": "Repository",
+      "ButtonRepo": "GitHub",
       "ButtonUrlRepo": "https://github.com/han19githtbr/lista_de_contatos",
       "ButtonDemo": "Demo",
       "ButtonUrlDemo": "",
