@@ -131,6 +131,15 @@
       "ButtonDemo": "Demo",
       "ButtonUrlDemo": "",
       "DemoIndisponivel": "Demo indisponível"
+    },
+    {
+      "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
+      "TituloProjeto": "Sistema de Gerenciamento de tarefas",
+      "ButtonRepo": "GitHub",
+      "ButtonUrlRepo": "https://github.com/han19githtbr/gerenciamento-tarefas-back-end.git",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "",
+      "DemoIndisponivel": "Demo indisponível"
     }
   ],
   "experience": [
