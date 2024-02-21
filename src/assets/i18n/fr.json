@@ -12,9 +12,9 @@
   },
   "contato": "Contact",
   "curriculum": {
-    "nome": "CV_HANDY_ATUAL.fr.pdf",
+    "nome": "CV_HANDY_FR.pdf",
     "desc": "Télécharger CV",
-    "caminhoCV": "/assets/cv/CV_HANDY_ATUAL.fr.pdf"
+    "caminhoCV": "/assets/cv/CV_HANDY_FR.pdf"
   },
   "presentation":
     {
