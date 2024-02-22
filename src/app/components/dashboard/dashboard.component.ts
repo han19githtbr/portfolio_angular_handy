@@ -333,16 +333,16 @@ export class DashboardComponent implements OnInit {
         this.disableCertificate = false;
 
         // Cria um link temporário para download
-        const downloadLink = this.createDownloadLinkCer();
+        const downloadLinkCer = this.createDownloadLinkCer();
 
         // Adiciona o link ao corpo do documento
-        document.body.appendChild(downloadLink);
+        document.body.appendChild(downloadLinkCer);
 
         // Dispara o clique no link para iniciar o download
-        downloadLink.click();
+        downloadLinkCer.click();
 
         // Remove o link do corpo do documento após o download iniciar
-        document.body.removeChild(downloadLink);
+        document.body.removeChild(downloadLinkCer);
       }
     }, 500); // Intervalo de verificação de 500 milissegundos
   }
