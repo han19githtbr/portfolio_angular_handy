@@ -10,6 +10,7 @@ export class MessageService {
   //public API = 'http://localhost:8090';
   //public API = 'https://portfolio-angular-handy-b4cd6ff762d8.herokuapp.com';
   public API = 'https://portfolio-handy.onrender.com';
+  //public LINK_FORMULARIO = 'https://portfolio-handy.netlify.app/formulario'
   public CONTROLLER = this.API + '/portfolio';
 
   constructor(private _http: HttpClient) { }

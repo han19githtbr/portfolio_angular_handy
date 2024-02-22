@@ -365,7 +365,6 @@ export class DashboardComponent implements OnInit {
     return novoLink;
   }
 
-
   @HostListener('window:scroll', [])
     onWindowScroll() {
       const button = document.getElementById('scrollToTopButton');

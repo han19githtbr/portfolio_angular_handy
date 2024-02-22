@@ -145,21 +145,21 @@
   ],
   "certificats": [
     {
-      "fotoCER": "/assets/img/santander.jpg",
+      "fotoCER": "/assets/img/santandercer.png",
       "tituloCER": "BOOTCAMP_DIO_FINALIZADO.pdf",
       "descCer": "Baixar certificado",
       "caminhoCER": "/assets/cv/BOOTCAMP_DIO_FINALIZADO.pdf",
       "paragrafoCER": "Bootcamp Java + Angular"
     },
     {
-      "fotoCER": "/assets/img/toti.png",
+      "fotoCER": "/assets/img/toticer.png",
       "tituloCER": "Certificado_Full_Stack.pdf",
       "descCer": "Baixar certificado",
       "caminhoCER": "/assets/cv/Certificado_Full_Stack.pdf",
       "paragrafoCER": "Curso de desenvolvimento Full Stack"
     },
     {
-      "fotoCER": "/assets/img/rocket.png",
+      "fotoCER": "/assets/img/rocketcer.png",
       "tituloCER": "certificado_trilha_rocketseat.pdf",
       "descCer": "Baixar certificado",
       "caminhoCER": "/assets/cv/certificado_trilha_rocketseat.pdf",

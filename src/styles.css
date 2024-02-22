@@ -260,7 +260,7 @@ header {
   display: flex;
   justify-content: center;
 }
-.button-repo {
+/*.button-repo {
   margin:35px;
   transition: transform 0.2s;
   background-color: transparent;
@@ -268,7 +268,7 @@ header {
 }
 .button-repo:hover {
   transform: scale(1.1);
-}
+}*/
 .footer_container {
   margin-top: 60px;
   background-color: black;
