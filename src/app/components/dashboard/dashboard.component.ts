@@ -358,11 +358,11 @@ export class DashboardComponent implements OnInit {
 
   // Cria dinamicamente um link para download
   createDownloadLinkCer() {
-    const link = document.createElement('a');
-    link.href = this.caminhoCER;
-    link.download = `handy_${this.idioma}.pdf`; // Define o nome do arquivo para download
-    link.target = '_blank';
-    return link;
+    const novoLink = document.createElement('a');
+    novoLink.href = this.caminhoCER;
+    novoLink.download = `certificate_${this.idioma}.pdf`; // Define o nome do arquivo para download
+    novoLink.target = '_blank';
+    return novoLink;
   }
 
 

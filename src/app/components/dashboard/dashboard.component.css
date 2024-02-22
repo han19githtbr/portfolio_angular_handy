@@ -183,6 +183,10 @@
   cursor: pointer;
   display: none; /* Inicialmente, o botão está oculto */
 }
+#scrollToTopButton:hover {
+  background-color: #00ff00;
+  transition: 0.3s;
+}
 
 #scrollToTopButton.show {
   display: block; /* Quando a classe 'show' é adicionada, o botão fica visível */
