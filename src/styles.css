@@ -199,7 +199,6 @@ header {
 .icone_experiencia > img {
   width: 20px;
 }
-
 .container_principal {
   display: flex;
   flex-wrap: wrap;
@@ -208,7 +207,6 @@ header {
   background-color: #fbfbfb;
   padding: 30px 0;
 }
-
 .titulo_container_projetos > h1 {
   font-size: 40px;
   margin-bottom: 70px;
@@ -260,15 +258,6 @@ header {
   display: flex;
   justify-content: center;
 }
-/*.button-repo {
-  margin:35px;
-  transition: transform 0.2s;
-  background-color: transparent;
-  border-radius: 3px;
-}
-.button-repo:hover {
-  transform: scale(1.1);
-}*/
 .footer_container {
   margin-top: 60px;
   background-color: black;
@@ -378,7 +367,6 @@ input, textarea {
   inherits: false;
   initial-value: 0deg;
 }
-
 @keyframes animar{
   0%{
       --a: 0deg;
