@@ -10,7 +10,6 @@ body {
   margin: 0;
   background-color: #d2e8f2;
 }
-
 a {
   text-decoration: none;
   color: black;
@@ -200,6 +199,7 @@ header {
 .icone_experiencia > img {
   width: 20px;
 }
+
 .container_principal {
   display: flex;
   flex-wrap: wrap;
@@ -208,14 +208,21 @@ header {
   background-color: #fbfbfb;
   padding: 30px 0;
 }
+
 .titulo_container_projetos > h1 {
   font-size: 40px;
   margin-bottom: 70px;
   text-align: center;
   margin-top: 70px;
 }
+.titulo_container_certificados > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
 .projetos_container {
-  background-color: #ebf2fe;
+  background-color: #ffffff;
   width: 300px;
 }
 .projeto {
@@ -229,6 +236,20 @@ header {
   width: 100%;
 }
 .titulo-projeto {
+  text-align: center;
+}
+.certificate-container-principal {
+  display: flex;
+  justify-content: center;
+  background: #f2ffff;
+}
+.tamanho_certificado {
+  width: 400px;
+  height: 250px;
+  border-radius: 0.3rem;
+}
+.certificados-container {
+  margin: 2rem;
   text-align: center;
 }
 .tamanho_foto {
@@ -366,7 +387,6 @@ input, textarea {
       --a: 360deg;
   }
 }
-
 .btn-primary::before {
   content: '';
   animation: animar 4s linear infinite;
@@ -380,10 +400,6 @@ input, textarea {
   background: #000000;
   z-index: -11;
 }
-
-
-
-
 @media screen and (max-width: 1200px){
 
   .profil_container > img {
@@ -391,6 +407,12 @@ input, textarea {
   }
   .menu_container {
     justify-content: center;
+  }
+  .certificate-container-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f2ffff;
   }
   .menu_container .menu_item{
     width: 100%;

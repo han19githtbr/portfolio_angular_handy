@@ -25,6 +25,7 @@ export class DashboardComponent implements OnInit {
   mostrarMensagemErro: boolean = false;
   disableBox: boolean = false;
   disableCv: boolean = false;
+  disableCertificate: boolean = false;
   showProgressBar: boolean = false;
 
   contentMessageErro: string;
@@ -37,11 +38,14 @@ export class DashboardComponent implements OnInit {
 
   curriculumData: any;
   botaoCVData:any;
+  certificateData:any;
+  botaoCERData:any;
   apresentacaoData: any = {};
   formacaoData: any = {};
   bootcampsData: any = {};
   experienciaData: any = {};
   projetoData: any = {};
+  certificadoData: any = {};
   contatoData: any = {};
   jogoData:any = {};
   competenciaData: any = {};
@@ -53,6 +57,7 @@ export class DashboardComponent implements OnInit {
   nome: string;
 
   private caminhoCV: string;
+  private caminhoCER: string;
 
   idioma: string;
 
@@ -108,6 +113,10 @@ export class DashboardComponent implements OnInit {
 
     this.translate.get('HOME.projets').subscribe(data => {
       this.projetoData = data;
+    });
+
+    this.translate.get('HOME.certificats').subscribe(data => {
+      this.certificateData = data;
     });
 
     this.translate.get('HOME.competence').subscribe(data => {
@@ -214,6 +223,10 @@ export class DashboardComponent implements OnInit {
       this.projetoData = data;
     });
 
+    this.translate.get('HOME.certificats').subscribe(data => {
+      this.certificateData = data;
+    });
+
     this.translate.get('HOME.experience').subscribe(data => {
       this.experienciaData = data;
     });
@@ -236,6 +249,7 @@ export class DashboardComponent implements OnInit {
     let idioma = this.formSelect.controls['idioma'].value;
     this.idioma = idioma;
     this.caminhoCV = null;
+    this.caminhoCER = null;
     this.translate.use(idioma);
     this.updateTranslatedData();
   }
@@ -257,6 +271,27 @@ export class DashboardComponent implements OnInit {
           // Lide com erros, por exemplo, definindo um valor padrão para o caminho do currículo
           console.error('Erro ao obter o caminho do currículo:', error);
           this.caminhoCV = 'URL_DO_SEU_CURRICULO_PDF';
+        }
+      );
+  }
+
+
+  obterCaminhoCertificado(): void {
+    const uniqueParam = new Date().getTime().toString();
+    this.disableCertificate = true;
+    this.messageService.downloadCertificado(this.idioma, uniqueParam)
+      .subscribe(
+        (response: any) => {
+          // Crie uma blob com os dados recebidos
+          const blob = new Blob([response], { type: 'application/pdf' });
+
+          // Crie uma URL para o blob e defina-a como o caminho do currículo
+          this.caminhoCER = URL.createObjectURL(blob);
+        },
+        (error) => {
+          // Lide com erros, por exemplo, definindo um valor padrão para o caminho do currículo
+          console.error('Erro ao obter o caminho do certificado:', error);
+          this.caminhoCER = 'URL_DO_SEU_CERTIFICADO_PDF';
         }
       );
   }
@@ -286,6 +321,32 @@ export class DashboardComponent implements OnInit {
     }, 500); // Intervalo de verificação de 500 milissegundos
   }
 
+
+  onDownloadCerClick() {
+    this.obterCaminhoCertificado();
+
+    // Aguarda até que a URL do certificado seja obtida
+    const intervalId = setInterval(() => {
+      if (this.caminhoCER) {
+        // Para o intervalo assim que a URL estiver disponível
+        clearInterval(intervalId);
+        this.disableCertificate = false;
+
+        // Cria um link temporário para download
+        const downloadLink = this.createDownloadLinkCer();
+
+        // Adiciona o link ao corpo do documento
+        document.body.appendChild(downloadLink);
+
+        // Dispara o clique no link para iniciar o download
+        downloadLink.click();
+
+        // Remove o link do corpo do documento após o download iniciar
+        document.body.removeChild(downloadLink);
+      }
+    }, 500); // Intervalo de verificação de 500 milissegundos
+  }
+
   // Cria dinamicamente um link para download
   createDownloadLink() {
     const link = document.createElement('a');
@@ -294,6 +355,16 @@ export class DashboardComponent implements OnInit {
     link.target = '_blank';
     return link;
   }
+
+  // Cria dinamicamente um link para download
+  createDownloadLinkCer() {
+    const link = document.createElement('a');
+    link.href = this.caminhoCER;
+    link.download = `handy_${this.idioma}.pdf`; // Define o nome do arquivo para download
+    link.target = '_blank';
+    return link;
+  }
+
 
   @HostListener('window:scroll', [])
     onWindowScroll() {

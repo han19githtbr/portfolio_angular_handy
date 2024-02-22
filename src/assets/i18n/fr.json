@@ -6,6 +6,7 @@
   "projetos": "Projets",
   "experiencia": "Expérience",
   "competencia": "Compétences",
+  "certificados": "Certificats",
   "jogo":{
     "tituloSecao": "Jouons un peu?",
     "tituloJogo": "Recherche de Pokémons en temps réel"
@@ -76,35 +77,26 @@
     {
       "fotoProjeto": "/assets/img/javascript_portfolio.jpg",
       "TituloProjeto": "Dépots de Git Hub en temps réel",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/API-GITHUB",
+      "ButtonRepo": "Voir(en construction)",
+      "ButtonUrlRepo": "https://apigithubhandy.netlify.app/",
       "ButtonDemo": "Démo",
-      "ButtonUrlDemo": "https://apigithubhandy.netlify.app/"
+      "ButtonUrlDemo": ""
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "API consommant une liste de pokémons",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/projeto_pokedex_dio",
+      "ButtonRepo": "Voir",
+      "ButtonUrlRepo": "https://listagem-de-pokemons.netlify.app/",
       "ButtonDemo": "Démo",
-      "ButtonUrlDemo": "https://listagem-de-pokemons.netlify.app/"
+      "ButtonUrlDemo": ""
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Recréer l'Interface de Play Station Store",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/psn-store-angular-dio",
+      "ButtonRepo": "Voir(en construction)",
+      "ButtonUrlRepo": "https://playstation-store-interface.netlify.app/",
       "ButtonDemo": "Démo",
-      "ButtonUrlDemo": "https://playstation-store-interface.netlify.app/"
-    },
-    {
-      "fotoProjeto": "/assets/img/react_portfolio.png",
-      "TituloProjeto": "Application de controle d'habitudes",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/APP_HABITS_CONTROL",
-      "ButtonDemo": "Démo",
-      "ButtonUrlDemo": "",
-      "DemoIndisponivel": "Démo non disponible"
+      "ButtonUrlDemo": ""
     },
     {
       "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
@@ -118,28 +110,51 @@
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Recherche de pokémons en temps réel",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/busca-pokemons-service",
+      "ButtonRepo": "Voir",
+      "ButtonUrlRepo": "https://busca-pokemons-em-tempo-real.netlify.app/",
       "ButtonDemo": "Démo",
-      "ButtonUrlDemo": "https://busca-pokemons-em-tempo-real.netlify.app/"
+      "ButtonUrlDemo": ""
     },
     {
-      "fotoProjeto": "/assets/img/react_portfolio.png",
-      "TituloProjeto": "Agenda de contacts utilisant React.js",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/lista_de_contatos",
+      "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
+      "TituloProjeto": "API consommant une liste de pays",
+      "ButtonRepo": "Voir",
+      "ButtonUrlRepo": "https://restcountriesapihandy.netlify.app/",
       "ButtonDemo": "Démo",
       "ButtonUrlDemo": "",
-      "DemoIndisponivel": "Démo non disponible"
+      "DemoIndisponivel": "Demo indisponível"
     },
     {
       "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
-      "TituloProjeto": "Système de contrôle de tâches",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/gerenciamento-tarefas-back-end.git",
-      "ButtonDemo": "Demo",
+      "TituloProjeto": "Enregistreur vocal",
+      "ButtonRepo": "Voir",
+      "ButtonUrlRepo": "https://nlw-handy-notes.netlify.app/",
+      "ButtonDemo": "Démo",
       "ButtonUrlDemo": "",
       "DemoIndisponivel": "Demo indisponível"
+    }
+  ],
+  "certificats": [
+    {
+      "fotoCER": "/assets/img/santander.jpg",
+      "tituloCER": "BOOTCAMP_DIO_FINALIZADO.pdf",
+      "descCer": "Télécharger certificat",
+      "caminhoCER": "/assets/cv/BOOTCAMP_DIO_FINALIZADO.pdf",
+      "paragrafoCER": "Bootcamp Java + Angular"
+    },
+    {
+      "fotoCER": "/assets/img/toti.png",
+      "tituloCER": "Certificado_Full_Stack.pdf",
+      "descCer": "Télécharger certificat",
+      "caminhoCER": "/assets/cv/Certificado_Full_Stack.pdf",
+      "paragrafoCER": "Cours de Développement Full Stack"
+    },
+    {
+      "fotoCER": "/assets/img/rocket.png",
+      "tituloCER": "certificado_trilha_rocketseat.pdf",
+      "descCer": "Télécharger certificat",
+      "caminhoCER": "/assets/cv/certificado_trilha_rocketseat.pdf",
+      "paragrafoCER": "Développement d'une application React.js"
     }
   ],
   "experience": [

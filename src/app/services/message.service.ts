@@ -36,6 +36,12 @@ export class MessageService {
     return this._http.get(this.CONTROLLER + '/downloadCurriculo/' + idioma, { headers, responseType: 'arraybuffer' as 'json' });
   }
 
+  downloadCertificado(idioma: string, cacheBuster: string): Observable<any> {
+    const headers = new HttpHeaders().set('Cache-Buster', cacheBuster).set('Accept', 'application/pdf');
+
+    return this._http.get(this.CONTROLLER + '/downloadCertificado/' + idioma, { headers, responseType: 'arraybuffer' as 'json' });
+  }
+
   pegarFoto(nome: any): Observable<any> {
     const headers = new HttpHeaders().set('Content-Type', 'application/json; charset=utf-8');
 

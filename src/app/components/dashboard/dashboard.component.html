@@ -20,6 +20,7 @@
         <li><a href="#meusprojetos" >{{ 'HOME.projetos' | translate }}</a></li>
         <li><a href="#experiencia" >{{ 'HOME.experiencia' | translate }}</a></li>
         <li><a href="#competencia" >{{ 'HOME.competencia' | translate }}</a></li>
+        <li><a href="#meuscertificados" >{{ 'HOME.certificados' | translate }}</a></li>
         <!--<li><a href="#jogo" >{{ 'HOME.jogo' | translate }}</a></li>-->
         <li><a href="#contato" >{{ 'HOME.contato' | translate }}</a></li>
         <li>
@@ -215,8 +216,8 @@
     <div class="titulo-projeto">
       <h4>{{ item.TituloProjeto }}</h4>
       <div class="button-container">
-          <button class="button-repo"><a href="{{ item.ButtonUrlRepo }}" target="_blank">{{ item.ButtonRepo }}</a></button>
-          <!--<button class="button-repo"><a href="{{ item.ButtonUrlDemo }}" target="_blank" >{{ item.ButtonDemo }}</a></button>-->
+        <button class="button-repo"><a href="{{ item.ButtonUrlRepo }}" target="_blank">{{ item.ButtonRepo }}</a></button>
+        <!--<button class="button-repo"><a href="{{ item.ButtonUrlDemo }}" target="_blank" >{{ item.ButtonDemo }}</a></button>-->
       </div>
     </div>
   </div>
@@ -230,9 +231,37 @@
 </div>
 <div class="container">
   <div class="container_skills" *ngFor="let item of competenciaData">
-      <h3 id="react">{{ item.habilidade }}</h3>
+    <h3 id="react">{{ item.habilidade }}</h3>
   </div>
 </div>
+
+
+<!--------------------------------------- MEUS CERTIFICADOS -------------------------------------->
+
+<div class="titulo_container_certificados" id="meuscertificados">
+  <h1>{{'HOME.certificados' | translate }}</h1>
+</div>
+
+<div class="certificate-container-principal" >
+  <div class="certificados-container" *ngFor="let item of certificateData">
+    <div class="certificados">
+      <img
+        class="tamanho_certificado"
+        src="{{item.fotoCER}}"
+      >
+    </div>
+    <h2>{{ item.paragrafoCER }}</h2>
+    <button
+      (click)="onDownloadCerClick()"
+      [disabled]="disableCertificate"
+      class="downloadCER"
+      type="button"
+    >
+      <span>{{ item.descCer }}</span>
+    </button>
+  </div>
+</div>
+
 
 
 <!------------------------------------- POKEMON GAME ---------------------------------->

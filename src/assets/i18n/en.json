@@ -6,6 +6,7 @@
   "projetos": "Projects",
   "experiencia": "Experience",
   "competencia": "Skills",
+  "certificados": "Certificate",
   "jogo":{
     "tituloSecao": "Let's play?",
     "tituloJogo": "Pokemon's search in real time"
@@ -76,16 +77,16 @@
     {
       "fotoProjeto": "/assets/img/javascript_portfolio.jpg",
       "TituloProjeto": "Real-time Git Hub repositories",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/API-GITHUB",
+      "ButtonRepo": "See(in development)",
+      "ButtonUrlRepo": "https://apigithubhandy.netlify.app/",
       "ButtonDemo": "Demo",
-      "ButtonUrlDemo": "https://apigithubhandy.netlify.app/"
+      "ButtonUrlDemo": ""
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "API consumption for listing Pokemons",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/projeto_pokedex_dio",
+      "ButtonRepo": "See",
+      "ButtonUrlRepo": "https://listagem-de-pokemons.netlify.app/",
       "ButtonDemo": "Demo",
       "ButtonUrlDemo": "https://listagem-de-pokemons.netlify.app/"
 
@@ -93,19 +94,10 @@
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Play Station Store Interface Recreation",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/psn-store-angular-dio",
+      "ButtonRepo": "See(in development)",
+      "ButtonUrlRepo": "https://playstation-store-interface.netlify.app/",
       "ButtonDemo": "Demo",
-      "ButtonUrlDemo": "https://playstation-store-interface.netlify.app/"
-    },
-    {
-      "fotoProjeto": "/assets/img/react_portfolio.png",
-      "TituloProjeto": "Habit Control App",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/APP_HABITS_CONTROL",
-      "ButtonDemo": "Demo",
-      "ButtonUrlDemo": "",
-      "DemoIndisponivel": "Demo unavailable"
+      "ButtonUrlDemo": ""
     },
     {
       "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
@@ -119,28 +111,60 @@
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Pokemon search in real time",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/busca-pokemons-service",
+      "ButtonRepo": "See",
+      "ButtonUrlRepo": "https://busca-pokemons-em-tempo-real.netlify.app/",
       "ButtonDemo": "Demo",
-      "ButtonUrlDemo": "https://busca-pokemons-em-tempo-real.netlify.app/"
-    },
-    {
-      "fotoProjeto": "/assets/img/react_portfolio.png",
-      "TituloProjeto": "Contact book in React.js",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/lista_de_contatos",
-      "ButtonDemo": "Demo",
-      "ButtonUrlDemo": "",
-      "DemoIndisponivel": "Demo unavailable"
+      "ButtonUrlDemo": ""
     },
     {
       "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
       "TituloProjeto": "Task's control system",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/gerenciamento-tarefas-back-end.git",
+      "ButtonRepo": "See(in development)",
+      "ButtonUrlRepo": "https://gerenciatarefas.netlify.app/",
       "ButtonDemo": "Demo",
       "ButtonUrlDemo": "",
       "DemoIndisponivel": "Demo indisponível"
+    },
+    {
+      "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
+      "TituloProjeto": "Rest countries API",
+      "ButtonRepo": "See",
+      "ButtonUrlRepo": "https://github.com/han19githtbr/rest_countries_api.git",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "",
+      "DemoIndisponivel": "Demo indisponível"
+    },
+    {
+      "fotoProjeto": "/assets/img/react_portfolio.png",
+      "TituloProjeto": "Voice recorder",
+      "ButtonRepo": "GitHub",
+      "ButtonUrlRepo": "https://github.com/han19githtbr/trilha_react_rocketseat.git",
+      "ButtonDemo": "Demo",
+      "ButtonUrlDemo": "",
+      "DemoIndisponivel": "Demo indisponível"
+    }
+  ],
+  "certificats": [
+    {
+      "fotoCER": "/assets/img/santander.jpg",
+      "tituloCER": "BOOTCAMP_DIO_FINALIZADO.pdf",
+      "descCer": "Download certificate",
+      "caminhoCER": "/assets/cv/BOOTCAMP_DIO_FINALIZADO.pdf",
+      "paragrafoCER": "Bootcamp Java + Angular"
+    },
+    {
+      "fotoCER": "/assets/img/toti.png",
+      "tituloCER": "Certificado_Full_Stack.pdf",
+      "descCer": "Download certificate",
+      "caminhoCER": "/assets/cv/Certificado_Full_Stack.pdf",
+      "paragrafoCER": "Full Stack Developer's course"
+    },
+    {
+      "fotoCER": "/assets/img/rocket.png",
+      "tituloCER": "certificado_trilha_rocketseat.pdf",
+      "descCer": "Download certificate",
+      "caminhoCER": "/assets/cv/certificado_trilha_rocketseat.pdf",
+      "paragrafoCER": "Developping an app using React.js"
     }
   ],
   "experience": [
