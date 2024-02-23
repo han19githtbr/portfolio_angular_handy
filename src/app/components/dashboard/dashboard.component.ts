@@ -38,7 +38,6 @@ export class DashboardComponent implements OnInit {
 
   curriculumData: any;
   botaoCVData:any;
-  certificateData:any;
   botaoCERData:any;
   apresentacaoData: any = {};
   formacaoData: any = {};
@@ -113,10 +112,11 @@ export class DashboardComponent implements OnInit {
 
     this.translate.get('HOME.projets').subscribe(data => {
       this.projetoData = data;
+      console.log(this.projetoData);
     });
-
+    // pega os certificados do array json e coloca em certificadoData
     this.translate.get('HOME.certificats').subscribe(data => {
-      this.certificateData = data;
+      this.certificadoData = data;
     });
 
     this.translate.get('HOME.competence').subscribe(data => {
@@ -221,10 +221,11 @@ export class DashboardComponent implements OnInit {
 
     this.translate.get('HOME.projets').subscribe(data => {
       this.projetoData = data;
+      console.log(this.projetoData);
     });
 
     this.translate.get('HOME.certificats').subscribe(data => {
-      this.certificateData = data;
+      this.certificadoData = data;
     });
 
     this.translate.get('HOME.experience').subscribe(data => {
@@ -244,7 +245,6 @@ export class DashboardComponent implements OnInit {
     });
   }
 
-
   onLanguage(){
     let idioma = this.formSelect.controls['idioma'].value;
     this.idioma = idioma;
@@ -253,7 +253,6 @@ export class DashboardComponent implements OnInit {
     this.translate.use(idioma);
     this.updateTranslatedData();
   }
-
 
   obterCaminhoCurriculo(): void {
     const uniqueParam = new Date().getTime().toString();
@@ -274,7 +273,6 @@ export class DashboardComponent implements OnInit {
         }
       );
   }
-
 
   obterCaminhoCertificado(): void {
     const uniqueParam = new Date().getTime().toString();

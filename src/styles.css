@@ -245,6 +245,7 @@ header {
   width: 400px;
   height: 250px;
   border-radius: 0.3rem;
+  border: 1.8px solid black;
 }
 .certificados-container {
   margin: 2rem;

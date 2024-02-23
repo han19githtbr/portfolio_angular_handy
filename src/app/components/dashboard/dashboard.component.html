@@ -202,7 +202,7 @@
 
 
 <div class="titulo_container_projetos" id="meusprojetos">
-  <h1>{{'HOME.projetos' | translate }}</h1>
+  <h1>{{ 'HOME.projetos' | translate }}</h1>
 </div>
 
 <div class="container_principal">
@@ -210,7 +210,7 @@
     <div class="projeto">
       <img
         class="tamanho_foto"
-        src="{{item.fotoProjeto}}"
+        src="{{ item.fotoProjeto }}"
       >
     </div>
     <div class="titulo-projeto">
@@ -221,7 +221,6 @@
             <span>{{ item.ButtonRepo }}</span>
           </a>
         </button>
-        <!--<button class="button-repo"><a href="{{ item.ButtonUrlDemo }}" target="_blank" >{{ item.ButtonDemo }}</a></button>-->
       </div>
     </div>
   </div>
@@ -247,7 +246,7 @@
 </div>
 
 <div class="certificate-container-principal" >
-  <div class="certificados-container" *ngFor="let item of certificateData">
+  <div class="certificados-container" *ngFor="let item of certificadoData">
     <div class="certificados">
       <img
         class="tamanho_certificado"

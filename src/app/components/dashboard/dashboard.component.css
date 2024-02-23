@@ -99,6 +99,7 @@
 }
 .button-repo:hover {
   animation: animar 7s linear infinite;
+  transform: scale(1.05)
 }
 .button-repo::before {
   content: '';
@@ -119,6 +120,7 @@
 }
 .button-repo span {
   color: white !important;
+  font-size: 15px;
 }
 .title-section-game {
   margin-top: 40px;
@@ -198,6 +200,9 @@
 }
 #scrollToTopButton.show {
   display: block; /* Quando a classe 'show' é adicionada, o botão fica visível */
+}
+.projetos_container {
+  border: 1px solid red; /* Adicione este estilo para depuração */
 }
 @media screen and (max-width: 1200px) {
   .quem_sou {

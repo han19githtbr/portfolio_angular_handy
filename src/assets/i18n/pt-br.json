@@ -70,77 +70,55 @@
       "fotoProjeto": "/assets/img/python-opencv_portfolio.png",
       "TituloProjeto": "Project using the OpenCV library",
       "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/processamento-de-imagens",
-      "ButtonDemo": "Demo",
-      "ButtonUrlDemo": "Demo indisponível"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/processamento-de-imagens"
     },
     {
       "fotoProjeto": "/assets/img/javascript_portfolio.jpg",
       "TituloProjeto": "Repo GitHub em tempo real",
       "ButtonRepo": "Ver(em construção)",
-      "ButtonUrlRepo": "https://apigithubhandy.netlify.app/",
-      "ButtonDemo": "Demo",
-      "ButtonUrlDemo": ""
+      "ButtonUrlRepo": "https://apigithubhandy.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "API consumindo uma lista de Pokemons",
       "ButtonRepo": "Ver",
-      "ButtonUrlRepo": "https://listagem-de-pokemons.netlify.app/",
-      "ButtonDemo": "Demo",
-      "ButtonUrlDemo": ""
+      "ButtonUrlRepo": "https://listagem-de-pokemons.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Recriando a Interface do PlayStation Store",
       "ButtonRepo": "Ver(em construção)",
-      "ButtonUrlRepo": "https://playstation-store-interface.netlify.app/",
-      "ButtonDemo": "Demo",
-      "ButtonUrlDemo": ""
+      "ButtonUrlRepo": "https://playstation-store-interface.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
       "TituloProjeto": "Projeto em Spring framework",
       "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/handy-projeto-final-bootcamp-dio",
-      "ButtonDemo": "Demo",
-      "ButtonUrlDemo": "",
-      "DemoIndisponivel": "Demo indisponível"
+      "ButtonUrlRepo": "https://github.com/han19githtbr/handy-projeto-final-bootcamp-dio"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "Busca de pokemons em tempo real",
       "ButtonRepo": "Ver",
-      "ButtonUrlRepo": "https://busca-pokemons-em-tempo-real.netlify.app/",
-      "ButtonDemo": "Demo",
-      "ButtonUrlDemo": ""
+      "ButtonUrlRepo": "https://busca-pokemons-em-tempo-real.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
       "TituloProjeto": "Sistema de Gerenciamento de tarefas",
       "ButtonRepo": "Ver(em construção)",
-      "ButtonUrlRepo": "https://gerenciatarefas.netlify.app/",
-      "ButtonDemo": "Demo",
-      "ButtonUrlDemo": "",
-      "DemoIndisponivel": "Demo indisponível"
+      "ButtonUrlRepo": "https://gerenciatarefas.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
       "TituloProjeto": "API de uma lista de países",
       "ButtonRepo": "Ver",
-      "ButtonUrlRepo": "https://restcountriesapihandy.netlify.app/",
-      "ButtonDemo": "Demo",
-      "ButtonUrlDemo": "",
-      "DemoIndisponivel": "Demo indisponível"
+      "ButtonUrlRepo": "https://restcountriesapihandy.netlify.app/"
     },
     {
       "fotoProjeto": "/assets/img/react_portfolio.png",
       "TituloProjeto": "Gravador de voz",
       "ButtonRepo": "Ver",
-      "ButtonUrlRepo": "https://nlw-handy-notes.netlify.app/",
-      "ButtonDemo": "Demo",
-      "ButtonUrlDemo": "",
-      "DemoIndisponivel": "Demo indisponível"
+      "ButtonUrlRepo": "https://nlw-handy-notes.netlify.app/"
     }
   ],
   "certificats": [
