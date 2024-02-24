@@ -57,6 +57,10 @@
 #scrollToTopButton.show {
   display: block; /* Quando a classe 'show' é adicionada, o botão fica visível */
 }
+#scrollToTopButton:hover{
+  color:#379bff;
+  background-color: #88eed7
+}
 .projetos_container {
   border: 1px solid red; /* Adicione este estilo para depuração */
 }
