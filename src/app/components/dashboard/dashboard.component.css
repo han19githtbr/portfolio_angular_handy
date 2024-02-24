@@ -60,7 +60,12 @@
 .projetos_container {
   border: 1px solid red; /* Adicione este estilo para depuração */
 }
-
+.fa-github:hover{
+  transform: scale(1.2);
+}
+.fa-external-link:hover{
+  transform: scale(1.2);
+}
 @media screen and (max-width: 1200px) {
   .options {
     min-width: 520px;
