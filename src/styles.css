@@ -350,6 +350,70 @@ input, textarea {
   font-family: 'Times New Roman';
   height: 400px;
 }
+@media screen and (max-width: 718px){
+  .options{
+    min-width: 520px;
+  }
+  .options .option:nth-child(8){
+    display: none;
+  }
+}
+@media screen and (max-width: 638px){
+  .options{
+    min-width: 440px;
+  }
+  .options .option:nth-child(7){
+    display: none;
+  }
+}
+@media screen and (max-width: 558px){
+  .options{
+    min-width: 360px;
+  }
+  .options .option:nth-child(6){
+    display: none;
+  }
+}
+@media screen and (max-width: 478px){
+  .options{
+    min-width: 280px;
+  }
+  .options .option:nth-child(5){
+    display: none;
+  }
+}
+@media screen and (max-width: 398px){
+  .options{
+    min-width: 200px;
+  }
+  .options .option:nth-child(4){
+    display: none;
+  }
+}
+@media screen and (max-width: 318px){
+  .options{
+    min-width: 120px;
+  }
+  .options .option:nth-child(3){
+    display: none;
+  }
+}
+@media screen and (max-width: 238px){
+  .options{
+    min-width: 40px;
+  }
+  .options .option:nth-child(2){
+    display: none;
+  }
+}
+@media screen and (max-width: 158px){
+  .options{
+    min-width: 40px;
+  }
+  .options .option:nth-child(1){
+    display: none;
+  }
+}
 .options .option {
   position: relative;
   overflow: hidden;
@@ -385,15 +449,12 @@ input, textarea {
 .options .option:nth-child(8) {
   background-image: #2020fb;
 }
-.options .option:nth-child(9) {
-  background-image: #e1e95a;
-}
 .options .option.active{
   flex-grow: 10000;
   transform: scale(1);
   max-width: 600px;
   margin: 0;
-  border-radius: 40px;
+  border-radius: 20px;
   background-size: auto 100%;
 }
 .options .option.active .shadow{
@@ -409,7 +470,7 @@ input, textarea {
 }
 .options .option:not(.active){
   flex-grow: 1;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 .options .option:not(.active) .shadow{
   bottom: -40px;
@@ -465,6 +526,7 @@ input, textarea {
 .options .option .label .info .main{
   font-weight: bolder;
   font-size: 1.2rem;
+  color: red;
 }
 .options .option .label .info .sub{
   transition-delay: 0.1s;
