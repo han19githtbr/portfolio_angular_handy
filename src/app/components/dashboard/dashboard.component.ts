@@ -1,5 +1,4 @@
-import { CarouselOptions } from './../../model/carouselData';
-import { Component, HostListener, OnInit, Input } from '@angular/core';
+import { Component, HostListener, ElementRef, OnInit, Input } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
 import { Portfolio } from 'src/app/model/portfolio.model';
@@ -18,7 +17,7 @@ import { PokemonService } from 'src/app/services/pokemon.service';
 
 export class DashboardComponent implements OnInit {
 
-  @Input() options: CarouselOptions;
+  //@Input() options: CarouselOptions;
 
   pokemon: PokemonData;
   form!: FormGroup;
@@ -64,7 +63,8 @@ export class DashboardComponent implements OnInit {
   idioma: string;
 
   constructor(private fb: FormBuilder, public translate: TranslateService,
-    private messageService: MessageService, private service:PokemonService){
+    private messageService: MessageService, private service: PokemonService,
+    private el: ElementRef){
       this.pokemon = {
         id: 0,
         name: '',
@@ -76,7 +76,28 @@ export class DashboardComponent implements OnInit {
 
       translate.addLangs(['en', 'fr', 'pt-br']);
       translate.setDefaultLang('pt-br');
-  }
+
+      }
+
+      /*@HostListener('click')
+      onClick(){
+        var option = document.getElementsByClassName("option");
+        for(let i=0; i<option.length; i++) {
+          option[i].classList.remove("active");
+        }
+        this.el.nativeElement.classList.add("active");
+      }*/
+
+      toggleActive(event: MouseEvent) {
+        const target = event.currentTarget as HTMLElement;
+        if (target.classList.contains('option')) {
+          const options = document.querySelectorAll('.option');
+          options.forEach(option => {
+            option.classList.remove('active');
+          });
+          target.classList.add('active');
+        }
+      }
 
 
   ngOnInit() {

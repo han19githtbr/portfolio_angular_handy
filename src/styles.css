@@ -355,38 +355,38 @@ input, textarea {
   overflow: hidden;
   min-width: 60px;
   margin: 10px;
-  background: var(--optionBackground, var(--defaultBackground, #e6e9ed));
+  background: var(background-image, var(background-image, #e6e9ed));
   background-size: auto 120%;
   background-position: center;
   cursor: pointer;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
 .options .option:nth-child(1) {
-  --defaultBackground: #ed5565;
+  background-image: #ed5565;
 }
 .options .option:nth-child(2) {
-  --defaultBackground: #ed5565;
+  background-image: #f7b3b9;
 }
 .options .option:nth-child(3) {
-  --defaultBackground: #ed5565;
+  background-image: #bc60e3;
 }
 .options .option:nth-child(4) {
-  --defaultBackground: #ed5565;
+  background-image: #5a4ef5;
 }
 .options .option:nth-child(5) {
-  --defaultBackground: #ed5565;
+  background-image: #84b9bf;
 }
 .options .option:nth-child(6) {
-  --defaultBackground: #ed5565;
+  background-image: #60e3b6;
 }
 .options .option:nth-child(7) {
-  --defaultBackground: #ed5565;
+  background-image: #5ae970;
 }
 .options .option:nth-child(8) {
-  --defaultBackground: #ed5565;
+  background-image: #2020fb;
 }
 .options .option:nth-child(9) {
-  --defaultBackground: #ed5565;
+  background-image: #e1e95a;
 }
 .options .option.active{
   flex-grow: 10000;
@@ -448,7 +448,26 @@ input, textarea {
   height: 40px;
   border-radius: 100%;
   background-color: #fff;
-  color: var(--defaultBackground);
+  //color: var(background-image);
+}
+.options .option .label .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  color: #fff;
+  white-space: #fff;
+}
+.options .option .label .info > div{
+  position: relative;
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
+}
+.options .option .label .info .main{
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.options .option .label .info .sub{
+  transition-delay: 0.1s;
 }
 @media screen and (max-width: 1200px){
 
