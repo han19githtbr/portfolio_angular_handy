@@ -352,7 +352,7 @@ input, textarea {
 }
 @media screen and (max-width: 718px){
   .options{
-    min-width: 600px;
+    min-width: 560px;
   }
   .options .option:nth-child(8){
     display: none;
