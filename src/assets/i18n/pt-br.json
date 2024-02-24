@@ -180,7 +180,10 @@
       "habilidade": "ANGULAR"
     },
     {
-      "habilidade": "BANCO DE DADOS"
+      "habilidade": "MYSQL"
+    },
+    {
+      "habilidade": "MONGODB"
     }
   ],
 

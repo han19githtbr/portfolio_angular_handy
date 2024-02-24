@@ -174,7 +174,10 @@
       "habilidade": "ANGULAR"
     },
     {
-      "habilidade": "BASE DE DONNÉES"
+      "habilidade": "MYSQL"
+    },
+    {
+      "habilidade": "MONGODB"
     }
   ],
 

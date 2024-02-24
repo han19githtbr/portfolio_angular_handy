@@ -1,4 +1,5 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { CarouselOptions } from './../../model/carouselData';
+import { Component, HostListener, OnInit, Input } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
 import { Portfolio } from 'src/app/model/portfolio.model';
@@ -16,6 +17,8 @@ import { PokemonService } from 'src/app/services/pokemon.service';
 })
 
 export class DashboardComponent implements OnInit {
+
+  @Input() options: CarouselOptions;
 
   pokemon: PokemonData;
   form!: FormGroup;
@@ -74,6 +77,7 @@ export class DashboardComponent implements OnInit {
       translate.addLangs(['en', 'fr', 'pt-br']);
       translate.setDefaultLang('pt-br');
   }
+
 
   ngOnInit() {
     this.form = this.fb.group({
@@ -138,7 +142,6 @@ export class DashboardComponent implements OnInit {
     })
   }
 
-
   getPokemon(searchName:string) {
     this.service.getPokemon(searchName).subscribe(
       {
@@ -155,7 +158,6 @@ export class DashboardComponent implements OnInit {
       }
     )
   }
-
 
   trocarFotoPerfil() {
     this.status = !this.status;

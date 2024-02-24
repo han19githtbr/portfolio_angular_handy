@@ -236,21 +236,6 @@ header {
 .titulo-projeto {
   text-align: center;
 }
-.certificate-container-principal {
-  display: flex;
-  justify-content: center;
-  background: #f2ffff;
-}
-.tamanho_certificado {
-  width: 400px;
-  height: 250px;
-  border-radius: 0.3rem;
-  border: 1.8px solid black;
-}
-.certificados-container {
-  margin: 2rem;
-  text-align: center;
-}
 .tamanho_foto {
   width: 400px;
   height: 250px;
@@ -354,41 +339,6 @@ input, textarea {
 .fa {
   font-size: 22px;
 }
-.btn-primary {
-  border: none;
-  font-size: 19px;
-  padding: 1px 17px;
-  border-radius: 5px;
-  transition: transform 0.2s;
-  background: repeating-conic-gradient(from var(--a),#0202ff 0%, #0202ff 5%, transparent 5%, transparent 40%, #45f3ff 50% );
-  animation: animar 2s linear infinite;
-}
-@property --a{
-  syntax: '<angle>';
-  inherits: false;
-  initial-value: 0deg;
-}
-@keyframes animar{
-  0%{
-      --a: 0deg;
-  }
-  100%{
-      --a: 360deg;
-  }
-}
-.btn-primary::before {
-  content: '';
-  animation: animar 4s linear infinite;
-  animation-delay: -1s;
-  border-radius: 20px;
-}
-.btn-primary::after {
-  content: '';
-  inset: 2px;
-  border-radius: 4px;
-  background: #000000;
-  z-index: -11;
-}
 @media screen and (max-width: 1200px){
 
   .profil_container > img {
@@ -396,12 +346,6 @@ input, textarea {
   }
   .menu_container {
     justify-content: center;
-  }
-  .certificate-container-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #f2ffff;
   }
   .menu_container .menu_item{
     width: 100%;
@@ -533,3 +477,8 @@ input, textarea {
     border-radius: 5px;
   }
 }
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~mdb-angular-ui-kit/assets/scss/mdb.scss';

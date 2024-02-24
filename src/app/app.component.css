@@ -1,0 +1,157 @@
+/*.button-repo {
+  width: 180px;
+  height: 30px;
+  border: none;
+  outline: none;
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 20px;
+  background: repeating-conic-gradient(from var(--a),#0202ff 0%, #0202ff 5%, transparent 5%, transparent 40%, #45f3ff 50% );
+  opacity: 0.8;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 4px;
+  transition: transform 0.2s;
+  animation: animar 1s linear infinite;
+  margin: 0.5rem;
+}
+.button-repo:hover {
+  animation: animar 7s linear infinite;
+  transform: scale(1.05)
+}
+.button-repo::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: animar 2s linear infinite;
+  animation-delay: -1s;
+  border-radius: 20px;
+}
+.button-repo::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border-radius: 4px;
+  background: #000000;
+  z-index: -11;
+}
+.button-repo span {
+  color: white !important;
+  font-size: 15px;
+}*/
+
+
+/*.btn-primary {
+  border: none;
+  font-size: 19px;
+  padding: 1px 17px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+  background: repeating-conic-gradient(from var(--a),#0202ff 0%, #0202ff 5%, transparent 5%, transparent 40%, #45f3ff 50% );
+  animation: animar 2s linear infinite;
+}
+@property --a{
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes animar{
+  0%{
+      --a: 0deg;
+  }
+  100%{
+      --a: 360deg;
+  }
+}
+.btn-primary::before {
+  content: '';
+  animation: animar 4s linear infinite;
+  animation-delay: -1s;
+  border-radius: 20px;
+}
+.btn-primary::after {
+  content: '';
+  inset: 2px;
+  border-radius: 4px;
+  background: #000000;
+  z-index: -11;
+}*/
+
+
+/*.certificate-container-principal {
+  display: flex;
+  justify-content: center;
+  background: #f2ffff;
+}
+.tamanho_certificado {
+  width: 400px;
+  height: 250px;
+  border-radius: 0.3rem;
+  border: 1.8px solid black;
+}
+.certificados-container {
+  margin: 2rem;
+  text-align: center;
+}*/
+
+
+/*.title-section-game {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.card {
+  border: 1px solid black;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+  border-radius: 11px;
+  margin: auto;
+}
+.card_title {
+  margin-left: auto;
+  margin-right: auto;
+}
+.card_title > h3 {
+  color: white;
+}
+.card_body {
+  background-color: #616161;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+  border-radius: 11px;
+}
+.card_stats {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card_stats_type {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.card_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-search {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.input-search > input {
+  border-radius: 3px;
+  width: 240px;
+}*/
