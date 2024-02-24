@@ -352,7 +352,7 @@ input, textarea {
 }
 @media screen and (max-width: 718px){
   .options{
-    min-width: 520px;
+    min-width: 600px;
   }
   .options .option:nth-child(8){
     display: none;
@@ -360,7 +360,7 @@ input, textarea {
 }
 @media screen and (max-width: 638px){
   .options{
-    min-width: 440px;
+    min-width: 520px;
   }
   .options .option:nth-child(7){
     display: none;
@@ -368,7 +368,7 @@ input, textarea {
 }
 @media screen and (max-width: 558px){
   .options{
-    min-width: 360px;
+    min-width: 440px;
   }
   .options .option:nth-child(6){
     display: none;
@@ -376,7 +376,7 @@ input, textarea {
 }
 @media screen and (max-width: 478px){
   .options{
-    min-width: 280px;
+    min-width: 360px;
   }
   .options .option:nth-child(5){
     display: none;
@@ -384,7 +384,7 @@ input, textarea {
 }
 @media screen and (max-width: 398px){
   .options{
-    min-width: 200px;
+    min-width: 280px;
   }
   .options .option:nth-child(4){
     display: none;
@@ -392,7 +392,7 @@ input, textarea {
 }
 @media screen and (max-width: 318px){
   .options{
-    min-width: 120px;
+    min-width: 200px;
   }
   .options .option:nth-child(3){
     display: none;
@@ -400,7 +400,7 @@ input, textarea {
 }
 @media screen and (max-width: 238px){
   .options{
-    min-width: 40px;
+    min-width: 120px;
   }
   .options .option:nth-child(2){
     display: none;
