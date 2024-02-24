@@ -285,8 +285,10 @@ input, textarea {
 .btn {
   background-color: transparent;
   color: white;
-  border: 0.1px solid #ffffff;
+  border: 0.1px solid blue;
   transition: transform 0.3s;
+  width: 100px;
+  border-radius: 3px;
 }
 .btn:hover {
   cursor:pointer;

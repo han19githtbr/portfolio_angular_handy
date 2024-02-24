@@ -29,13 +29,16 @@
 .glow-on-hover {
   width: 220px;
   height: 30px;
-  border: 1px solid;
+  border: 1px solid blue;
   font-weight: bold;
   font-size: 20px;
   background: repeating-conic-gradient(from var(--a),#0202ff 0%, #0202ff 5%, transparent 5%, transparent 40%, #45f3ff 50% );
   cursor: pointer;
   position: relative;
   border-radius: 3px;
+}
+.glow-on-hover span {
+  color: blue;
 }
 .glow-on-hover:hover {
   background: #2894ff;
