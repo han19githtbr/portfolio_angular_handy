@@ -74,6 +74,7 @@
   transform: scale(1.2);
 }
 @media screen and (max-width: 1200px) {
+
   .options {
     min-width: 520px;
   }
