@@ -548,6 +548,10 @@ input, textarea {
   .foto_status {
     width: 70px;
   }
+  .card_foto {
+    width: 400px;
+    height: 500px;
+  }
   .profil_container > img {
     width: 70px;
   }
