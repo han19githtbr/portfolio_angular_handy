@@ -92,6 +92,9 @@ header {
   font-size: 18px;
   margin-top: 15px;
 }
+.descricao_quemsou button{
+  display: none;
+}
 .card_foto {
   width: 500px;
   height: 500px;
@@ -520,7 +523,6 @@ input, textarea {
   height: 40px;
   border-radius: 100%;
   background-color: #fff;
-  //color: var(background-image);
 }
 .options .option .label .info {
   display: flex;
@@ -543,7 +545,6 @@ input, textarea {
   transition-delay: 0.1s;
 }
 @media screen and (max-width: 1200px){
-
   .foto_status {
     width: 70px;
   }
@@ -574,6 +575,24 @@ input, textarea {
     margin: 30px;
     margin-top: 30px;
     font-family: "Times New Roman";
+  }
+  .descricao_quemsou p {
+    max-height: 50px; /* Altura máxima da descrição */
+    overflow: hidden; /* Esconder texto que excede a altura máxima */
+  }
+  .descricao_quemsou button {
+    display: block; /* Exibir o botão apenas em dispositivos móveis */
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    width: 100px;
+    border-radius: 3px;
+    transition: transform 0.3s;
+  }
+  .descricao_quemsou button:hover {
+    background-color: blue;
+    transform: scale(1.1);
+    cursor: pointer;
   }
   .descricao_quemsou > h3 {
     text-align: center;
