@@ -585,7 +585,9 @@ input, textarea {
     margin: 0 auto;
     color: white;
     background-color: black;
-    width: 100px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
     border-radius: 3px;
     transition: transform 0.3s;
   }
