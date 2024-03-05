@@ -20,7 +20,7 @@
   "presentation":
     {
       "tituloApresentacao": "QUEM SOU EU ?",
-      "fotoQuemSou": "/assets/img/Haiti_Logo.png",
+      "fotoQuemSou": "/assets/img/MAR.jpg",
       "descricao": "Olá, meu nome é Handy Claude Marie Milliance, sou do Haiti Nascido na Capital do País(Porto Príncipe), eu sou um amante da natureza, de passeios e lá proporciona esses prazeres. Eu sempre fui apaixonado por tecnologia e jogos, pois desde criança, eu jogava videogame. A essa paixão, se juntou o meu gosto para a resolução de problemas complexos e foi essa mentalidade que me trouxe no mundo de desenvolvimento Web.",
       "interesses": "Interesses",
       "iconeInteresses": [
@@ -46,9 +46,9 @@
       "tituloFormacao": "MINHA FORMAÇÃO",
       "fotoFormacao": "/assets/img/rural_portfolio.jpg",
       "formei": "ME FORMEI, AGORA SIM!",
-      "curso": "Curso: Ciência da Computação",
+      "curso": "Ciência da Computação",
       "universidade": "Universidade: UFRRJ",
-      "conclusao": "Ano de conclusão: 2022",
+      "conclusao": "Formado em 06/2022",
       "iconeCurso": "/assets/img/computer_portfolio.png",
       "iconeUniversidade": "/assets/img/ufrrj-logo.png",
       "iconeConclusao": "/assets/img/calendar_portfolio.png"

@@ -8,7 +8,7 @@ html, body {
 }
 body {
   margin: 0;
-  background-color: #d2e8f2;
+  background-color: #3333ff;
 }
 a {
   text-decoration: none;
@@ -25,15 +25,19 @@ header {
 }
 .foto_status {
   margin-top: 14px;
-  width: 100px;
+  width: 200px;
   border-radius: 50%;
 }
 .foto_status:hover {
   cursor:pointer;
   transform: scale(1.1);
 }
+.profil_container{
+  text-align: center;
+}
 .profil_container > img {
-  width:90px;
+  width:190px;
+  height: 190px;
   border-radius: 50%;
   margin-top: 10px;
   animation: 2s infinite alternate fadein;
@@ -75,7 +79,9 @@ header {
 .quemsou_container {
   display:flex;
   gap: 20px;
-  background-color: #fafafa;
+  background-color: #2424ff;
+  margin: 150px;
+  border-radius: 3px;
 }
 .quem_sou {
   margin-top: 20px;
@@ -91,17 +97,20 @@ header {
   margin-right: 20px;
   font-size: 18px;
   margin-top: 15px;
+  font-weight: bold;
 }
 .card_foto {
-  width: 700px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   justify-content: center;
   box-shadow: 6px 6px 4px black;
+  border-radius: 4px;
 }
 .meus_interesses {
   display: flex;
   flex-direction:row;
-  margin-top: 140px;
+  margin-top: 150px;
+  padding-top: 45px;
 }
 .title_interesses > h4 {
   font-size: 30px;
@@ -113,9 +122,15 @@ header {
 }
 .minha_formacao_container {
   display: flex;
+  flex-direction: column;
   gap: 70px;
-  justify-content: left;
-  background-color: #fbfbfb;
+  background-color: #0061c1;
+  margin: 150px;
+  text-align: center;
+}
+.descricao_minhaformacao {
+  text-align: center;
+  margin: 0 auto;
 }
 .me_formei {
   text-align:center;
@@ -127,12 +142,13 @@ header {
   margin-bottom: 60px;
 }
 .card_formacao {
-  width: 750px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   box-shadow: 6px 6px 4px black;
 }
 .me_formei_info {
-  margin-top: 100px;
+  margin-top: -40px;
+  text-align: center;
 }
 .nome_curso,
 .nome_universidade,
@@ -152,7 +168,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #fbfbfb;
+  background-color: #0080c0;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -163,8 +179,7 @@ header {
   margin-top: 90px;
 }
 .bootcamp_img > img {
-  box-shadow: 4px 4px 6px 6px #282828;
-  border-radius: 8px;
+  border-radius: 7px;
 }
 .content_date_bootcamp {
   display: flex;
@@ -173,11 +188,19 @@ header {
 }
 .titulo_bootcamp {
   margin-top: 30px;
+  color: black;
+}
+.data_bootcamp {
+  color: black;
+}
+.cor_icone_bootcamp {
+  color: white;
 }
 .minhas_experiencias_container {
   display: flex;
   justify-content: center;
   gap: 50px;
+  background-color: #73d6e3;
 }
 .container_titulo_experiencia {
   display: flex;
@@ -574,7 +597,10 @@ input, textarea {
   .minha_formacao_container {
     display: flex;
     flex-direction: column;
-    overflow:hidden;
+    background-color: #2433bd;
+  }
+  .descricao_minhaformacao {
+    margin-top: 30px;
   }
   .nome_curso {
     justify-content: center;
@@ -595,6 +621,7 @@ input, textarea {
   }
   .data_bootcamp > h3 {
     font-size: 21px;
+
   }
   .bootcamp_img > img {
     width: 100%;
