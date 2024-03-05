@@ -20,8 +20,8 @@
   "presentation":
     {
       "tituloApresentacao": "WHO I AM ?",
-      "fotoQuemSou": "/assets/img/Haiti_Logo.png",
-      "descricao": "Hello, my name is Handy Claude Marie Milliance, I'm from Haiti. Born in the capital of the country (Port-au-Prince), I am a nature enthusiast, i like to take a walk, and there provides these pleasures. I have always been passionate about technology and games because I played video games since I was a child. To this passion, my liking for solving complex problems has been added, and it was this mindset that brought me into the world of web development.",
+      "fotoQuemSou": "/assets/img/img_portfolio.jpg",
+      "descricao": "Hello, my name is Handy Claude Marie Milliance, I'm from Haiti. Born in the capital of the country (Port-au-Prince), I am a nature enthusiast, i like to take a walk, and there provides these pleasures. I have always been passionate about technology and games because I played video games since I was a child. To this passion, my liking for solving complex problems has been added, and it was this mindset that brought me into the world of web development. During this journey in Web Development, I learned a lot about Web application development techniques and valuable tools that can make a developer's job easier. The Technologies I have the most affinity with are: WordPress, Angular, Java and React and the databases I have the most contact with are MySQL and MongoDB. I am a person who is constantly learning and I believe that I can add a lot with everything I have learned. I also believe that no one is better than anyone else and that everyone can improve and become good at what they do, but it takes a lot of focus, study and discipline.",
       "interesses": "Interests",
       "iconeInteresses": [
         {
@@ -47,6 +47,7 @@
       "tituloFormacao": "MY EDUCATION",
       "fotoFormacao": "/assets/img/rural_portfolio.jpg",
       "formei": "Finally, I graduated",
+      "chapeuformei": "/assets/img/icons-graduation.png",
       "curso": "Course: Computer Science",
       "universidade": "University: UFRRJ",
       "conclusao": "Conclusion year: 2022",

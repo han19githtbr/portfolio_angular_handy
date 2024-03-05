@@ -8,7 +8,7 @@ html, body {
 }
 body {
   margin: 0;
-  background-color: #d2e8f2;
+  background-color: #77bbff;
 }
 a {
   text-decoration: none;
@@ -93,8 +93,8 @@ header {
   margin-top: 15px;
 }
 .card_foto {
-  width: 700px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   justify-content: center;
   box-shadow: 6px 6px 4px black;
 }
@@ -102,6 +102,7 @@ header {
   display: flex;
   flex-direction:row;
   margin-top: 140px;
+  padding-top: 140px;
 }
 .title_interesses > h4 {
   font-size: 30px;
@@ -127,23 +128,30 @@ header {
   margin-bottom: 60px;
 }
 .card_formacao {
-  width: 750px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   box-shadow: 6px 6px 4px black;
 }
 .me_formei_info {
   margin-top: 100px;
+  margin: 20px;
+}
+.chapeu_formei > img {
+  width: 100px;
+  height: 150px;
 }
 .nome_curso,
 .nome_universidade,
 .ano_conclusao {
   display:flex;
-  gap: 10px;
+  gap: 30px;
+  margin-top: 30px;
 }
 .nome_curso_titulo > h3,
 .nome_universidade_titulo > h3,
 .ano_conclusao_titulo > h3 {
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
 }
 .icone_universidade {
   width: 20px;
@@ -575,6 +583,14 @@ input, textarea {
     display: flex;
     flex-direction: column;
     overflow:hidden;
+  }
+  .me_formei_info {
+    display: flex;
+    flex-direction: column;
+  }
+  .chapeu_formei {
+    margin-bottom: 80px;
+    text-align: center;
   }
   .nome_curso {
     justify-content: center;

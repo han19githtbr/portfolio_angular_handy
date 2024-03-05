@@ -48,6 +48,7 @@ export class DashboardComponent implements OnInit {
   projetoData: any = {};
   certificadoData: any = {};
   contatoData: any = {};
+  //chapeuData: any = {};
   jogoData:any = {};
   competenciaData: any = {};
   DemoIndisponivelData: any;
