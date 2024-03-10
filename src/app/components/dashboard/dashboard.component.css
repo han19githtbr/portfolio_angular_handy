@@ -74,13 +74,6 @@
   transform: scale(1.2);
 }
 @media screen and (max-width: 1200px) {
-
-  .options {
-    min-width: 520px;
-  }
-  .options .option:nth-child(5){
-    display: none;
-  }
   .quem_sou {
     margin-top: 30px;
   }

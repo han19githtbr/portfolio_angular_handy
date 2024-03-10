@@ -363,70 +363,7 @@ input, textarea {
   width: calc(100% - 100px);
   font-family: 'Times New Roman';
   height: 400px;
-}
-@media screen and (max-width: 718px){
-  .options{
-    min-width: 560px;
-  }
-  .options .option:nth-child(8){
-    display: none;
-  }
-}
-@media screen and (max-width: 638px){
-  .options{
-    min-width: 520px;
-  }
-  .options .option:nth-child(7){
-    display: none;
-  }
-}
-@media screen and (max-width: 558px){
-  .options{
-    min-width: 440px;
-  }
-  .options .option:nth-child(6){
-    display: none;
-  }
-}
-@media screen and (max-width: 478px){
-  .options{
-    min-width: 360px;
-  }
-  .options .option:nth-child(5){
-    display: none;
-  }
-}
-@media screen and (max-width: 398px){
-  .options{
-    min-width: 280px;
-  }
-  .options .option:nth-child(4){
-    display: none;
-  }
-}
-@media screen and (max-width: 318px){
-  .options{
-    min-width: 200px;
-  }
-  .options .option:nth-child(3){
-    display: none;
-  }
-}
-@media screen and (max-width: 238px){
-  .options{
-    min-width: 120px;
-  }
-  .options .option:nth-child(2){
-    display: none;
-  }
-}
-@media screen and (max-width: 158px){
-  .options{
-    min-width: 40px;
-  }
-  .options .option:nth-child(1){
-    display: none;
-  }
+  max-width: 100%; /* Adicionamos essa propriedade para ajustar a largura máxima */
 }
 .options .option {
   position: relative;
@@ -439,6 +376,7 @@ input, textarea {
   cursor: pointer;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
+
 .options .option:nth-child(1) {
   background-image: #ed5565;
 }
@@ -463,6 +401,7 @@ input, textarea {
 .options .option:nth-child(8) {
   background-image: #2020fb;
 }
+
 .options .option.active{
   flex-grow: 10000;
   transform: scale(1);
@@ -471,33 +410,41 @@ input, textarea {
   border-radius: 20px;
   background-size: auto 100%;
 }
+
 .options .option.active .shadow{
-  box-shadow: insert 0 -120px 120px -120px #000, inset 0 -120px 120px -100px #000;
+  box-shadow: inset 0 -120px 120px -120px #000, inset 0 -120px 120px -100px #000;
 }
+
 .options .option.active .label{
   bottom: 20px;
   left: 20px;
 }
+
 .options .option.active .label .info > div{
   left: 0;
   opacity: 1;
 }
+
 .options .option:not(.active){
   flex-grow: 1;
   border-radius: 20px;
 }
+
 .options .option:not(.active) .shadow{
   bottom: -40px;
   box-shadow: inset 0 -120px 0 -120px #000, inset 0, -120px 0, -100px #000;
 }
+
 .options .option:not(.active) .label{
   bottom: 10px;
   left: 10px;
 }
+
 .options .option:not(.active) .label .info > div{
   left: 20px;
   opacity: 0;
 }
+
 .options .option .shadow{
   position: absolute;
   bottom: 0;
@@ -506,6 +453,7 @@ input, textarea {
   height: 120px;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
+
 .options .option .label {
   display: flex;
   position: absolute;
@@ -513,6 +461,7 @@ input, textarea {
   height: 40px;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
+
 .options .option .label .icon{
   display: flex;
   flex-direction: row;
@@ -524,6 +473,7 @@ input, textarea {
   border-radius: 100%;
   background-color: #fff;
 }
+
 .options .option .label .info {
   display: flex;
   flex-direction: column;
@@ -532,10 +482,12 @@ input, textarea {
   color: #fff;
   white-space: #fff;
 }
+
 .options .option .label .info > div{
   position: relative;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
 }
+
 .options .option .label .info .main{
   font-weight: bolder;
   font-size: 1.2rem;
@@ -544,6 +496,13 @@ input, textarea {
 .options .option .label .info .sub{
   transition-delay: 0.1s;
 }
+
+@media screen and (max-width: 1168px) {
+  .options {
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 1200px){
   .foto_status {
     width: 70px;
