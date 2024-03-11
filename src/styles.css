@@ -75,7 +75,7 @@ header {
 .quemsou_container {
   display:flex;
   gap: 20px;
-  background-color: #fafafa;
+  background-color: none;
 }
 .quem_sou {
   margin-top: 20px;
@@ -88,32 +88,22 @@ header {
 }
 .descricao_quemsou > p {
   text-align: justify;
-  margin-right: 20px;
+  margin: 30px;
   font-size: 18px;
   margin-top: 15px;
 }
 .descricao_quemsou button{
   display: none;
 }
+.foto_quemsou {
+  text-align: center;
+}
 .card_foto {
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
   justify-content: center;
-  box-shadow: 6px 6px 4px black;
-}
-.meus_interesses {
-  display: flex;
-  flex-direction:row;
-  margin-top: 140px;
-  padding-top: 140px;
-}
-.title_interesses > h4 {
-  font-size: 30px;
-}
-.card_icone_interesses {
-  margin-left: 40px;
-  gap: 30px;
-  display: flex;
+  box-shadow: 1px 1px 6px 6px black;
 }
 .minha_formacao_container {
   display: flex;
@@ -225,33 +215,6 @@ header {
   text-align: center;
   margin-top: 70px;
 }
-.titulo_container_certificados > h1 {
-  text-align: center;
-  font-size: 40px;
-  margin-bottom: 70px;
-  margin-top: 70px;
-}
-.projetos_container {
-  background-color: #ffffff;
-  width: 300px;
-}
-.projeto {
-  max-width: 300px;
-  width: 100%;
-  position: relative;
-  z-index: 999;
-  margin: 0 auto;
-}
-.projeto img {
-  width: 100%;
-}
-.titulo-projeto {
-  text-align: center;
-}
-.tamanho_foto {
-  width: 400px;
-  height: 250px;
-}
 .button_container {
   display: flex;
   justify-content: center;
@@ -328,13 +291,6 @@ input, textarea {
   color: white;
   animation: 1.1s infinite alternate fadein;
 }
-.projetos_container {
-  border-radius: 8px;
-  box-shadow: 6px 6px 4px black;
-}
-.projeto img {
-  border-radius: 8px;
-}
 .container_skills {
   justify-content: center;
   display: flex;
@@ -358,17 +314,17 @@ input, textarea {
   justify-content: center;
   align-items: stretch;
   overflow: hidden;
-  min-width: 600px;
-  max-width: 900px;
-  width: calc(100% - 100px);
+  max-width: 100%; /* Alterado para ajustar a largura máxima */
   font-family: 'Times New Roman';
   height: 400px;
-  max-width: 100%; /* Adicionamos essa propriedade para ajustar a largura máxima */
 }
+
 .options .option {
+  flex-grow: 1;
   position: relative;
   overflow: hidden;
-  min-width: 60px;
+  min-width: 100px;
+  max-width: 300px;
   margin: 10px;
   background: var(background-image, var(background-image, #e6e9ed));
   background-size: auto 120%;
@@ -376,7 +332,6 @@ input, textarea {
   cursor: pointer;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
-
 .options .option:nth-child(1) {
   background-image: #ed5565;
 }
@@ -461,7 +416,6 @@ input, textarea {
   height: 40px;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
-
 .options .option .label .icon{
   display: flex;
   flex-direction: row;
@@ -473,7 +427,6 @@ input, textarea {
   border-radius: 100%;
   background-color: #fff;
 }
-
 .options .option .label .info {
   display: flex;
   flex-direction: column;
@@ -482,12 +435,10 @@ input, textarea {
   color: #fff;
   white-space: #fff;
 }
-
 .options .option .label .info > div{
   position: relative;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
 }
-
 .options .option .label .info .main{
   font-weight: bolder;
   font-size: 1.2rem;
@@ -497,19 +448,49 @@ input, textarea {
   transition-delay: 0.1s;
 }
 
+@media screen and (min-width: 768px) {
+  .descricao_quemsou button {
+    display: block; /* Exibe o botão "Exibir mais" e "Exibir menos" no desktop */
+    margin: 20px auto; /* Centraliza os botões na página */
+  }
+}
+
 @media screen and (max-width: 1168px) {
   .options {
+    flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
+    justify-content: space-around; /* Alinhar os itens horizontalmente */
+  }
+
+  .options .option {
+    flex-basis: calc(33.33% - 20px); /* Ajustar o tamanho dos itens para caber em telas menores */
+    margin: 10px; /* Ajustar a margem entre os itens */
+  }
+}
+
+@media screen and (max-width: 1168px) {
+  /*.options {
     flex-wrap: wrap;
+  }*/
+  .card_foto {
+    width: 300px;
+    box-shadow: 1px 1px 6px 6px black;
+    justify-content: center;
+    border-radius: 50%;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 1200px){
+
   .foto_status {
     width: 70px;
   }
   .card_foto {
     width: 300px;
-    height: 700px;
+    box-shadow: 1px 1px 6px 6px black;
+    justify-content: center;
+    border-radius: 50%;
+    height: auto;
   }
   .profil_container > img {
     width: 70px;

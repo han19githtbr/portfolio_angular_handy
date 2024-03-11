@@ -67,29 +67,20 @@
 <div class="quem_sou" id="apresentacao" >
   <h1>{{ 'HOME.apresentacao' | translate }}</h1>
 </div>
+<div class="foto_quemsou">
+  <img
+    class="card_foto"
+    src= "{{ 'HOME.presentation.fotoQuemSou' | translate }}"
+    alt="minha foto"
+  >
+</div>
 <div class="quemsou_container">
-  <div class="foto_quemsou">
-    <img
-      class="card_foto"
-      src= "{{ 'HOME.presentation.fotoQuemSou' | translate }}"
-      alt="minha foto"
-    >
-  </div>
 
   <div class="descricao_quemsou">
     <p>{{ 'HOME.presentation.descricao' | translate }}</p>
-    <button class="exibir-mais">Exibir mais</button>
+    <button class="exibir-mais" >Exibir mais</button>
     <button class="exibir-menos" style="display: none;">Exibir menos</button>
-    <div class="meus_interesses">
-      <div class="title_interesses">
-        <h4>{{ 'HOME.presentation.interesses' | translate }}</h4>
-      </div>
-      <div class="card_icone_interesses">
-        <div class="card_item_interesses" *ngFor="let item of apresentacaoData.iconeInteresses">
-          <img [src]="item.img | translate">
-        </div>
-      </div>
-    </div>
+
   </div>
 </div>
 
@@ -307,33 +298,6 @@
 </div>
 
 
-
-<!--<div class="titulo_container_projetos" id="meusprojetos">
-  <h1>{{ 'HOME.projetos' | translate }}</h1>
-</div>
-
-<div class="container_principal">
-  <div class="projetos_container" *ngFor="let item of projetoData">
-    <div class="projeto">
-      <img
-        class="tamanho_foto"
-        src="{{ item.fotoProjeto }}"
-      >
-    </div>
-    <div class="titulo-projeto">
-      <h4>{{ item.TituloProjeto }}</h4>
-      <div class="button-container">
-        <button class="button-repo">
-          <a href="{{ item.ButtonUrlRepo }}" target="_blank">
-            <span>{{ item.ButtonRepo }}</span>
-          </a>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>-->
-
-
 <!--------------------------------------- SKILLS -------------------------------------->
 
 <div class="container_titulo_skills" id="competencia">
@@ -344,73 +308,6 @@
     <h3 id="react">{{ item.habilidade }}</h3>
   </div>
 </div>
-
-
-<!--------------------------------------- MEUS CERTIFICADOS -------------------------------------->
-
-<!--<div class="titulo_container_certificados" id="meuscertificados">
-  <h1>{{'HOME.certificados' | translate }}</h1>
-</div>
-
-<div class="certificate-container-principal" >
-  <div class="certificados-container" *ngFor="let item of certificadoData">
-    <div class="certificados">
-      <img
-        class="tamanho_certificado"
-        src="{{item.fotoCER}}"
-      >
-    </div>
-    <h2>{{ item.paragrafoCER }}</h2>
-    <button
-      (click)="onDownloadCerClick()"
-      [disabled]="disableCertificate"
-      class="downloadCER"
-      type="button"
-    >
-      <span>{{ item.descCer }}</span>
-    </button>
-  </div>
-</div>-->
-
-
-<!------------------------------------- POKEMON GAME ---------------------------------->
-
-<!--<div class="title-section-game" id="jogo">
-  <h1>{{ 'HOME.jogo.tituloSecao' | translate }}</h1>
-  <h3>{{ 'HOME.jogo.tituloJogo' | translate }}</h3>
-</div>
-
-<div class="input-search">
-  <input
-    type="text"
-    (input)="getPokemon($any($event.target).value)"
-    placehodler="Digite o pokemon que você procura..."
-  >
-</div>
-<div class="card">
-
-  <div class="card_title">
-    <h3>{{ pokemon.name }}</h3>
-  </div>
-
-  <div class="card_body">
-    <img
-      [src]="pokemon.sprites.front_default"
-      height="250"
-      alt="pokemon"
-      srcset=""
-    >
-  </div>
-
-  <div class="card_stats">
-    <span
-      class="card_stats_type"
-      *ngFor="let t of pokemon.types"
-    >
-      {{ t.type.name }}
-    </span>
-  </div>
-</div>-->
 
 
 <!--------------------------------------- FOOTER -------------------------------------->
