@@ -93,7 +93,14 @@ header {
   margin-top: 15px;
 }
 .descricao_quemsou button{
-  display: none;
+  background: none;
+  border: none;
+}
+.exibir-mais {
+  color: transparent;
+}
+.exibir-menos {
+  color: transparent;
 }
 .foto_quemsou {
   text-align: center;
@@ -195,7 +202,8 @@ header {
 .card_experiencia {
   width: 450px;
   height: 300px;
-  box-shadow: 6px 6px 4px black;
+  box-shadow: 1px 1px 6px 6px black;
+  background-color: #f5ba07;
   border-radius: 8px;
 }
 .icone_experiencia > img {
