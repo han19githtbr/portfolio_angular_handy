@@ -116,7 +116,7 @@ header {
   display: flex;
   gap: 70px;
   justify-content: left;
-  background-color: #fbfbfb;
+  background-color: #c7c7c7;
 }
 .me_formei {
   text-align:center;
@@ -160,7 +160,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #fbfbfb;
+  background-color: #e5e5e5;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -256,14 +256,14 @@ input, textarea {
 .redes_icons_container {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   padding: 20px 0;
-  margin-top: 20px;
+  margin-top: -5px;
 }
 .redes_icons a {
-  color: white;
+  color: black;
   text-decoration: none;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 .btn {
   background-color: transparent;
@@ -315,7 +315,7 @@ input, textarea {
   align-items: center;
 }
 .fa {
-  font-size: 22px;
+  font-size: 28px;
 }
 .options {
   display: flex;
@@ -326,7 +326,6 @@ input, textarea {
   font-family: 'Times New Roman';
   height: 400px;
 }
-
 .options .option {
   flex-grow: 1;
   position: relative;
@@ -364,7 +363,6 @@ input, textarea {
 .options .option:nth-child(8) {
   background-image: #2020fb;
 }
-
 .options .option.active{
   flex-grow: 10000;
   transform: scale(1);
@@ -373,41 +371,33 @@ input, textarea {
   border-radius: 20px;
   background-size: auto 100%;
 }
-
 .options .option.active .shadow{
   box-shadow: inset 0 -120px 120px -120px #000, inset 0 -120px 120px -100px #000;
 }
-
 .options .option.active .label{
   bottom: 20px;
   left: 20px;
 }
-
 .options .option.active .label .info > div{
   left: 0;
   opacity: 1;
 }
-
 .options .option:not(.active){
   flex-grow: 1;
   border-radius: 20px;
 }
-
 .options .option:not(.active) .shadow{
   bottom: -40px;
   box-shadow: inset 0 -120px 0 -120px #000, inset 0, -120px 0, -100px #000;
 }
-
 .options .option:not(.active) .label{
   bottom: 10px;
   left: 10px;
 }
-
 .options .option:not(.active) .label .info > div{
   left: 20px;
   opacity: 0;
 }
-
 .options .option .shadow{
   position: absolute;
   bottom: 0;
@@ -416,7 +406,6 @@ input, textarea {
   height: 120px;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
-
 .options .option .label {
   display: flex;
   position: absolute;
@@ -455,6 +444,18 @@ input, textarea {
 .options .option .label .info .sub{
   transition-delay: 0.1s;
 }
+.fa-linkedin {
+  color: #2828ff;
+}
+.fa-facebook {
+  color: #0000c1;
+}
+.fa-github {
+  color: #000000;
+}
+.fa-instagram {
+  color: #eb1dc7;
+}
 
 @media screen and (min-width: 768px) {
   .descricao_quemsou button {
@@ -476,9 +477,6 @@ input, textarea {
 }
 
 @media screen and (max-width: 1168px) {
-  /*.options {
-    flex-wrap: wrap;
-  }*/
   .card_foto {
     width: 300px;
     box-shadow: 1px 1px 6px 6px black;
@@ -489,7 +487,6 @@ input, textarea {
 }
 
 @media screen and (max-width: 1200px){
-
   .foto_status {
     width: 70px;
   }
