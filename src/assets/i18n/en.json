@@ -150,17 +150,20 @@
       "MinhasExperiencias": "MY EXPERIENCES",
       "fotoExperiencia": "/assets/img/sudeste_pet_portfolio.jpg",
       "icone": "/assets/img/ufrrj-logo.png",
-      "tituloExperiencia": "PET Conexões Baixada (12/2015 - 03/2020)"
+      "tituloExperiencia": "PET Conexões Baixada (12/2015 - 03/2020)",
+      "saibamais": "Main activities"
     },
     {
       "fotoExperiencia": "/assets/img/pgmni_portfolio.jpg",
       "icone": "/assets/img/work_portfolio.png",
-      "tituloExperiencia": "Internship at PGMNI (04/2021 - 07/2022)"
+      "tituloExperiencia": "Internship at PGMNI (04/2021 - 07/2022)",
+      "saibamais": "Main activities"
     },
     {
       "fotoExperiencia": "/assets/img/Logo-Meraki.png",
       "icone": "/assets/img/work_portfolio.png",
-      "tituloExperiencia": "Full Stack Developer at Meraki SI (05/2023)"
+      "tituloExperiencia": "Full Stack Developer at Meraki SI (05/2023)",
+      "saibamais": "Main activities"
     }
   ],
   "competence": [

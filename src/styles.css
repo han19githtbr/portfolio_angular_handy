@@ -8,7 +8,7 @@ html, body {
 }
 body {
   margin: 0;
-  background-color: #77bbff;
+  background-color: #2693ff;
 }
 a {
   text-decoration: none;
@@ -229,7 +229,7 @@ header {
 }
 .footer_container {
   margin-top: 60px;
-  background-color: black;
+  background-color: #003046;
   justify-content: center;
   overflow: hidden;
   width: 100%;
@@ -288,7 +288,7 @@ input, textarea {
 .container {
   display: flex;
   justify-content: center;
-  background-color: #000000;
+  background-color: #003853;
   width: 100%;
   gap: 30px;
 }
