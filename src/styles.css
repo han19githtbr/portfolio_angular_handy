@@ -457,8 +457,9 @@ input, textarea {
   color: #eb1dc7;
 }
 .icone_skill {
-  width: 50px;
-  height: 45px;
+  width: 60px;
+  height: 55px;
+  animation: 1.2s infinite alternate fadein;
 }
 .container_skills {
   padding: 20px;
@@ -468,6 +469,12 @@ input, textarea {
     display: block; /* Exibe o botão "Exibir mais" e "Exibir menos" no desktop */
     margin: 20px auto; /* Centraliza os botões na página */
   }
+  .icone_skill {
+    width: 60px;
+    height: 55px;
+    animation: 1.2s infinite alternate fadein;
+  }
+
 }
 
 @media screen and (max-width: 1168px) {
@@ -479,9 +486,11 @@ input, textarea {
     flex-basis: calc(33.33% - 20px); /* Ajustar o tamanho dos itens para caber em telas menores */
     margin: 10px; /* Ajustar a margem entre os itens */
   }
-}
-
-@media screen and (max-width: 1168px) {
+  .icone_skill {
+    width: 60px;
+    height: 55px;
+    animation: 1.2s infinite alternate fadein;
+  }
   .card_foto {
     width: 300px;
     box-shadow: 1px 1px 6px 6px black;
@@ -492,6 +501,11 @@ input, textarea {
 }
 
 @media screen and (max-width: 1200px){
+  .icone_skill {
+    width: 60px;
+    height: 55px;
+    animation: 1.2s infinite alternate fadein;
+  }
   .foto_status {
     width: 70px;
   }
