@@ -22,7 +22,8 @@
       "tituloApresentacao": "QUEM SOU EU ?",
       "fotoQuemSou": "/assets/img/img_portfolio.jpg",
       "descricao": "Olá, meu nome é Handy Claude Marie Milliance, sou do Haiti Nascido na Capital do País(Porto Príncipe), eu sou um amante da natureza, de passeios e lá proporciona esses prazeres. Eu sempre fui apaixonado por tecnologia e jogos, pois desde criança, eu jogava videogame. A essa paixão, se juntou o meu gosto para a resolução de problemas complexos e foi essa mentalidade que me trouxe no mundo de desenvolvimento Web. Durante essa jornada em Desenvolvimento Web, aprendi muito sobre técnicas de desenvolvimento de aplicações Web e ferramentas valiosas que podem facilitar o trabalho de um desenvolvedor. As Tecnologias que tenho mais afinidade são: WordPress, Angular, Java e React e os bancos de dados que tenho mais contato são o MySQL e o MongoDB. Eu sou uma pessoa em constante aprendizagem e acredito que posso agregar muito com tudo que eu aprendi. Acredito também que ninguém é melhor do que ninguém e que todo mundo pode se aperfeiçoar e se torna bom no que faz, mas é preciso de muito foco, estudo e disciplina.",
-      "botaodescricao": "Exibir mais",
+      "botaodescricao1": "Exibir mais",
+      "botaodescricao2": "Exibir menos",
       "iconeInteresses": [
         {
           "img": "/assets/img/book_portfolio.png"
