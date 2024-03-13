@@ -315,7 +315,7 @@ input, textarea {
   align-items: center;
 }
 .fa {
-  font-size: 28px;
+  font-size: 34px;
 }
 .options {
   display: flex;
@@ -474,10 +474,15 @@ input, textarea {
     height: 55px;
     animation: 1.2s infinite alternate fadein;
   }
-
+  .fa {
+    font-size: 34px;
+  }
 }
 
 @media screen and (max-width: 1168px) {
+  .fa {
+    font-size: 34px;
+  }
   .options {
     flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
     justify-content: space-around; /* Alinhar os itens horizontalmente */
@@ -501,6 +506,9 @@ input, textarea {
 }
 
 @media screen and (max-width: 1200px){
+  .fa {
+    font-size: 34px;
+  }
   .icone_skill {
     width: 60px;
     height: 55px;
