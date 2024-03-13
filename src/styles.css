@@ -56,21 +56,24 @@ header {
 .menu_item > ul > li {
   margin-top: 25px;
   font-size: 17px;
+  color: #dddddd;
 }
 .menu_item > ul > li > a {
   text-decoration: none;
-  color: white;
 }
 .menu_item > ul > li:hover {
   transform: scale(1.1);
 }
 .menu_item > ul > li > a {
   text-decoration: none;
-  color: white;
+  color: #4fa7ff;
+}
+.menu_item > ul > li > a:hover {
+  color: #b7dbff;
 }
 .formSelect .idiomas {
   background-color: black;
-  color: white;
+  color: #4fa7ff;
 }
 .quemsou_container {
   display:flex;
