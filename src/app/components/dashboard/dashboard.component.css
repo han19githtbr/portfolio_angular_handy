@@ -70,6 +70,15 @@
 .fa-github:hover{
   transform: scale(1.2);
 }
+.fa-linkedin:hover{
+  transform: scale(1.2);
+}
+.fa-facebook:hover{
+  transform: scale(1.2);
+}
+.fa-instagram:hover{
+  transform: scale(1.2);
+}
 .fa-external-link:hover{
   transform: scale(1.2);
 }
