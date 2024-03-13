@@ -456,7 +456,13 @@ input, textarea {
 .fa-instagram {
   color: #eb1dc7;
 }
-
+.icone_skill {
+  width: 50px;
+  height: 45px;
+}
+.container_skills {
+  padding: 20px;
+}
 @media screen and (min-width: 768px) {
   .descricao_quemsou button {
     display: block; /* Exibe o botão "Exibir mais" e "Exibir menos" no desktop */
@@ -469,7 +475,6 @@ input, textarea {
     flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
     justify-content: space-around; /* Alinhar os itens horizontalmente */
   }
-
   .options .option {
     flex-basis: calc(33.33% - 20px); /* Ajustar o tamanho dos itens para caber em telas menores */
     margin: 10px; /* Ajustar a margem entre os itens */
@@ -647,3 +652,4 @@ input, textarea {
 @import '~@fortawesome/fontawesome-free/scss/regular.scss';
 @import '~@fortawesome/fontawesome-free/scss/brands.scss';
 @import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
+@import "~@fortawesome/fontawesome-free/css/all.css";

@@ -166,25 +166,25 @@
   "competence": [
     {
       "tituloCompetencia": "HABILIDADES",
-      "habilidade": "REACT"
+      "icone": "/assets/img/react.png"
     },
     {
-      "habilidade": "JAVASCRIPT"
+      "icone": "/assets/img/javascript.jpg"
     },
     {
-      "habilidade": "PYTHON"
+      "icone": "/assets/img/python.png"
     },
     {
-      "habilidade": "JAVA"
+      "icone": "/assets/img/java.png"
     },
     {
-      "habilidade": "ANGULAR"
+      "icone": "/assets/img/angular.png"
     },
     {
-      "habilidade": "MYSQL"
+      "icone": "/assets/img/MySQL.png"
     },
     {
-      "habilidade": "MONGODB"
+      "icone": "/assets/img/MongoDB.png"
     }
   ],
 
