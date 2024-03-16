@@ -9,7 +9,7 @@
   display: inline-block;
   color: black;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
   animation: wave 2s infinite;
   animation-delay: calc(0.09s * var(--i));
