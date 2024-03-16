@@ -71,6 +71,28 @@ header {
 .menu_item > ul > li > a:hover {
   color: #b7dbff;
 }
+.mensagem_boas_vindas {
+  margin-top: -200px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: -200px; /* inicialmente fora da tela à esquerda */
+  transition: left 1s ease-in-out;
+  z-index: 9999;
+}
+.aceno_gif {
+  width: 70px; /* ajuste conforme necessário */
+}
+.hide {
+  display: none;
+}
+
+.card_apresentacao {
+  width: 50px;
+  height: 40px;
+}
 .formSelect .idiomas {
   background-color: black;
   color: #4fa7ff;
@@ -140,7 +162,7 @@ header {
   margin: 20px;
 }
 .chapeu_formei > img {
-  width: 100px;
+  width: 150px;
   height: 150px;
 }
 .nome_curso,
@@ -466,6 +488,24 @@ input, textarea {
 }
 .container_skills {
   padding: 20px;
+}
+.foto_mensagem {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.mensagem_gif {
+  width: 100px;
+}
+.projetos_gif {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.foto_projeto_gif {
+  width: 100px;
 }
 @media screen and (min-width: 768px) {
   .descricao_quemsou button {

@@ -20,8 +20,6 @@
         <li><a href="#meusprojetos" >{{ 'HOME.projetos' | translate }}</a></li>
         <li><a href="#experiencia" >{{ 'HOME.experiencia' | translate }}</a></li>
         <li><a href="#competencia" >{{ 'HOME.competencia' | translate }}</a></li>
-        <!--<li><a href="#meuscertificados" >{{ 'HOME.certificados' | translate }}</a></li>-->
-        <!--<li><a href="#jogo" >{{ 'HOME.jogo' | translate }}</a></li>-->
         <li><a href="#contato" >{{ 'HOME.contato' | translate }}</a></li>
         <li>
           <form [formGroup]="formSelect" id="contactForm" class="formSelect">
@@ -36,6 +34,24 @@
     </nav>
   </div>
 </header>
+
+
+
+<div id="mensagem_boas_vindas" class="mensagem_boas_vindas">
+  <div class="container_aceno_gif">
+    <img
+      id="aceno_gif"
+      class="aceno_gif"
+      src= "../../../assets/img/aceno.gif"
+      alt="minha foto"
+    >
+  </div>
+  <div class="container_texto_boas_vindas">
+    <h2 id="welcome_message"></h2>
+  </div>
+</div>
+
+
 
 <!---------------------------------------------- WELCOME ------------------------------------------>
 
@@ -52,6 +68,7 @@
 <!--------------------------------------------- CURRICULO ------------------------------------------------->
 
 <div class="cv">
+
   <button
     (click)="onDownloadClick()"
     [disabled]="disableCv"
@@ -60,6 +77,13 @@
   >
     <span>{{ 'HOME.curriculum.desc' | translate }}</span>
   </button>
+  <div class="cv_gif">
+    <img
+      class="foto_gif"
+      src= "../../../assets/img/download_gif.gif"
+      alt="minha foto"
+    >
+  </div>
 </div>
 
 <!--------------------------------------- MINHA APRESENTACAO -------------------------------------->
@@ -213,6 +237,13 @@
 <div class="bootcamp_cabecalho" id="meusprojetos">
   <h1>{{ 'HOME.projetos' | translate }}</h1>
 </div>
+<div class="projetos_gif">
+  <img
+    class="foto_projeto_gif"
+    src= "../../../assets/img/html.gif"
+    alt="minha foto"
+  >
+</div>
 <div class="options">
   <div class="option active" (click)="toggleActive($event)" style="background-image:url(https://i.imgur.com/Pul5sgL.jpg)">
     <div class="shadow"></div>
@@ -331,21 +362,13 @@
 <!--------------------------------------- FOOTER -------------------------------------->
 
 <div class="footer_container" id="contato">
-  <!--<div class="redes_icons_container">
-    <div class="redes_icons">
-      <a href="https://github.com/han19githtbr" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-    </div>
-    <div class="redes_icons">
-      <a href="https://www.linkedin.com/in/handy-claude-marie-milliance-95785099/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
-    <div class="redes_icons">
-      <a href="https://www.facebook.com/handyclaudemarie.milliance/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    </div>
-    <div class="redes_icons">
-      <a href="https://www.instagram.com/handyclaudemarie/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    </div>
-  </div>-->
-
+  <div class="foto_mensagem">
+    <img
+      class="mensagem_gif"
+      src= "../../../assets/img/o-email.gif"
+      alt="minha foto"
+    >
+  </div>
   <div class="container_form">
     <h1>{{ 'HOME.contato' | translate }}</h1>
 

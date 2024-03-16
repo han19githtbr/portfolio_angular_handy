@@ -25,6 +25,14 @@
 .cv {
   margin-top: 70px;
   text-align: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.foto_gif {
+  width: 45px;
+  height: 35px;
+  boder-radius: 10%;
 }
 .glow-on-hover {
   width: 220px;

@@ -20,6 +20,7 @@ $(function(){
 
 
 
+
 $(document).ready(function(){
   $('.exibir-mais').click(function(){
       $(this).prev('p').css('max-height', 'none'); // Remove a altura máxima
@@ -42,3 +43,42 @@ $(document).ready(function(){
   });
 });
 
+
+
+// Função para mostrar o texto letra por letra
+function showText(el, text, interval) {
+  var index = 0;
+  var timer = setInterval(function() {
+    if (index < text.length) {
+      el.innerHTML += text[index];
+      index++;
+    } else {
+      clearInterval(timer);
+    }
+  }, interval);
+}
+
+// Função para animar a mensagem
+function animateMessage() {
+  var mensagemContainer = document.getElementById('mensagem_boas_vindas');
+  mensagemContainer.style.left = '30px'; /* ou ajuste conforme necessário */
+  setTimeout(function() {
+    mensagemContainer.style.left = '-200px'; /* ou ajuste conforme necessário */
+    setTimeout(function() {
+      mensagemContainer.classList.add('hide');
+    }, 1000); // 1 segundo para esconder a mensagem após a animação de saída
+  }, 4000); // 4 segundos para manter a mensagem na tela
+}
+
+// Espera 3 segundos após o carregamento da página
+setTimeout(function() {
+  var mensagem = document.getElementById('welcome_message');
+  var text = "Hi! Welcome";
+  var interval = 200;
+
+  // Inicia a digitação da mensagem
+  showText(mensagem, text, interval);
+
+  // Inicia a animação da mensagem
+  animateMessage();
+}, 3000); // 3 segundos antes de começar a animação
