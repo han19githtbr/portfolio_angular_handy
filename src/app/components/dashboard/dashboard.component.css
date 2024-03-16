@@ -44,12 +44,14 @@
   cursor: pointer;
   position: relative;
   border-radius: 3px;
+  transition: transform 0.05s;
 }
 .glow-on-hover span {
   color: black;
 }
 .glow-on-hover:hover {
   background: #2894ff;
+  transform: scale(1.05);
 }
 #scrollToTopButton {
   position: fixed;
