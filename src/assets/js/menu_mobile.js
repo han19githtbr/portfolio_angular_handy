@@ -67,7 +67,7 @@ function animateMessage() {
     setTimeout(function() {
       mensagemContainer.classList.add('hide');
     }, 1000); // 1 segundo para esconder a mensagem após a animação de saída
-  }, 4000); // 4 segundos para manter a mensagem na tela
+  }, 6000); // 4 segundos para manter a mensagem na tela
 }
 
 // Espera 3 segundos após o carregamento da página
@@ -81,4 +81,4 @@ setTimeout(function() {
 
   // Inicia a animação da mensagem
   animateMessage();
-}, 3000); // 3 segundos antes de começar a animação
+}, 5000); // 3 segundos antes de começar a animação
