@@ -464,7 +464,7 @@ input, textarea {
 .options .option .label .info .main{
   font-weight: bolder;
   font-size: 1.2rem;
-  color: red;
+  color: #9af3ef;
 }
 .options .option .label .info .sub{
   transition-delay: 0.1s;
