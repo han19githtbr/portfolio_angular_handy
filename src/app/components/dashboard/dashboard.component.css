@@ -57,13 +57,13 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #003046;
+  background-color: #009ce8;
   color: #000000;
   border: none;
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  font-size: 40px;
+  font-size: 20px;
   cursor: pointer;
   display: none; /* Inicialmente, o botão está oculto */
 }
@@ -71,7 +71,7 @@
   display: block; /* Quando a classe 'show' é adicionada, o botão fica visível */
 }
 #scrollToTopButton:hover{
-  color:#379bff;
+  color:#0000ff;
   transform: scale(1.1);
 }
 .projetos_container {
