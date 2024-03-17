@@ -59,6 +59,7 @@
   right: 20px;
   background-color: #009ce8;
   color: #000000;
+  box-shadow: 0.5px 0.5px 6px 6px black;
   border: none;
   border-radius: 50%;
   width: 40px;
