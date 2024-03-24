@@ -82,3 +82,4 @@ setTimeout(function() {
   // Inicia a animação da mensagem
   animateMessage();
 }, 5000); // 3 segundos antes de começar a animação
+

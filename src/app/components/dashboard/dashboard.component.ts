@@ -4,7 +4,6 @@ import { TranslateService } from '@ngx-translate/core';
 import { Portfolio } from 'src/app/model/portfolio.model';
 import { MessageService } from 'src/app/services/message.service';
 import { HttpClient, HttpResponse } from '@angular/common/http';
-
 import Swal from 'sweetalert2';
 import { PokemonData } from 'src/app/model/pokemonData';
 import { PokemonService } from 'src/app/services/pokemon.service';
@@ -298,25 +297,6 @@ export class DashboardComponent implements OnInit {
       );
   }
 
-  obterCaminhoCertificado(): void {
-    const uniqueParam = new Date().getTime().toString();
-    this.disableCertificate = true;
-    this.messageService.downloadCertificado(this.idioma, uniqueParam)
-      .subscribe(
-        (response: any) => {
-          // Crie uma blob com os dados recebidos
-          const blob = new Blob([response], { type: 'application/pdf' });
-
-          // Crie uma URL para o blob e defina-a como o caminho do currículo
-          this.caminhoCER = URL.createObjectURL(blob);
-        },
-        (error) => {
-          // Lide com erros, por exemplo, definindo um valor padrão para o caminho do currículo
-          console.error('Erro ao obter o caminho do certificado:', error);
-          this.caminhoCER = 'URL_DO_SEU_CERTIFICADO_PDF';
-        }
-      );
-  }
 
   onDownloadClick() {
     this.obterCaminhoCurriculo();
@@ -343,32 +323,6 @@ export class DashboardComponent implements OnInit {
     }, 500); // Intervalo de verificação de 500 milissegundos
   }
 
-
-  onDownloadCerClick() {
-    this.obterCaminhoCertificado();
-
-    // Aguarda até que a URL do certificado seja obtida
-    const intervalId = setInterval(() => {
-      if (this.caminhoCER) {
-        // Para o intervalo assim que a URL estiver disponível
-        clearInterval(intervalId);
-        this.disableCertificate = false;
-
-        // Cria um link temporário para download
-        const downloadLinkCer = this.createDownloadLinkCer();
-
-        // Adiciona o link ao corpo do documento
-        document.body.appendChild(downloadLinkCer);
-
-        // Dispara o clique no link para iniciar o download
-        downloadLinkCer.click();
-
-        // Remove o link do corpo do documento após o download iniciar
-        document.body.removeChild(downloadLinkCer);
-      }
-    }, 500); // Intervalo de verificação de 500 milissegundos
-  }
-
   // Cria dinamicamente um link para download
   createDownloadLink() {
     const link = document.createElement('a');
@@ -376,15 +330,6 @@ export class DashboardComponent implements OnInit {
     link.download = `handy_${this.idioma}.pdf`; // Define o nome do arquivo para download
     link.target = '_blank';
     return link;
-  }
-
-  // Cria dinamicamente um link para download
-  createDownloadLinkCer() {
-    const novoLink = document.createElement('a');
-    novoLink.href = this.caminhoCER;
-    novoLink.download = `certificate_${this.idioma}.pdf`; // Define o nome do arquivo para download
-    novoLink.target = '_blank';
-    return novoLink;
   }
 
   @HostListener('window:scroll', [])
@@ -403,5 +348,4 @@ export class DashboardComponent implements OnInit {
     scrollToTop() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-
 }
