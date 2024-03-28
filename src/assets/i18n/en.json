@@ -6,6 +6,7 @@
   "projetos": "Projects",
   "experiencia": "Experience",
   "competencia": "Skills",
+  "premio": "Awards",
   "certificados": "Certificate",
   "jogo":{
     "tituloSecao": "Let's play?",
@@ -191,7 +192,11 @@
       "icone": "/assets/img/MongoDB.png"
     }
   ],
-
+  "prix":{
+    "tituloPremio": "AWARDS",
+    "fotoPremio": "/assets/img/hackathon-23.jpeg",
+    "descricaoPremio": "My colleague and I participated in a Hackathon in 2023, and present a solution, using Internet of Things(IoT), to predict possible landslide risks, and communicate this risk in real time to people in the area. The system is designed to be developed based on the analysis of historical landslide data, meteorological conditions, geographic information in addition to sensors installed in the monitored areas. We were one of the 6 winning teams. "
+  },
   "form": {
     "CamposObrigatorios": "The fields must be filled out.",
     "ErroAoEnviarEmail": "Error sending the email.",

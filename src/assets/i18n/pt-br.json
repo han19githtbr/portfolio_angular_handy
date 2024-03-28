@@ -6,6 +6,7 @@
   "projetos": "Projetos",
   "experiencia": "Experiências",
   "competencia": "Habilidades",
+  "premio": "Prêmios",
   "certificados": "Certificados",
   "jogo":{
     "tituloSecao": "Vamos brincar um pouco?",
@@ -192,7 +193,11 @@
       "icone": "/assets/img/MongoDB.png"
     }
   ],
-
+  "prix":{
+    "tituloPremio": "PRÊMIOS",
+    "fotoPremio": "/assets/img/hackathon-23.jpeg",
+    "descricaoPremio": "O meu colega e eu participamos de um Hackathon em 2023, e apresentamos uma solução, utilizando Internet das Coisas(IoT), para prever possíveis riscos de deslizamento de terra, e comunicar esse risco em tempo real para as pessoas da área. O sistema é projetado para ser desenvolvido com base na análise de dados históricos de deslizamentos, condições meteorológicas, informações geográficas além de sensores instalados nas áreas monitoradas. Fomos uma das 6 equipes vencedoras."
+  },
   "form": {
       "CamposObrigatorios": "Os campos devem ser preenchidos.",
       "ErroAoEnviarEmail": "Erro ao enviar o email.",

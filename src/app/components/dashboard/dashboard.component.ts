@@ -50,6 +50,7 @@ export class DashboardComponent implements OnInit {
   //chapeuData: any = {};
   jogoData:any = {};
   competenciaData: any = {};
+  premioData: any = {};
   DemoIndisponivelData: any;
 
   isActive: boolean = false;
@@ -146,6 +147,10 @@ export class DashboardComponent implements OnInit {
 
     this.translate.get('HOME.competence').subscribe(data => {
       this.competenciaData = data;
+    });
+
+    this.translate.get('HOME.premio').subscribe(data => {
+      this.premioData = data;
     });
 
     this.translate.get('HOME.jogo').subscribe(data => {
@@ -257,6 +262,10 @@ export class DashboardComponent implements OnInit {
 
     this.translate.get('HOME.competence').subscribe(data => {
       this.competenciaData = data;
+    });
+
+    this.translate.get('HOME.premio').subscribe(data => {
+      this.premioData = data;
     });
 
     this.translate.get('HOME.jogo').subscribe(data => {

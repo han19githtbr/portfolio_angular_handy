@@ -6,6 +6,7 @@
   "projetos": "Projets",
   "experiencia": "Expérience",
   "competencia": "Compétences",
+  "premio": "Primes",
   "certificados": "Certificats",
   "jogo":{
     "tituloSecao": "Jouons un peu?",
@@ -185,7 +186,11 @@
       "icone": "/assets/img/MongoDB.png"
     }
   ],
-
+  "prix": {
+    "tituloPremio": "PRIMES",
+    "fotoPremio": "/assets/img/hackathon-23.jpeg",
+    "descricaoPremio": "Mon collègue et moi avons participé à un Hackathon en 2023, et avons présenté une solution, utilisant l'Internet des objets (IoT), pour prédire d'éventuels risques de glissement de terrain et communiquer ce risque en temps réel aux personnes se trouvant dans la zone. Le système est conçu pour être développé sur la base de l'analyse des données historiques sur les glissements de terrain, des conditions météorologiques, des informations géographiques en plus des capteurs installés dans les zones surveillées. Nous étions l'une des 6 équipes gagnantes. "
+  },
   "form": {
     "CamposObrigatorios": "Les casiers doivent être remplis.",
     "ErroAoEnviarEmail": "Erreur pendant l'envoi du mail.",
