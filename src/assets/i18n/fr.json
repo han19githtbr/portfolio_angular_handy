@@ -14,9 +14,9 @@
   },
   "contato": "Contact",
   "curriculum": {
-    "nome": "CV_HANDY_FR.pdf",
+    "nome": "CV_ATUALIZADO_HANDY_FR.pdf",
     "desc": "Télécharger CV",
-    "caminhoCV": "/assets/cv/CV_HANDY_FR.pdf"
+    "caminhoCV": "/assets/cv/CV_ATUALIZADO_HANDY_FR.pdf"
   },
   "presentation":
     {
@@ -159,6 +159,12 @@
       "fotoExperiencia": "/assets/img/bg1_portfolio.jpg",
       "icone": "/assets/img/work_portfolio.png",
       "tituloExperiencia": "Développeur Full Stack à Meraki SI (05/2023)",
+      "saibamais": "Principales activités"
+    },
+    {
+      "fotoExperiencia": "/assets/img/crosoften.jpg",
+      "icone": "/assets/img/work_portfolio.png",
+      "tituloExperiencia": "Développeur Front-end à Crosoften (30/04/2024-23/08/2024)",
       "saibamais": "Principales activités"
     }
   ],
