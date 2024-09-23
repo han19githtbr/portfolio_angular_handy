@@ -197,6 +197,12 @@
     },
     {
       "icone": "/assets/img/MongoDB.png"
+    },
+    {
+      "icone": "/assets/img/wordpress.png"
+    },
+    {
+      "icone": "/assets/img/nodejs.png"
     }
   ],
   "prix":{

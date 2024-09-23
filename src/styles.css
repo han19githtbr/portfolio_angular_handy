@@ -7,7 +7,7 @@ html, body {
 }
 body {
   margin: 0;
-  background-color: #2693ff;
+  background-color: #1313ff;
 }
 a {
   text-decoration: none;
@@ -173,7 +173,7 @@ header {
   display: flex;
   gap: 70px;
   justify-content: left;
-  background-color: #c7c7c7;
+  background-color: #2222ff;
 }
 .me_formei {
   text-align:center;
@@ -217,7 +217,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #e5e5e5;
+  background-color: #3c3cff;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -503,13 +503,13 @@ input, textarea {
   transition-delay: 0.1s;
 }
 .fa-linkedin {
-  color: #2828ff;
+  color: #000000;
 }
 .fa-facebook {
-  color: #0000c1;
+  color: #00ffff;
 }
 .fa-github {
-  color: #000000;
+  color: #ff80c0;
 }
 .fa-instagram {
   color: #eb1dc7;
@@ -697,10 +697,13 @@ input, textarea {
   .minha_formacao_container {
     display: flex;
     flex-direction: column;
+
     overflow:hidden;
   }
+
   .me_formei_info {
     display: flex;
+
     flex-direction: column;
   }
   .chapeu_formei {
