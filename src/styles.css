@@ -173,7 +173,7 @@ header {
   display: flex;
   gap: 70px;
   justify-content: left;
-  background-color: #2222ff;
+  background-color: #62b0ff;
 }
 .me_formei {
   text-align:center;
@@ -357,6 +357,7 @@ input, textarea {
   color: white;
   animation: 1.1s infinite alternate fadein;
 }
+
 .container_skills {
   justify-content: center;
   display: flex;

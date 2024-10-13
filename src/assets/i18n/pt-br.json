@@ -46,7 +46,7 @@
     "formation":
     {
       "tituloFormacao": "MINHA FORMAÇÃO",
-      "fotoFormacao": "/assets/img/rural_portfolio.jpg",
+      "fotoFormacao": "/assets/img/ufrrj-logo-1.png",
       "chapeuformei": "/assets/img/mortarboard.gif",
       "formei": "ME FORMEI, AGORA SIM!",
       "curso": "Curso: Ciência da Computação",
@@ -171,7 +171,7 @@
     {
       "fotoExperiencia": "/assets/img/crosoften.jpg",
       "icone": "/assets/img/work_portfolio.png",
-      "tituloExperiencia": "Desenvolvedor Front-end na Crosoften (30/04/2024-23/08/2024)",
+      "tituloExperiencia": "Desenvolvedor Front-end na Crosoften(04/2024 - 08/2024)",
       "saibamais": "Principais atividades"
     }
   ],
