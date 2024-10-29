@@ -173,7 +173,8 @@ header {
   display: flex;
   gap: 70px;
   justify-content: left;
-  background-color: #62b0ff;
+  background-color: #000079;
+  box-shadow: 2px 2px 3px 5px black;
 }
 .me_formei {
   text-align:center;
@@ -208,7 +209,8 @@ header {
 .nome_universidade_titulo > h3,
 .ano_conclusao_titulo > h3 {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: lighter;
+  font-family: "Times New Roman";
 }
 .icone_universidade {
   width: 20px;
@@ -698,13 +700,11 @@ input, textarea {
   .minha_formacao_container {
     display: flex;
     flex-direction: column;
-
     overflow:hidden;
   }
 
   .me_formei_info {
     display: flex;
-
     flex-direction: column;
   }
   .chapeu_formei {
