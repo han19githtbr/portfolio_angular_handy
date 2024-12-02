@@ -66,13 +66,6 @@
     ],
     "projets": [
       {
-        "Projetos": "MY PROJECTS",
-        "fotoProjeto": "/assets/img/python-opencv_portfolio.png",
-        "TituloProjeto": "Project using the OpenCV library",
-        "ButtonRepo": "GitHub",
-        "ButtonUrlRepo": "https://github.com/han19githtbr/processamento-de-imagens"
-      },
-      {
         "fotoProjeto": "/assets/img/javascript_portfolio.jpg",
         "TituloProjeto": "Repo GitHub em tempo real",
         "ButtonRepo": "Ver(em construção)",
