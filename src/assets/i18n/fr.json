@@ -1,25 +1,24 @@
 {
   "HOME": {
-  "apresentacao": "Présentation",
-  "formacao": "Formation",
-  "bootcamps": "Formations techniques",
-  "projetos": "Projets",
-  "experiencia": "Expérience",
-  "competencia": "Compétences",
-  "premio": "Primes",
-  "certificados": "Certificats",
-  "jogo":{
-    "tituloSecao": "Jouons un peu?",
-    "tituloJogo": "Recherche de Pokémons en temps réel"
-  },
-  "contato": "Contact",
-  "curriculum": {
-    "nome": "CV_ATUALIZADO_HANDY_FR.pdf",
-    "desc": "Télécharger CV",
-    "caminhoCV": "/assets/cv/CV_ATUALIZADO_HANDY_FR.pdf"
-  },
-  "presentation":
-    {
+    "apresentacao": "Présentation",
+    "formacao": "Formation",
+    "bootcamps": "Formations techniques",
+    "projetos": "Projets",
+    "experiencia": "Expérience",
+    "competencia": "Compétences",
+    "premio": "Primes",
+    "certificados": "Certificats",
+    "jogo": {
+      "tituloSecao": "Jouons un peu?",
+      "tituloJogo": "Recherche de Pokémons en temps réel"
+    },
+    "contato": "Contact",
+    "curriculum": {
+      "nome": "CV_ATUALIZADO_HANDY_FR.pdf",
+      "desc": "Télécharger CV",
+      "caminhoCV": "/assets/cv/CV_ATUALIZADO_HANDY_FR.pdf"
+    },
+    "presentation": {
       "tituloApresentacao": "QUI SUIS-JE ?",
       "fotoQuemSou": "/assets/img/img_portfolio.jpg",
       "descricao": "Salut, je m'appelle Handy Claude Marie Milliance, je viens d'Haïti. Né dans la capitale du pays (Port-au-Prince), je suis un admirateur de la nature et j'apprécie les randonnées, qui offrent ce plaisir. J'ai toujours été passionné par la technologie et les jeux, car je joue aux jeux vidéo depuis mon enfance. À cette passion s'est ajoutée ma passion pour résoudre des problèmes complexes, et c'est cet état d'esprit qui m'a conduit au monde du développement web. Au cours de ce parcours dans le développement Web, j'ai beaucoup appris sur les techniques de développement d'applications Web et sur les outils précieux qui peuvent faciliter le travail d'un développeur. Les technologies avec lesquelles j'ai le plus d'affinités sont : WordPress, Angular, Java et React et les bases de données avec lesquelles j'ai le plus de contacts sont MySQL et MongoDB. Je suis une personne qui apprend constamment et je crois que je peux contribuer beaucoup avec tout ce que j'ai appris. Je crois aussi que personne n'est meilleur que les autres et que chacun peut s'améliorer et devenir bon dans ce qu'il fait, mais cela demande beaucoup de concentration, d'étude et de discipline.",
@@ -42,10 +41,8 @@
           "img": "/assets/img/terminal_portfolio.png"
         }
       ]
-
     },
-  "formation":
-    {
+    "formation": {
       "tituloFormacao": "MA FORMATION",
       "fotoFormacao": "/assets/img/rural_portfolio.jpg",
       "formei": "Finalement gradué",
@@ -58,170 +55,175 @@
       "iconeConclusao": "/assets/img/calendar_portfolio.png"
     },
 
-  "treinamentos": [
-    {
-      "CabecalhoBootcamp": "FORMATIONS TECHNIQUES CONCLUES",
-      "fotoBootcamp": "/assets/img/bootcamp_java_dio_portfolio.png",
-      "TituloBootCamp": "Santander Bootcamp 2023 - Fullstack Java + Angular",
-      "iconedate": "/assets/img/calendar_portfolio.png",
-      "databootcamp": "16/08/2023 - 22/10/2023"
-    }
-  ],
-  "projets": [
-    {
-      "Projetos": "MY PROJECTS",
-      "TituloProjeto": "Projet utilisant la bibliothèque OpenCV",
-      "fotoProjeto": "/assets/img/python-opencv_portfolio.png",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/processamento-de-imagens"
+    "treinamentos": [
+      {
+        "CabecalhoBootcamp": "FORMATIONS TECHNIQUES CONCLUES",
+        "fotoBootcamp": "/assets/img/bootcamp_java_dio_portfolio.png",
+        "TituloBootCamp": "Santander Bootcamp 2023 - Fullstack Java + Angular",
+        "iconedate": "/assets/img/calendar_portfolio.png",
+        "databootcamp": "16/08/2023 - 22/10/2023"
+      }
+    ],
+    "projets": [
+      {
+        "Projetos": "MY PROJECTS",
+        "TituloProjeto": "Projet utilisant la bibliothèque OpenCV",
+        "fotoProjeto": "/assets/img/python-opencv_portfolio.png",
+        "ButtonRepo": "GitHub",
+        "ButtonUrlRepo": "https://github.com/han19githtbr/processamento-de-imagens"
+      },
+      {
+        "fotoProjeto": "/assets/img/javascript_portfolio.jpg",
+        "TituloProjeto": "Dépots de Git Hub en temps réel",
+        "ButtonRepo": "Voir(en construction)",
+        "ButtonUrlRepo": "https://apigithubhandy.netlify.app/"
+      },
+      {
+        "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
+        "TituloProjeto": "API consommant une liste de pokémons",
+        "ButtonRepo": "Voir",
+        "ButtonUrlRepo": "https://listagem-de-pokemons.netlify.app/"
+      },
+      {
+        "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
+        "TituloProjeto": "Recréer l'Interface de Play Station Store",
+        "ButtonRepo": "Voir(en construction)",
+        "ButtonUrlRepo": "https://playstation-store-interface.netlify.app/"
+      },
+      {
+        "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
+        "TituloProjeto": "Project utilisant Spring framework",
+        "ButtonRepo": "GitHub",
+        "ButtonUrlRepo": "https://github.com/han19githtbr/handy-projeto-final-bootcamp-dio"
+      },
+      {
+        "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
+        "TituloProjeto": "Recherche de pokémons en temps réel",
+        "ButtonRepo": "Voir",
+        "ButtonUrlRepo": "https://busca-pokemons-em-tempo-real.netlify.app/"
+      },
+      {
+        "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
+        "TituloProjeto": "API consommant une liste de pays",
+        "ButtonRepo": "Voir",
+        "ButtonUrlRepo": "https://restcountriesapihandy.netlify.app/"
+      },
+      {
+        "fotoProjeto": "/assets/img/react_portfolio.png",
+        "TituloProjeto": "Gestion de transactions",
+        "ButtonRepo": "Voir",
+        "ButtonUrlRepo": "https://finance-ai-app.vercel.app/login"
+      },
+      {
+        "fotoProjeto": "/assets/img/react_portfolio.png",
+        "TituloProjeto": "Enregistreur vocal",
+        "ButtonRepo": "Voir",
+        "ButtonUrlRepo": "https://nlw-handy-notes.netlify.app/"
+      }
+    ],
+    "certificats": [
+      {
+        "fotoCER": "/assets/img/santandercer.png",
+        "tituloCER": "BOOTCAMP_DIO_FINALIZADO.pdf",
+        "descCer": "Télécharger certificat",
+        "caminhoCER": "/assets/cv/BOOTCAMP_DIO_FINALIZADO.pdf",
+        "paragrafoCER": "Bootcamp Java + Angular"
+      },
+      {
+        "fotoCER": "/assets/img/toticer.png",
+        "tituloCER": "Certificado_Full_Stack.pdf",
+        "descCer": "Télécharger certificat",
+        "caminhoCER": "/assets/cv/Certificado_Full_Stack.pdf",
+        "paragrafoCER": "Cours de Développement Full Stack"
+      },
+      {
+        "fotoCER": "/assets/img/rocketcer.png",
+        "tituloCER": "certificado_trilha_rocketseat.pdf",
+        "descCer": "Télécharger certificat",
+        "caminhoCER": "/assets/cv/certificado_trilha_rocketseat.pdf",
+        "paragrafoCER": "Développement d'une application React.js"
+      }
+    ],
+    "experience": [
+      {
+        "MinhasExperiencias": "MES EXPÉRIENCES",
+        "fotoExperiencia": "/assets/img/sudeste_pet_portfolio.jpg",
+        "icone": "/assets/img/ufrrj-logo.png",
+        "tituloExperiencia": "PET Conexões Baixada (12/2015 - 03/2020)",
+        "saibamais": "Principales activités"
+      },
+      {
+        "fotoExperiencia": "/assets/img/pgmni_portfolio.jpg",
+        "icone": "/assets/img/work_portfolio.png",
+        "tituloExperiencia": "Stage à PGMNI (04/2021 - 07/2022)",
+        "saibamais": "Principales activités"
+      },
+      {
+        "fotoExperiencia": "/assets/img/bg1_portfolio.jpg",
+        "icone": "/assets/img/work_portfolio.png",
+        "tituloExperiencia": "Développeur Full Stack à Meraki SI (05/2023)",
+        "saibamais": "Principales activités"
+      },
+      {
+        "fotoExperiencia": "/assets/img/crosoften.jpg",
+        "icone": "/assets/img/work_portfolio.png",
+        "tituloExperiencia": "Développeur Front-end à Crosoften (30/04/2024-23/08/2024)",
+        "saibamais": "Principales activités"
+      }
+    ],
+    "competence": [
+      {
+        "tituloCompetencia": "HABILIDADES",
+        "icone": "/assets/img/react.png"
+      },
+      {
+        "icone": "/assets/img/javascript.jpg"
+      },
+      {
+        "icone": "/assets/img/python.png"
+      },
+      {
+        "icone": "/assets/img/java.png"
+      },
+      {
+        "icone": "/assets/img/angular.png"
+      },
+      {
+        "icone": "/assets/img/MySQL.png"
+      },
+      {
+        "icone": "/assets/img/MongoDB.png"
+      },
+      {
+        "icone": "/assets/img/wordpress.png"
+      },
+      {
+        "icone": "/assets/img/nodejs.png"
+      }
+    ],
+    "prix": {
+      "tituloPremio": "PRIMES",
+      "fotoPremio": "/assets/img/hackathon-23.jpeg",
+      "descricaoPremio": "Mon collègue et moi avons participé à un Hackathon en 2023, et avons présenté une solution, utilisant l'Internet des objets (IoT), pour prédire d'éventuels risques de glissement de terrain et communiquer ce risque en temps réel aux personnes se trouvant dans la zone. Le système est conçu pour être développé sur la base de l'analyse des données historiques sur les glissements de terrain, des conditions météorologiques, des informations géographiques en plus des capteurs installés dans les zones surveillées. Nous étions l'une des 6 équipes gagnantes. "
     },
-    {
-      "fotoProjeto": "/assets/img/javascript_portfolio.jpg",
-      "TituloProjeto": "Dépots de Git Hub en temps réel",
-      "ButtonRepo": "Voir(en construction)",
-      "ButtonUrlRepo": "https://apigithubhandy.netlify.app/"
+    "form": {
+      "CamposObrigatorios": "Les casiers doivent être remplis.",
+      "ErroAoEnviarEmail": "Erreur pendant l'envoi du mail.",
+      "FormularioEnviadoComSucesso": "Message envoyé avec succès.",
+      "nome": "Nom:",
+      "email": "Adresse électronique:",
+      "assunto": "Sujet:",
+      "mensagem": "Message:",
+      "CampoNome": "Le casier du nom doit être rempli.",
+      "CampoEmail": "Le casier de l'adresse électronique doit être rempli.",
+      "CampoAssunto": "Le casier du sujet doit être rempli.",
+      "CampoMensagem": "Le casier du message doit être rempli.",
+      "enviar": "Envoyer"
     },
-    {
-      "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
-      "TituloProjeto": "API consommant une liste de pokémons",
-      "ButtonRepo": "Voir",
-      "ButtonUrlRepo": "https://listagem-de-pokemons.netlify.app/"
-    },
-    {
-      "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
-      "TituloProjeto": "Recréer l'Interface de Play Station Store",
-      "ButtonRepo": "Voir(en construction)",
-      "ButtonUrlRepo": "https://playstation-store-interface.netlify.app/"
-    },
-    {
-      "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
-      "TituloProjeto": "Project utilisant Spring framework",
-      "ButtonRepo": "GitHub",
-      "ButtonUrlRepo": "https://github.com/han19githtbr/handy-projeto-final-bootcamp-dio"
-    },
-    {
-      "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
-      "TituloProjeto": "Recherche de pokémons en temps réel",
-      "ButtonRepo": "Voir",
-      "ButtonUrlRepo": "https://busca-pokemons-em-tempo-real.netlify.app/"
-    },
-    {
-      "fotoProjeto": "/assets/img/angular_icon_portfolio.png",
-      "TituloProjeto": "API consommant une liste de pays",
-      "ButtonRepo": "Voir",
-      "ButtonUrlRepo": "https://restcountriesapihandy.netlify.app/"
-    },
-    {
-      "fotoProjeto": "/assets/img/spring_framework_portfolio.jpg",
-      "TituloProjeto": "Enregistreur vocal",
-      "ButtonRepo": "Voir",
-      "ButtonUrlRepo": "https://nlw-handy-notes.netlify.app/"
-    }
-  ],
-  "certificats": [
-    {
-      "fotoCER": "/assets/img/santandercer.png",
-      "tituloCER": "BOOTCAMP_DIO_FINALIZADO.pdf",
-      "descCer": "Télécharger certificat",
-      "caminhoCER": "/assets/cv/BOOTCAMP_DIO_FINALIZADO.pdf",
-      "paragrafoCER": "Bootcamp Java + Angular"
-    },
-    {
-      "fotoCER": "/assets/img/toticer.png",
-      "tituloCER": "Certificado_Full_Stack.pdf",
-      "descCer": "Télécharger certificat",
-      "caminhoCER": "/assets/cv/Certificado_Full_Stack.pdf",
-      "paragrafoCER": "Cours de Développement Full Stack"
-    },
-    {
-      "fotoCER": "/assets/img/rocketcer.png",
-      "tituloCER": "certificado_trilha_rocketseat.pdf",
-      "descCer": "Télécharger certificat",
-      "caminhoCER": "/assets/cv/certificado_trilha_rocketseat.pdf",
-      "paragrafoCER": "Développement d'une application React.js"
-    }
-  ],
-  "experience": [
-    {
-      "MinhasExperiencias": "MES EXPÉRIENCES",
-      "fotoExperiencia": "/assets/img/sudeste_pet_portfolio.jpg",
-      "icone": "/assets/img/ufrrj-logo.png",
-      "tituloExperiencia": "PET Conexões Baixada (12/2015 - 03/2020)",
-      "saibamais": "Principales activités"
-    },
-    {
-      "fotoExperiencia": "/assets/img/pgmni_portfolio.jpg",
-      "icone": "/assets/img/work_portfolio.png",
-      "tituloExperiencia": "Stage à PGMNI (04/2021 - 07/2022)",
-      "saibamais": "Principales activités"
-    },
-    {
-      "fotoExperiencia": "/assets/img/bg1_portfolio.jpg",
-      "icone": "/assets/img/work_portfolio.png",
-      "tituloExperiencia": "Développeur Full Stack à Meraki SI (05/2023)",
-      "saibamais": "Principales activités"
-    },
-    {
-      "fotoExperiencia": "/assets/img/crosoften.jpg",
-      "icone": "/assets/img/work_portfolio.png",
-      "tituloExperiencia": "Développeur Front-end à Crosoften (30/04/2024-23/08/2024)",
-      "saibamais": "Principales activités"
-    }
-  ],
-  "competence": [
-    {
-      "tituloCompetencia": "HABILIDADES",
-      "icone": "/assets/img/react.png"
-    },
-    {
-      "icone": "/assets/img/javascript.jpg"
-    },
-    {
-      "icone": "/assets/img/python.png"
-    },
-    {
-      "icone": "/assets/img/java.png"
-    },
-    {
-      "icone": "/assets/img/angular.png"
-    },
-    {
-      "icone": "/assets/img/MySQL.png"
-    },
-    {
-      "icone": "/assets/img/MongoDB.png"
-    },
-    {
-      "icone": "/assets/img/wordpress.png"
-    },
-    {
-      "icone": "/assets/img/nodejs.png"
-    }
-  ],
-  "prix": {
-    "tituloPremio": "PRIMES",
-    "fotoPremio": "/assets/img/hackathon-23.jpeg",
-    "descricaoPremio": "Mon collègue et moi avons participé à un Hackathon en 2023, et avons présenté une solution, utilisant l'Internet des objets (IoT), pour prédire d'éventuels risques de glissement de terrain et communiquer ce risque en temps réel aux personnes se trouvant dans la zone. Le système est conçu pour être développé sur la base de l'analyse des données historiques sur les glissements de terrain, des conditions météorologiques, des informations géographiques en plus des capteurs installés dans les zones surveillées. Nous étions l'une des 6 équipes gagnantes. "
-  },
-  "form": {
-    "CamposObrigatorios": "Les casiers doivent être remplis.",
-    "ErroAoEnviarEmail": "Erreur pendant l'envoi du mail.",
-    "FormularioEnviadoComSucesso": "Message envoyé avec succès.",
-    "nome": "Nom:",
-    "email": "Adresse électronique:",
-    "assunto": "Sujet:",
-    "mensagem": "Message:",
-    "CampoNome": "Le casier du nom doit être rempli.",
-    "CampoEmail": "Le casier de l'adresse électronique doit être rempli.",
-    "CampoAssunto": "Le casier du sujet doit être rempli.",
-    "CampoMensagem": "Le casier du message doit être rempli.",
-    "enviar": "Envoyer"
-  },
-  "idioma": {
+    "idioma": {
       "pt-br": "Portuguais",
       "en": "Anglais",
       "fr": "Français"
-  }
-
+    }
   }
 }
