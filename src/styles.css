@@ -72,20 +72,7 @@ header {
 .menu_item > ul > li > a:hover {
   color: #b7dbff;
 }
-/*.mensagem_boas_vindas {
-  margin-top: -200px;
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 50%;
-  left: -200px;
-  transition: left 1s ease-in-out;
-  z-index: 9999;
-}
-.aceno_gif {
-  width: 70px;
-}*/
+
 .hide {
   display: none;
 }
