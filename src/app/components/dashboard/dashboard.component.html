@@ -6,7 +6,7 @@
           class="foto_status"
           [src]="value"
           title=""
-          (click)='trocarFotoPerfil()'
+          (click)="trocarFotoPerfil()"
         />
       </a>
     </div>
@@ -14,20 +14,46 @@
     <nav class="menu_item">
       <i class="fa fa-bars"></i>
       <ul>
-        <li><a href="#apresentacao" >{{ 'HOME.apresentacao' | translate }} </a></li>
-        <li><a href="#formacao" >{{ 'HOME.formacao' | translate }}</a></li>
-        <li><a href="#bootcamp" >{{ 'HOME.bootcamps' | translate }}</a></li>
-        <li><a href="#meusprojetos" >{{ 'HOME.projetos' | translate }}</a></li>
-        <li><a href="#experiencia" >{{ 'HOME.experiencia' | translate }}</a></li>
-        <li><a href="#competencia" >{{ 'HOME.competencia' | translate }}</a></li>
-        <li><a href="#premio" >{{ 'HOME.premio' | translate }}</a></li>
-        <li><a href="#contato" >{{ 'HOME.contato' | translate }}</a></li>
+        <li>
+          <a href="#apresentacao">{{ "HOME.apresentacao" | translate }} </a>
+        </li>
+        <li>
+          <a href="#formacao">{{ "HOME.formacao" | translate }}</a>
+        </li>
+        <li>
+          <a href="#bootcamp">{{ "HOME.bootcamps" | translate }}</a>
+        </li>
+        <li>
+          <a href="#meusprojetos">{{ "HOME.projetos" | translate }}</a>
+        </li>
+        <li>
+          <a href="#experiencia">{{ "HOME.experiencia" | translate }}</a>
+        </li>
+        <li>
+          <a href="#competencia">{{ "HOME.competencia" | translate }}</a>
+        </li>
+        <li>
+          <a href="#premio">{{ "HOME.premio" | translate }}</a>
+        </li>
+        <li>
+          <a href="#contato">{{ "HOME.contato" | translate }}</a>
+        </li>
         <li>
           <form [formGroup]="formSelect" id="contactForm" class="formSelect">
-            <select (change)="onLanguage()" formControlName="idioma" class="idiomas">
-              <option class="idiomaOption" value="en">{{ 'HOME.idioma.en' | translate }}</option>
-              <option class="idiomaOption" value="fr">{{ 'HOME.idioma.fr' | translate }}</option>
-              <option class="idiomaOption" value="pt-br">{{ 'HOME.idioma.pt-br' | translate }}</option>
+            <select
+              (change)="onLanguage()"
+              formControlName="idioma"
+              class="idiomas"
+            >
+              <option class="idiomaOption" value="en">
+                {{ "HOME.idioma.en" | translate }}
+              </option>
+              <option class="idiomaOption" value="fr">
+                {{ "HOME.idioma.fr" | translate }}
+              </option>
+              <option class="idiomaOption" value="pt-br">
+                {{ "HOME.idioma.pt-br" | translate }}
+              </option>
             </select>
           </form>
         </li>
@@ -36,8 +62,7 @@
   </div>
 </header>
 
-
-<div id="mensagem_boas_vindas" class="mensagem_boas_vindas">
+<!--<div id="mensagem_boas_vindas" class="mensagem_boas_vindas">
   <div class="container_aceno_gif">
     <img
       id="aceno_gif"
@@ -49,126 +74,135 @@
   <div class="container_texto_boas_vindas">
     <h2 id="welcome_message"></h2>
   </div>
-</div>
-
-
+</div>-->
 
 <!---------------------------------------------- WELCOME ------------------------------------------>
 
 <div class="wrapper">
-  <span style="--i:1;">W</span>
-  <span style="--i:2;">E</span>
-  <span style="--i:3;">L</span>
-  <span style="--i:4;">C</span>
-  <span style="--i:5;">O</span>
-  <span style="--i:6;">M</span>
-  <span style="--i:7;">E</span>
+  <span style="--i: 1">W</span>
+  <span style="--i: 2">E</span>
+  <span style="--i: 3">L</span>
+  <span style="--i: 4">C</span>
+  <span style="--i: 5">O</span>
+  <span style="--i: 6">M</span>
+  <span style="--i: 7">E</span>
 </div>
 
 <!--------------------------------------------- CURRICULO ------------------------------------------------->
 
 <div class="cv">
-
   <button
     (click)="onDownloadClick()"
     [disabled]="disableCv"
     class="glow-on-hover"
     type="button"
   >
-    <span>{{ 'HOME.curriculum.desc' | translate }}</span>
+    <span>{{ "HOME.curriculum.desc" | translate }}</span>
   </button>
   <div class="cv_gif">
     <img
       class="foto_gif"
-      src= "../../../assets/img/download_gif.gif"
+      src="../../../assets/img/download_gif.gif"
       alt="minha foto"
-    >
+    />
   </div>
 </div>
 
 <!--------------------------------------- MINHA APRESENTACAO -------------------------------------->
 
-<div class="quem_sou" id="apresentacao" >
-  <h1>{{ 'HOME.apresentacao' | translate }}</h1>
+<div class="quem_sou" id="apresentacao">
+  <h1>{{ "HOME.apresentacao" | translate }}</h1>
 </div>
 <div class="foto_quemsou">
   <img
     class="card_foto"
-    src= "{{ 'HOME.presentation.fotoQuemSou' | translate }}"
+    src="{{ 'HOME.presentation.fotoQuemSou' | translate }}"
     alt="minha foto"
-  >
+  />
 </div>
 <div class="redes_icons_container">
   <div class="redes_icons">
-    <a href="https://github.com/han19githtbr" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="https://github.com/han19githtbr" target="_blank"
+      ><i class="fa fa-github" aria-hidden="true"></i
+    ></a>
   </div>
   <div class="redes_icons">
-    <a href="https://www.linkedin.com/in/handy-claude-marie-milliance-95785099/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    <a
+      href="https://www.linkedin.com/in/handy-claude-marie-milliance-95785099/"
+      target="_blank"
+      ><i class="fa fa-linkedin" aria-hidden="true"></i
+    ></a>
   </div>
   <div class="redes_icons">
-    <a href="https://www.facebook.com/handyclaudemarie.milliance/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a
+      href="https://www.facebook.com/handyclaudemarie.milliance/"
+      target="_blank"
+      ><i class="fa fa-facebook" aria-hidden="true"></i
+    ></a>
   </div>
   <div class="redes_icons">
-    <a href="https://www.instagram.com/handyclaudemarie/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com/handyclaudemarie/" target="_blank"
+      ><i class="fa fa-instagram" aria-hidden="true"></i
+    ></a>
   </div>
 </div>
 <div class="quemsou_container">
   <div class="descricao_quemsou">
-    <p>{{ 'HOME.presentation.descricao' | translate }}</p>
-    <button class="exibir-mais" >{{ 'HOME.presentation.botaodescricao1' | translate }}</button>
-    <button class="exibir-menos" style="display: none;">{{ 'HOME.presentation.botaodescricao2' | translate }}</button>
+    <p>{{ "HOME.presentation.descricao" | translate }}</p>
+    <button class="exibir-mais">
+      {{ "HOME.presentation.botaodescricao1" | translate }}
+    </button>
+    <button class="exibir-menos" style="display: none">
+      {{ "HOME.presentation.botaodescricao2" | translate }}
+    </button>
   </div>
 </div>
 
 <!--------------------------------------- MINHA FORMACAO -------------------------------------->
 
 <div class="me_formei" id="formacao">
-  <h1>{{ 'HOME.formacao' | translate }}</h1>
+  <h1>{{ "HOME.formacao" | translate }}</h1>
 </div>
-<div class="minha_formacao_container" >
+<div class="minha_formacao_container">
   <div class="foto_formacao">
     <img
       class="card_formacao"
-      src= "{{ 'HOME.formation.fotoFormacao' | translate  }}"
+      src="{{ 'HOME.formation.fotoFormacao' | translate }}"
       alt="minha foto"
       srcset=""
-    >
+    />
   </div>
 
   <div class="descricao_minhaformacao">
     <div class="me_formei_info">
       <div class="chapeu_formei">
-        <img src="{{ 'HOME.formation.chapeuformei' | translate }}">
+        <img src="{{ 'HOME.formation.chapeuformei' | translate }}" />
       </div>
       <div class="nome_curso">
         <div class="nome_curso_icone">
-          <img
-            src= "{{ 'HOME.formation.iconeCurso' | translate }}"
-          >
+          <img src="{{ 'HOME.formation.iconeCurso' | translate }}" />
         </div>
         <div class="nome_curso_titulo">
-          <h3>{{ 'HOME.formation.curso' | translate }}</h3>
+          <h3>{{ "HOME.formation.curso" | translate }}</h3>
         </div>
       </div>
       <div class="nome_universidade">
         <div class="nome_universidade_icone">
           <img
             class="icone_universidade"
-            src= "{{ 'HOME.formation.iconeUniversidade' | translate }}"
-          >
+            src="{{ 'HOME.formation.iconeUniversidade' | translate }}"
+          />
         </div>
         <div class="nome_universidade_titulo">
-          <h3>{{ 'HOME.formation.universidade' | translate }}</h3>
+          <h3>{{ "HOME.formation.universidade" | translate }}</h3>
         </div>
       </div>
       <div class="ano_conclusao">
         <div class="ano_conclusao_icone">
-          <img
-            src= "{{ 'HOME.formation.iconeConclusao' | translate }}"
-          >
+          <img src="{{ 'HOME.formation.iconeConclusao' | translate }}" />
         </div>
         <div class="ano_conclusao_titulo">
-          <h3>{{ 'HOME.formation.conclusao' | translate }}</h3>
+          <h3>{{ "HOME.formation.conclusao" | translate }}</h3>
         </div>
       </div>
     </div>
@@ -178,41 +212,35 @@
 <!--------------------------------------- MINHA EXPERIENCIA -------------------------------------->
 
 <div class="titulo_experiencias" id="experiencia">
-  <h1>{{ 'HOME.experiencia' | translate }}</h1>
+  <h1>{{ "HOME.experiencia" | translate }}</h1>
 </div>
 <a href="#" class="minhas_experiencias_container">
   <div class="experiencia" *ngFor="let item of experienciaData">
     <img
-      class= "card_experiencia"
-      src= "{{item.fotoExperiencia}}"
-      alt= "minha foto"
-    >
+      class="card_experiencia"
+      src="{{ item.fotoExperiencia }}"
+      alt="minha foto"
+    />
     <div class="container_titulo_experiencia">
       <div class="icone_experiencia">
-        <img
-          src= "{{item.icone}}"
-          alt= "minha foto"
-        >
+        <img src="{{ item.icone }}" alt="minha foto" />
       </div>
       <div class="titulo_experiencia">
         <h3>{{ item.tituloExperiencia }}</h3>
         <!--<button class="saibamais_experience">{{ item.saibamais }}</button>-->
       </div>
     </div>
-
   </div>
 </a>
 
 <!--------------------------------------- MEUS BOOTCAMPS -------------------------------------->
 
 <div class="bootcamp_cabecalho" id="bootcamp">
-  <h1>{{ 'HOME.bootcamps' | translate }}</h1>
+  <h1>{{ "HOME.bootcamps" | translate }}</h1>
 </div>
 <div class="bootcamp_container" *ngFor="let item of bootcampsData">
   <div class="bootcamp_img">
-    <img
-      src= "{{ item.fotoBootcamp }}"
-    >
+    <img src="{{ item.fotoBootcamp }}" />
   </div>
   <div class="content-bootcamp">
     <div class="titulo_bootcamp">
@@ -220,9 +248,7 @@
     </div>
     <div class="content_date_bootcamp">
       <div class="nome_icone">
-        <img
-          src= "{{item.iconedate}}"
-        >
+        <img src="{{ item.iconedate }}" />
       </div>
       <div class="data_bootcamp">
         <h3>{{ item.databootcamp }}</h3>
@@ -231,25 +257,32 @@
   </div>
 </div>
 
-
 <!--------------------------------------- MEUS PROJETOS -------------------------------------->
 
 <div class="bootcamp_cabecalho" id="meusprojetos">
-  <h1>{{ 'HOME.projetos' | translate }}</h1>
+  <h1>{{ "HOME.projetos" | translate }}</h1>
 </div>
 <div class="projetos_gif">
   <img
     class="foto_projeto_gif"
-    src= "../../../assets/img/html.gif"
+    src="../../../assets/img/html.gif"
     alt="minha foto"
-  >
+  />
 </div>
 <div class="options">
-  <div class="option active" (mouseover)="toggleActive($event)" style="background-image:url(https://i.imgur.com/Pul5sgL.jpg)">
+  <div
+    class="option active"
+    (mouseover)="toggleActive($event)"
+    style="background-image: url(https://i.imgur.com/Pul5sgL.jpg)"
+  >
     <div class="shadow"></div>
     <div class="label">
       <div class="icon">
-        <a href="https://github.com/han19githtbr/handy-projeto-final-bootcamp-dio" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a
+          href="https://github.com/han19githtbr/handy-projeto-final-bootcamp-dio"
+          target="_blank"
+          ><i class="fa fa-github" aria-hidden="true"></i
+        ></a>
       </div>
       <div class="info">
         <div class="main">Project with Spring framework</div>
@@ -257,12 +290,17 @@
     </div>
   </div>
 
-  <div class="option" (mouseover)="toggleActive($event)" style="background-image:url(https://i.imgur.com/ITBu9iM.png)">
-
+  <div
+    class="option"
+    (mouseover)="toggleActive($event)"
+    style="background-image: url(https://i.imgur.com/ITBu9iM.png)"
+  >
     <div class="shadow"></div>
     <div class="label">
       <div class="icon">
-        <a href="https://nlw-handy-notes.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+        <a href="https://nlw-handy-notes.netlify.app/" target="_blank"
+          ><i class="fa fa-external-link" aria-hidden="true"></i
+        ></a>
       </div>
       <div class="info">
         <div class="main">Voice recorder</div>
@@ -270,12 +308,19 @@
     </div>
   </div>
 
-  <div class="option" (mouseover)="toggleActive($event)" style="background-image:url(https://i.imgur.com/O6ezS4Y.png)">
-
+  <div
+    class="option"
+    (mouseover)="toggleActive($event)"
+    style="background-image: url(https://i.imgur.com/O6ezS4Y.png)"
+  >
     <div class="shadow"></div>
     <div class="label">
       <div class="icon">
-        <a href="https://busca-pokemons-em-tempo-real.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+        <a
+          href="https://busca-pokemons-em-tempo-real.netlify.app/"
+          target="_blank"
+          ><i class="fa fa-external-link" aria-hidden="true"></i
+        ></a>
       </div>
       <div class="info">
         <div class="main">Pokemon search in real time</div>
@@ -283,12 +328,17 @@
     </div>
   </div>
 
-  <div class="option" (mouseover)="toggleActive($event)" style="background-image:url(https://i.imgur.com/PBZVXe8.png)">
-
+  <div
+    class="option"
+    (mouseover)="toggleActive($event)"
+    style="background-image: url(https://i.imgur.com/PBZVXe8.png)"
+  >
     <div class="shadow"></div>
     <div class="label">
       <div class="icon">
-        <a href="https://gerenciatarefas.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+        <a href="https://gerenciatarefas.netlify.app/" target="_blank"
+          ><i class="fa fa-external-link" aria-hidden="true"></i
+        ></a>
       </div>
       <div class="info">
         <div class="main">Task's control system(in development)</div>
@@ -296,12 +346,17 @@
     </div>
   </div>
 
-  <div class="option" (mouseover)="toggleActive($event)" style="background-image:url(https://i.imgur.com/O6ezS4Y.png)">
-
+  <div
+    class="option"
+    (mouseover)="toggleActive($event)"
+    style="background-image: url(https://i.imgur.com/O6ezS4Y.png)"
+  >
     <div class="shadow"></div>
     <div class="label">
       <div class="icon">
-        <a href="https://restcountriesapihandy.netlify.app/" target="_blank"><i class="fa fa-external-link "  aria-hidden="true"></i></a>
+        <a href="https://restcountriesapihandy.netlify.app/" target="_blank"
+          ><i class="fa fa-external-link" aria-hidden="true"></i
+        ></a>
       </div>
       <div class="info">
         <div class="main">Rest countries API</div>
@@ -309,12 +364,17 @@
     </div>
   </div>
 
-  <div class="option" (mouseover)="toggleActive($event)" style="background-image:url(https://i.imgur.com/9wKfD2S.jpg)">
-
+  <div
+    class="option"
+    (mouseover)="toggleActive($event)"
+    style="background-image: url(https://i.imgur.com/9wKfD2S.jpg)"
+  >
     <div class="shadow"></div>
     <div class="label">
       <div class="icon">
-        <a href="https://listagem-de-pokemons.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+        <a href="https://listagem-de-pokemons.netlify.app/" target="_blank"
+          ><i class="fa fa-external-link" aria-hidden="true"></i
+        ></a>
       </div>
       <div class="info">
         <div class="main">API consumption for listing Pokemons</div>
@@ -322,11 +382,19 @@
     </div>
   </div>
 
-  <div class="option" (mouseover)="toggleActive($event)" style="background-image:url(https://i.imgur.com/9QysnoH.png)">
+  <div
+    class="option"
+    (mouseover)="toggleActive($event)"
+    style="background-image: url(https://i.imgur.com/9QysnoH.png)"
+  >
     <div class="shadow"></div>
     <div class="label">
       <div class="icon">
-        <a href="https://github.com/han19githtbr/processamento-de-imagens" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a
+          href="https://github.com/han19githtbr/processamento-de-imagens"
+          target="_blank"
+          ><i class="fa fa-github" aria-hidden="true"></i
+        ></a>
       </div>
       <div class="info">
         <div class="main">Project using the OpenCV library</div>
@@ -334,12 +402,17 @@
     </div>
   </div>
 
-  <div class="option" (mouseover)="toggleActive($event)" style="background-image:url(https://i.imgur.com/9wKfD2S.jpg)">
-
+  <div
+    class="option"
+    (mouseover)="toggleActive($event)"
+    style="background-image: url(https://i.imgur.com/9wKfD2S.jpg)"
+  >
     <div class="shadow"></div>
     <div class="label">
       <div class="icon">
-        <a href="https://apigithubhandy.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+        <a href="https://apigithubhandy.netlify.app/" target="_blank"
+          ><i class="fa fa-external-link" aria-hidden="true"></i
+        ></a>
       </div>
       <div class="info">
         <div class="main">Real-time Git Hub repositories</div>
@@ -347,12 +420,17 @@
     </div>
   </div>
 
-  <div class="option" (mouseover)="toggleActive($event)" style="background-image:url(https://i.imgur.com/O6ezS4Y.png)">
-
+  <div
+    class="option"
+    (mouseover)="toggleActive($event)"
+    style="background-image: url(https://i.imgur.com/O6ezS4Y.png)"
+  >
     <div class="shadow"></div>
     <div class="label">
       <div class="icon">
-        <a href="https://french-app-six.vercel.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+        <a href="https://french-app-six.vercel.app/" target="_blank"
+          ><i class="fa fa-external-link" aria-hidden="true"></i
+        ></a>
       </div>
       <div class="info">
         <div class="main">Practice your French</div>
@@ -361,40 +439,39 @@
   </div>
 </div>
 
-
 <!--------------------------------------- SKILLS -------------------------------------->
 
 <div class="container_titulo_skills" id="competencia">
-  <h1>{{ 'HOME.competencia' | translate }}</h1>
+  <h1>{{ "HOME.competencia" | translate }}</h1>
 </div>
 <div class="container">
   <div class="container_skills" *ngFor="let item of competenciaData">
     <h3 id="react">{{ item.habilidade }}</h3>
-    <img
-      class="icone_skill"
-      src= "{{item.icone}}"
-    >
+    <img class="icone_skill" src="{{ item.icone }}" />
   </div>
 </div>
 
-
 <!--------------------------------------- AWARDS --------------------------------------->
 
-<div class="meu-premio" id="premio" >
-  <h1>{{ 'HOME.premio' | translate }}</h1>
+<div class="meu-premio" id="premio">
+  <h1>{{ "HOME.premio" | translate }}</h1>
 </div>
 <div class="foto_premio">
   <img
     class="card_foto_premio"
-    src= "{{ 'HOME.prix.fotoPremio' | translate }}"
+    src="{{ 'HOME.prix.fotoPremio' | translate }}"
     alt="minha foto"
-  >
+  />
 </div>
 <div class="premio_container">
   <div class="descricao_premio">
-    <p>{{ 'HOME.prix.descricaoPremio' | translate }}</p>
-    <button class="exibir-mais" >{{ 'HOME.presentation.botaodescricao1' | translate }}</button>
-    <button class="exibir-menos" style="display: none;">{{ 'HOME.presentation.botaodescricao2' | translate }}</button>
+    <p>{{ "HOME.prix.descricaoPremio" | translate }}</p>
+    <button class="exibir-mais">
+      {{ "HOME.presentation.botaodescricao1" | translate }}
+    </button>
+    <button class="exibir-menos" style="display: none">
+      {{ "HOME.presentation.botaodescricao2" | translate }}
+    </button>
   </div>
 </div>
 
@@ -404,31 +481,62 @@
   <div class="foto_mensagem">
     <img
       class="mensagem_gif"
-      src= "../../../assets/img/o-email.gif"
+      src="../../../assets/img/o-email.gif"
       alt="minha foto"
-    >
+    />
   </div>
   <div class="container_form">
-    <h1>{{ 'HOME.contato' | translate }}</h1>
+    <h1>{{ "HOME.contato" | translate }}</h1>
 
     <form (ngSubmit)="submit(form)" [formGroup]="form">
       <div class="form-group">
-        <label>{{ 'HOME.form.nome' | translate }}</label>
-        <input matInput formControlName="nome" [(ngModel)]="portfolio.nome" type="text" id="nome" class="form-control" />
+        <label>{{ "HOME.form.nome" | translate }}</label>
+        <input
+          matInput
+          formControlName="nome"
+          [(ngModel)]="portfolio.nome"
+          type="text"
+          id="nome"
+          class="form-control"
+        />
       </div>
       <div class="form-group">
-        <label>{{ 'HOME.form.assunto' | translate }}</label>
-        <input matInput formControlName="subject" [(ngModel)]="portfolio.assunto" type="text" id="assunto" class="form-control" />
+        <label>{{ "HOME.form.assunto" | translate }}</label>
+        <input
+          matInput
+          formControlName="subject"
+          [(ngModel)]="portfolio.assunto"
+          type="text"
+          id="assunto"
+          class="form-control"
+        />
       </div>
       <div class="form-group">
-        <label>{{ 'HOME.form.email' | translate }}</label>
-        <input matInput formControlName="email" [(ngModel)]="portfolio.email" type="text" id="email" class="form-control" />
+        <label>{{ "HOME.form.email" | translate }}</label>
+        <input
+          matInput
+          formControlName="email"
+          [(ngModel)]="portfolio.email"
+          type="text"
+          id="email"
+          class="form-control"
+        />
       </div>
       <div class="form-group">
-        <label>{{ 'HOME.form.mensagem' | translate }}</label>
-        <textarea name="mensagem" formControlName="message" [(ngModel)]="portfolio.mensagem" type="text" id="mensagem" cols="30" rows="10"></textarea>
+        <label>{{ "HOME.form.mensagem" | translate }}</label>
+        <textarea
+          name="mensagem"
+          formControlName="message"
+          [(ngModel)]="portfolio.mensagem"
+          type="text"
+          id="mensagem"
+          cols="30"
+          rows="10"
+        ></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">{{ 'HOME.form.enviar' | translate }}</button>
+      <button type="submit" class="btn btn-primary">
+        {{ "HOME.form.enviar" | translate }}
+      </button>
     </form>
   </div>
   <button id="scrollToTopButton" (click)="scrollToTop()">&#9650;</button>
