@@ -1,16 +1,5 @@
 <header>
   <div class="menu_container">
-    <div class="profil_container">
-      <a>
-        <img
-          class="foto_status"
-          [src]="value"
-          title=""
-          (click)="trocarFotoPerfil()"
-        />
-      </a>
-    </div>
-
     <nav class="menu_item">
       <i class="fa fa-bars"></i>
       <ul>
@@ -39,23 +28,28 @@
           <a href="#contato">{{ "HOME.contato" | translate }}</a>
         </li>
         <li>
-          <form [formGroup]="formSelect" id="contactForm" class="formSelect">
-            <select
-              (change)="onLanguage()"
-              formControlName="idioma"
-              class="idiomas"
-            >
-              <option class="idiomaOption" value="en">
-                {{ "HOME.idioma.en" | translate }}
-              </option>
-              <option class="idiomaOption" value="fr">
-                {{ "HOME.idioma.fr" | translate }}
-              </option>
-              <option class="idiomaOption" value="pt-br">
-                {{ "HOME.idioma.pt-br" | translate }}
-              </option>
-            </select>
-          </form>
+          <div class="container-languages">
+            <div class="icon-language">
+              <mat-icon>language</mat-icon>
+            </div>
+            <form [formGroup]="formSelect" id="contactForm" class="formSelect">
+              <select
+                (change)="onLanguage()"
+                formControlName="idioma"
+                class="idiomas"
+              >
+                <option class="idiomaOption" value="en">
+                  {{ "HOME.idioma.en" | translate }}
+                </option>
+                <option class="idiomaOption" value="fr">
+                  {{ "HOME.idioma.fr" | translate }}
+                </option>
+                <option class="idiomaOption" value="pt-br">
+                  {{ "HOME.idioma.pt-br" | translate }}
+                </option>
+              </select>
+            </form>
+          </div>
         </li>
       </ul>
     </nav>
@@ -208,9 +202,9 @@
       alt="minha foto"
     />
     <div class="container_titulo_experiencia">
-      <div class="icone_experiencia">
+      <!--<div class="icone_experiencia">
         <img src="{{ item.icone }}" alt="minha foto" />
-      </div>
+      </div>-->
       <div class="titulo_experiencia">
         <h3>{{ item.tituloExperiencia }}</h3>
         <!--<button class="saibamais_experience">{{ item.saibamais }}</button>-->
