@@ -55,7 +55,7 @@ header {
 }
 .formSelect .idiomas {
   background-color: black;
-  color: blue;
+  color: #8cc6ff;
   border: none;
   font-size: 18px;
 }
@@ -63,8 +63,7 @@ header {
   display: flex;
 }
 .icon-language {
-  color: blue;
-  //margin-left: 50px;
+  color: #8cc6ff;
 }
 .hide {
   display: none;
@@ -574,7 +573,6 @@ textarea {
   .foto_status {
     width: 70px;
   }
-
   .card_foto {
     width: 300px;
     box-shadow: 1px 1px 6px 6px black;
