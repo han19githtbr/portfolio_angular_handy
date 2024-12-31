@@ -101,12 +101,7 @@
         "ButtonRepo": "Voir",
         "ButtonUrlRepo": "https://restcountriesapihandy.netlify.app/"
       },
-      {
-        "fotoProjeto": "/assets/img/react_portfolio.png",
-        "TituloProjeto": "Gestion de transactions",
-        "ButtonRepo": "Voir",
-        "ButtonUrlRepo": "https://finance-ai-app.vercel.app/login"
-      },
+
       {
         "fotoProjeto": "/assets/img/react_portfolio.png",
         "TituloProjeto": "Enregistreur vocal",

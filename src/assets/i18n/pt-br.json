@@ -112,13 +112,8 @@
         "TituloProjeto": "Gravador de voz",
         "ButtonRepo": "Ver",
         "ButtonUrlRepo": "https://nlw-handy-notes.netlify.app/"
-      },
-      {
-        "fotoProjeto": "/assets/img/react_portfolio.png",
-        "TituloProjeto": "Gestão de transações",
-        "ButtonRepo": "Ver",
-        "ButtonUrlRepo": "https://finance-ai-app.vercel.app/login"
       }
+
     ],
     "certificats": [
       {
