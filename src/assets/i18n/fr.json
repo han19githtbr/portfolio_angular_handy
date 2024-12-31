@@ -101,7 +101,6 @@
         "ButtonRepo": "Voir",
         "ButtonUrlRepo": "https://restcountriesapihandy.netlify.app/"
       },
-
       {
         "fotoProjeto": "/assets/img/react_portfolio.png",
         "TituloProjeto": "Enregistreur vocal",
